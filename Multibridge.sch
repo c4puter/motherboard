@@ -87,7 +87,7 @@ LIBS:Xilinx
 LIBS:c4puter-cache
 EELAYER 25 0
 EELAYER END
-$Descr A3 16535 11693
+$Descr A2 23386 16535
 encoding utf-8
 Sheet 2 8
 Title ""
