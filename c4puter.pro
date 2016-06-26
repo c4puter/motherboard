@@ -1,4 +1,4 @@
-update=Thu 16 Jun 2016 08:31:06 PM EDT
+update=Sat 25 Jun 2016 07:48:00 AM EDT
 version=1
 last_client=kicad
 [cvpcb]
@@ -125,3 +125,4 @@ LibName82=schlib/library/symbol
 LibName83=schlib/library/TexasInstruments
 LibName84=schlib/library/Vishay
 LibName85=schlib/library/Xilinx
+LibName86=schlib/library/Richtek

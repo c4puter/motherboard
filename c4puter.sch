@@ -84,6 +84,7 @@ LIBS:symbol
 LIBS:TexasInstruments
 LIBS:Vishay
 LIBS:Xilinx
+LIBS:Richtek
 LIBS:c4puter-cache
 EELAYER 25 0
 EELAYER END
