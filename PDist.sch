@@ -90,7 +90,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 8
+Sheet 3 9
 Title ""
 Date ""
 Rev ""
@@ -645,4 +645,175 @@ Connection ~ 6000 6700
 Connection ~ 6000 6800
 Wire Wire Line
 	6000 6900 6000 1000
+$Comp
+L LPC435xFET256 LIMB?
+U 1 1 577B6870
+P 9400 4700
+AR Path="/5765CB89/577B6870" Ref="LIMB?"  Part="2" 
+AR Path="/5763AB3B/577B6870" Ref="LIMB1"  Part="1" 
+F 0 "LIMB1" H 10431 3696 50  0000 L CNN
+F 1 "LPC435xFET256" H 10431 3605 50  0000 L CNN
+F 2 "smd-semi:BGA100P1700X1700-256" H 9400 5200 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/LPC435X_3X_2X_1X.pdf" H 9400 5100 50  0001 C CNN
+	1    9400 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR6
+U 1 1 577B6906
+P 9300 6900
+F 0 "#PWR6" H 9300 6900 30  0001 C CNN
+F 1 "GND" H 9300 6830 30  0001 C CNN
+F 2 "" H 9300 6900 60  0000 C CNN
+F 3 "" H 9300 6900 60  0000 C CNN
+	1    9300 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 4700 9400 4700
+Wire Wire Line
+	9300 4800 9400 4800
+Wire Wire Line
+	9300 4900 9400 4900
+Wire Wire Line
+	9300 5000 9400 5000
+Wire Wire Line
+	9300 5100 9400 5100
+Wire Wire Line
+	9300 5200 9400 5200
+Wire Wire Line
+	9300 5300 9400 5300
+Wire Wire Line
+	9300 5400 9400 5400
+Wire Wire Line
+	9300 5500 9400 5500
+Wire Wire Line
+	9300 5600 9400 5600
+Wire Wire Line
+	9300 5700 9400 5700
+Wire Wire Line
+	9300 5800 9400 5800
+Wire Wire Line
+	9300 5900 9400 5900
+Wire Wire Line
+	9300 6000 9400 6000
+Wire Wire Line
+	9300 6100 9400 6100
+Wire Wire Line
+	9300 6200 9400 6200
+Wire Wire Line
+	9300 6300 9400 6300
+Wire Wire Line
+	9300 6400 9400 6400
+Wire Wire Line
+	9300 6500 9400 6500
+Wire Wire Line
+	9300 6600 9400 6600
+Wire Wire Line
+	9300 6700 9400 6700
+Wire Wire Line
+	9300 6800 9400 6800
+Connection ~ 9300 4800
+Connection ~ 9300 4900
+Connection ~ 9300 5000
+Connection ~ 9300 5100
+Connection ~ 9300 5200
+Connection ~ 9300 5300
+Connection ~ 9300 5400
+Connection ~ 9300 5500
+Connection ~ 9300 5600
+Connection ~ 9300 5700
+Connection ~ 9300 5800
+Connection ~ 9300 5900
+Connection ~ 9300 6000
+Connection ~ 9300 6100
+Connection ~ 9300 6200
+Connection ~ 9300 6300
+Connection ~ 9300 6400
+Connection ~ 9300 6500
+Connection ~ 9300 6600
+Connection ~ 9300 6700
+Connection ~ 9300 6800
+Wire Wire Line
+	9300 4700 9300 6900
+$Comp
+L LPC435xFET256 LIMB?
+U 19 1 577B6DFB
+P 9400 2300
+AR Path="/5765CB89/577B6DFB" Ref="LIMB?"  Part="2" 
+AR Path="/5763AB3B/577B6DFB" Ref="LIMB1"  Part="19" 
+F 0 "LIMB1" H 10631 1296 50  0000 L CNN
+F 1 "LPC435xFET256" H 10631 1205 50  0000 L CNN
+F 2 "smd-semi:BGA100P1700X1700-256" H 9400 2800 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/LPC435X_3X_2X_1X.pdf" H 9400 2700 50  0001 C CNN
+	19   9400 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 2300 9400 2300
+Wire Wire Line
+	9300 2400 9400 2400
+Wire Wire Line
+	9300 2500 9400 2500
+Wire Wire Line
+	9300 2600 9400 2600
+Wire Wire Line
+	9300 2700 9400 2700
+Wire Wire Line
+	9300 2800 9400 2800
+Wire Wire Line
+	9300 3000 9400 3000
+Wire Wire Line
+	9300 3100 9400 3100
+Wire Wire Line
+	9300 3200 9400 3200
+Wire Wire Line
+	9300 3300 9400 3300
+Wire Wire Line
+	9300 3400 9400 3400
+Wire Wire Line
+	9300 3500 9400 3500
+Wire Wire Line
+	9300 3600 9400 3600
+Wire Wire Line
+	9300 3700 9400 3700
+Wire Wire Line
+	9300 3800 9400 3800
+Wire Wire Line
+	9300 3900 9400 3900
+Wire Wire Line
+	9300 4000 9400 4000
+Wire Wire Line
+	9300 4100 9400 4100
+Wire Wire Line
+	9300 4200 9400 4200
+Wire Wire Line
+	9300 4300 9400 4300
+Wire Wire Line
+	9300 4400 9400 4400
+Connection ~ 9300 2300
+Connection ~ 9300 2400
+Connection ~ 9300 2500
+Connection ~ 9300 2600
+Connection ~ 9300 2700
+Connection ~ 9300 2800
+Connection ~ 9300 3000
+Connection ~ 9300 3100
+Connection ~ 9300 3200
+Connection ~ 9300 3300
+Connection ~ 9300 3400
+Connection ~ 9300 3500
+Connection ~ 9300 3600
+Connection ~ 9300 3700
+Connection ~ 9300 3800
+Connection ~ 9300 3900
+Connection ~ 9300 4000
+Connection ~ 9300 4100
+Connection ~ 9300 4200
+Connection ~ 9300 4300
+NoConn ~ 9400 2900
+Text GLabel 9200 2300 0    50   Input ~ 0
+3V3_LIMB
+Wire Wire Line
+	9300 2300 9300 4400
 $EndSCHEMATC
