@@ -269,29 +269,15 @@ F 4 "PMOS AOS AOD4189" H 1600 500 60  0001 C CNN "BOM"
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	1700 800  1850 800 
-Wire Wire Line
-	1850 800  2200 800 
-Wire Wire Line
-	2200 800  2500 800 
+	1700 800  2500 800 
 Text GLabel 3100 800  2    50   Output ~ 0
 +12
 Wire Wire Line
-	2700 800  2950 800 
+	2700 800  3100 800 
 Wire Wire Line
-	2950 800  3100 800 
+	1650 900  1650 1200
 Wire Wire Line
-	1650 900  1650 1100
-Wire Wire Line
-	1650 1100 1650 1200
-Wire Wire Line
-	1650 1100 1850 1100
-Wire Wire Line
-	1850 1100 2200 1100
-Wire Wire Line
-	2200 1100 2550 1100
-Wire Wire Line
-	2550 1100 2650 1100
+	1650 1100 2650 1100
 Wire Wire Line
 	2550 1100 2550 900 
 $Comp
