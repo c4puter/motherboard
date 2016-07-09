@@ -559,7 +559,7 @@ PCI_RST#
 Text Label 4200 2200 0    50   ~ 0
 PCI_VIO
 Text Label 4200 2300 0    50   ~ 0
-PCI_GNT#0
+PCI_GNT#1
 $Comp
 L GND #PWR27
 U 1 1 57698711
@@ -794,7 +794,7 @@ F 3 "" H 5300 2300 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Text Label 5700 2400 2    50   ~ 0
-PCI_REQ#0
+PCI_REQ#1
 Text Label 5700 2500 2    50   ~ 0
 PCI_VIO
 Text Label 5700 2600 2    50   ~ 0
@@ -980,7 +980,7 @@ PCI_RST#
 Text Label 7000 2200 0    50   ~ 0
 PCI_VIO
 Text Label 7000 2300 0    50   ~ 0
-PCI_GNT#0
+PCI_GNT#2
 $Comp
 L GND #PWR49
 U 1 1 576988DB
@@ -1215,7 +1215,7 @@ F 3 "" H 8100 2300 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Text Label 8500 2400 2    50   ~ 0
-PCI_REQ#0
+PCI_REQ#2
 Text Label 8500 2500 2    50   ~ 0
 PCI_VIO
 Text Label 8500 2600 2    50   ~ 0
@@ -1401,7 +1401,7 @@ PCI_RST#
 Text Label 9800 2200 0    50   ~ 0
 PCI_VIO
 Text Label 9800 2300 0    50   ~ 0
-PCI_GNT#0
+PCI_GNT#3
 $Comp
 L GND #PWR71
 U 1 1 57698A31
@@ -1636,7 +1636,7 @@ F 3 "" H 10900 2300 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Text Label 11300 2400 2    50   ~ 0
-PCI_REQ#0
+PCI_REQ#3
 Text Label 11300 2500 2    50   ~ 0
 PCI_VIO
 Text Label 11300 2600 2    50   ~ 0

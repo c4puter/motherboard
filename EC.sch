@@ -127,29 +127,21 @@ F 4 "TVS DIODESINC DRTR5V0U2SR" H 7400 1300 60  0001 C CNN "BOM"
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	6700 900  7400 900 
-Wire Wire Line
-	7400 900  8000 900 
+	6700 900  8000 900 
 Wire Wire Line
 	7400 900  7400 1500
 Wire Wire Line
-	6700 1000 6900 1000
-Wire Wire Line
-	6900 1000 7800 1000
+	6700 1000 7800 1000
 Wire Wire Line
 	7000 1850 7100 1850
 Wire Wire Line
 	7100 1950 6900 1950
 Wire Wire Line
-	6700 1100 7000 1100
-Wire Wire Line
-	7000 1100 7800 1100
+	6700 1100 7800 1100
 Wire Wire Line
 	6700 1300 6800 1300
 Wire Wire Line
-	6800 1300 6800 1400
-Wire Wire Line
-	6800 1400 6800 1500
+	6800 1300 6800 1500
 Wire Wire Line
 	6800 1400 6750 1400
 Connection ~ 6800 1400
@@ -221,9 +213,7 @@ F 4 "RES SMD 100k 1% [0603]" H 8850 1850 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8100 950  8100 1100
-Wire Wire Line
-	8100 1100 8100 1200
+	8100 950  8100 1200
 $Comp
 L GND #PWR101
 U 1 1 577B0609
@@ -498,15 +488,7 @@ F 3 "" H 10600 6800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10600 6300 10600 6400
-Wire Wire Line
-	10600 6400 10600 6500
-Wire Wire Line
-	10600 6500 10600 6600
-Wire Wire Line
-	10600 6600 10600 6700
-Wire Wire Line
-	10600 6700 10600 6800
+	10600 6300 10600 6800
 Wire Wire Line
 	10600 6300 10500 6300
 Wire Wire Line
@@ -524,19 +506,9 @@ Connection ~ 10600 6700
 Text GLabel 9100 1400 0    50   Input ~ 0
 3V3_LIMB
 Wire Wire Line
-	9100 1400 9200 1400
+	9100 1400 9300 1400
 Wire Wire Line
-	9200 1400 9300 1400
-Wire Wire Line
-	9200 1400 9200 1600
-Wire Wire Line
-	9200 1600 9200 1700
-Wire Wire Line
-	9200 1700 9200 1800
-Wire Wire Line
-	9200 1800 9200 1900
-Wire Wire Line
-	9200 1900 9200 2000
+	9200 1400 9200 2000
 Wire Wire Line
 	9200 1600 9300 1600
 Connection ~ 9200 1400
@@ -616,11 +588,7 @@ Wire Wire Line
 Text GLabel 3900 2900 2    50   Input ~ 0
 3V3_CARD
 Wire Wire Line
-	2700 2900 3400 2900
-Wire Wire Line
-	3400 2900 3800 2900
-Wire Wire Line
-	3800 2900 3900 2900
+	2700 2900 3900 2900
 $Comp
 L C-0402 C?
 U 1 1 577EEB75
@@ -673,12 +641,46 @@ Wire Wire Line
 Text Label 3300 3600 2    50   ~ 0
 CARD_DET#
 Wire Wire Line
-	2800 3500 2800 3700
-Wire Wire Line
-	2800 3700 2800 3800
+	2800 3500 2800 3800
 Wire Wire Line
 	3400 3600 2700 3600
 Wire Wire Line
 	2700 3500 2800 3500
 Connection ~ 2800 3700
+Wire Bus Line
+	6200 3600 6700 3600
+Text Label 6300 3600 0    50   ~ 0
+D[0..7]
+Text HLabel 6200 3600 0    50   BiDi ~ 0
+D[0..7]
+Text HLabel 6200 3700 0    50   Output ~ 0
+A15
+Wire Wire Line
+	6200 3700 6700 3700
+Text Label 6300 3700 0    50   ~ 0
+A15
+Text HLabel 6200 3800 0    50   Output ~ 0
+NCS
+Wire Wire Line
+	6200 3800 6700 3800
+Text Label 6300 3800 0    50   ~ 0
+NCS0
+Text HLabel 6200 3900 0    50   Output ~ 0
+NWE
+Text HLabel 6200 4000 0    50   Output ~ 0
+NRD
+Text Label 6300 3900 0    50   ~ 0
+NWE
+Text Label 6300 4000 0    50   ~ 0
+NRD
+Wire Wire Line
+	6700 3900 6200 3900
+Wire Wire Line
+	6700 4000 6200 4000
+Text Label 6300 4100 0    50   ~ 0
+NWAIT
+Text HLabel 6200 4100 0    50   Output ~ 0
+NWAIT
+Wire Wire Line
+	6700 4100 6200 4100
 $EndSCHEMATC
