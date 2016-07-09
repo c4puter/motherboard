@@ -1,4 +1,4 @@
-update=Sat 25 Jun 2016 07:48:00 AM EDT
+update=Sat 09 Jul 2016 11:07:09 AM EDT
 version=1
 last_client=kicad
 [cvpcb]
@@ -6,17 +6,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=schlib/page_layouts/basic.kicad_wks
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
-ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=pcblib/page_layouts/empty.kicad_wks
@@ -126,3 +115,14 @@ LibName83=schlib/library/TexasInstruments
 LibName84=schlib/library/Vishay
 LibName85=schlib/library/Xilinx
 LibName86=schlib/library/Richtek
+[schematic_editor]
+version=1
+PageLayoutDescrFile=schlib/page_layouts/basic.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=50
+ERC_TestSimilarLabels=1

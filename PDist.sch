@@ -90,7 +90,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 9
+Sheet 3 10
 Title ""
 Date ""
 Rev ""
@@ -116,12 +116,12 @@ $EndComp
 $Comp
 L GND #PWR3
 U 1 1 57647804
-P 1200 6200
-F 0 "#PWR3" H 1200 6200 30  0001 C CNN
-F 1 "GND" H 1200 6130 30  0001 C CNN
-F 2 "" H 1200 6200 60  0000 C CNN
-F 3 "" H 1200 6200 60  0000 C CNN
-	1    1200 6200
+P 1200 6800
+F 0 "#PWR3" H 1200 6800 30  0001 C CNN
+F 1 "GND" H 1200 6730 30  0001 C CNN
+F 2 "" H 1200 6800 60  0000 C CNN
+F 3 "" H 1200 6800 60  0000 C CNN
+	1    1200 6800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -273,7 +273,7 @@ Connection ~ 1200 5900
 Connection ~ 1200 6000
 Connection ~ 1200 6100
 Wire Wire Line
-	1200 1600 1200 6200
+	1200 1600 1200 6800
 Wire Wire Line
 	2600 1600 2500 1600
 Wire Wire Line
@@ -316,7 +316,7 @@ Connection ~ 2600 2600
 Connection ~ 2600 2700
 Connection ~ 2600 2800
 Wire Wire Line
-	2600 1500 2600 2900
+	2600 1500 2600 3300
 Text HLabel 4400 1000 0    50   BiDi ~ 0
 BR_TCK
 Text HLabel 4400 1100 0    50   BiDi ~ 0
@@ -451,11 +451,11 @@ Connection ~ 4600 4500
 Connection ~ 4600 4600
 Connection ~ 4600 4700
 Wire Wire Line
-	4600 2800 4600 1500
+	4600 1500 4600 2800
 Text GLabel 4500 2900 0    50   Input ~ 0
 VCORE
 Wire Wire Line
-	4600 4800 4600 2900
+	4600 2900 4600 4800
 Wire Wire Line
 	6000 1000 5900 1000
 Wire Wire Line
@@ -644,5 +644,59 @@ Connection ~ 6000 6600
 Connection ~ 6000 6700
 Connection ~ 6000 6800
 Wire Wire Line
-	6000 6900 6000 1000
+	6000 1000 6000 6900
+Text Label 2800 6500 2    50   ~ 0
+VREFDQ
+Wire Wire Line
+	2800 6500 2500 6500
+Text Label 2800 3500 2    50   ~ 0
+VDDSPD
+Wire Wire Line
+	2800 3500 2500 3500
+Text Label 2800 6600 2    50   ~ 0
+VTT
+Text Label 2800 6700 2    50   ~ 0
+VTT
+Wire Wire Line
+	2800 6600 2500 6600
+Wire Wire Line
+	2800 6700 2500 6700
+Wire Wire Line
+	1300 6200 1200 6200
+Connection ~ 1200 6200
+Wire Wire Line
+	1300 6300 1200 6300
+Connection ~ 1200 6300
+Wire Wire Line
+	1300 6400 1200 6400
+Connection ~ 1200 6400
+Wire Wire Line
+	1300 6500 1200 6500
+Connection ~ 1200 6500
+Wire Wire Line
+	1300 6600 1200 6600
+Connection ~ 1200 6600
+Wire Wire Line
+	1300 6700 1200 6700
+Connection ~ 1200 6700
+Text Label 2800 6400 2    50   ~ 0
+VREFCA
+Wire Wire Line
+	2800 6400 2500 6400
+Text Label 2800 6300 2    50   ~ 0
+~EVENT
+Wire Wire Line
+	2800 6300 2500 6300
+Wire Wire Line
+	2600 3000 2500 3000
+Connection ~ 2600 2900
+Wire Wire Line
+	2600 3100 2500 3100
+Connection ~ 2600 3000
+Wire Wire Line
+	2600 3200 2500 3200
+Connection ~ 2600 3100
+Wire Wire Line
+	2600 3300 2500 3300
+Connection ~ 2600 3200
 $EndSCHEMATC
