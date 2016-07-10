@@ -462,7 +462,7 @@ Text HLabel 8300 2400 0    50   BiDi ~ 0
 LIMBD[0..7]
 Text Label 8300 2400 0    50   ~ 0
 LIMBD[0..7]
-Text HLabel 14200 4100 0    50   Input ~ 0
+Text HLabel 14200 2500 0    50   Input ~ 0
 LIMBA15
 Text HLabel 14200 3000 0    50   Input ~ 0
 LIMBNCS
@@ -470,23 +470,23 @@ Text HLabel 14200 2900 0    50   Input ~ 0
 LIMBNRD
 Text HLabel 14200 2700 0    50   Input ~ 0
 LIMBNWE
-Text HLabel 14200 4700 0    50   Output ~ 0
+Text HLabel 14200 3200 0    50   Output ~ 0
 LIMBNWAIT
-Text Label 14300 4900 2    50   ~ 0
+Text Label 14300 4100 2    50   ~ 0
 LIMBD0
-Text Label 14300 3200 2    50   ~ 0
+Text Label 14300 2800 2    50   ~ 0
 LIMBD1
-Text Label 14300 3900 2    50   ~ 0
+Text Label 14300 3500 2    50   ~ 0
 LIMBD2
-Text Label 14300 4000 2    50   ~ 0
+Text Label 14300 3900 2    50   ~ 0
 LIMBD3
-Text Label 14300 4500 2    50   ~ 0
+Text Label 14300 4000 2    50   ~ 0
 LIMBD4
-Text Label 14300 4600 2    50   ~ 0
+Text Label 14300 4700 2    50   ~ 0
 LIMBD5
-Text Label 14300 4200 2    50   ~ 0
+Text Label 14300 4500 2    50   ~ 0
 LIMBD6
-Text Label 14300 5100 2    50   ~ 0
+Text Label 14300 4600 2    50   ~ 0
 LIMBD7
 Text GLabel 14200 2200 0    50   Input ~ 0
 /PerBus/PCI_INTB#
@@ -496,7 +496,7 @@ Text GLabel 14200 3300 0    50   Input ~ 0
 /PerBus/PCI_INTD#
 Text GLabel 14200 3400 0    50   Input ~ 0
 /PerBus/PCI_CLK
-Text HLabel 14200 5000 0    50   Output ~ 0
+Text HLabel 14200 4200 0    50   Output ~ 0
 LIMBREQ
 Text GLabel 14200 3600 0    50   Input ~ 0
 /PerBus/PCI_GNT#0
@@ -514,65 +514,65 @@ Text GLabel 14200 5200 0    50   Input ~ 0
 /PerBus/PCI_GNT#3
 Text GLabel 14200 5300 0    50   Input ~ 0
 /PerBus/PCI_REQ#3
-Text GLabel 12800 9400 0    50   Input ~ 0
-/PerBus/PCI_AD0
-Text GLabel 12800 9500 0    50   Input ~ 0
-/PerBus/PCI_AD1
-Text GLabel 12800 9600 0    50   Input ~ 0
-/PerBus/PCI_AD2
-Text GLabel 12800 9700 0    50   Input ~ 0
-/PerBus/PCI_AD3
-Text GLabel 12800 9800 0    50   Input ~ 0
-/PerBus/PCI_AD4
-Text GLabel 12800 9900 0    50   Input ~ 0
-/PerBus/PCI_AD5
-Text GLabel 12800 10000 0    50   Input ~ 0
-/PerBus/PCI_AD6
-Text GLabel 14200 8800 0    50   Input ~ 0
+Text GLabel 14200 8500 0    50   Input ~ 0
+/PerBus/PCI_AD00
+Text GLabel 14200 9200 0    50   Input ~ 0
+/PerBus/PCI_AD01
+Text GLabel 14200 9100 0    50   Input ~ 0
+/PerBus/PCI_AD02
+Text GLabel 14200 8100 0    50   Input ~ 0
+/PerBus/PCI_AD03
+Text GLabel 14200 9400 0    50   Input ~ 0
+/PerBus/PCI_AD04
+Text GLabel 14200 8000 0    50   Input ~ 0
+/PerBus/PCI_AD05
+Text GLabel 14200 7900 0    50   Input ~ 0
+/PerBus/PCI_AD06
+Text GLabel 14200 7000 0    50   Input ~ 0
 /PerBus/PCI_AD07
-Text GLabel 14200 8900 0    50   Input ~ 0
-/PerBus/PCI_AD08
-Text GLabel 14200 9000 0    50   Input ~ 0
-/PerBus/PCI_AD09
 Text GLabel 14200 9300 0    50   Input ~ 0
+/PerBus/PCI_AD08
+Text GLabel 14200 7300 0    50   Input ~ 0
+/PerBus/PCI_AD09
+Text GLabel 14200 9000 0    50   Input ~ 0
 /PerBus/PCI_AD10
 Text GLabel 14200 9500 0    50   Input ~ 0
 /PerBus/PCI_AD11
 Text GLabel 14200 9600 0    50   Input ~ 0
 /PerBus/PCI_AD12
-Text GLabel 14200 9200 0    50   Input ~ 0
+Text GLabel 14200 6900 0    50   Input ~ 0
 /PerBus/PCI_AD13
-Text GLabel 14200 9100 0    50   Input ~ 0
+Text GLabel 14200 8800 0    50   Input ~ 0
 /PerBus/PCI_AD14
 Text GLabel 14200 7400 0    50   Input ~ 0
 /PerBus/PCI_AD16
 Text GLabel 14200 6700 0    50   Input ~ 0
 /PerBus/PCI_AD17
-Text GLabel 14200 7200 0    50   Input ~ 0
+Text GLabel 14200 6500 0    50   Input ~ 0
 /PerBus/PCI_AD18
-Text GLabel 14200 6900 0    50   Input ~ 0
+Text GLabel 14200 8700 0    50   Input ~ 0
 /PerBus/PCI_AD19
 Text GLabel 14200 6800 0    50   Input ~ 0
 /PerBus/PCI_AD20
 Text GLabel 14200 6400 0    50   Input ~ 0
 /PerBus/PCI_AD21
-Text GLabel 14200 6300 0    50   Input ~ 0
+Text GLabel 14200 5500 0    50   Input ~ 0
 /PerBus/PCI_AD22
-Text GLabel 14200 7100 0    50   Input ~ 0
+Text GLabel 14200 6200 0    50   Input ~ 0
 /PerBus/PCI_AD23
-Text GLabel 14200 6600 0    50   Input ~ 0
+Text GLabel 14200 6100 0    50   Input ~ 0
 /PerBus/PCI_AD24
-Text GLabel 14200 6500 0    50   Input ~ 0
+Text GLabel 14200 5800 0    50   Input ~ 0
 /PerBus/PCI_AD25
 Text GLabel 14200 6000 0    50   Input ~ 0
 /PerBus/PCI_AD26
-Text GLabel 14200 5500 0    50   Input ~ 0
+Text GLabel 14200 5700 0    50   Input ~ 0
 /PerBus/PCI_AD27
-Text GLabel 14200 6200 0    50   Input ~ 0
+Text GLabel 14200 5000 0    50   Input ~ 0
 /PerBus/PCI_AD28
-Text GLabel 14200 6100 0    50   Input ~ 0
+Text GLabel 14200 4900 0    50   Input ~ 0
 /PerBus/PCI_AD29
-Text GLabel 14200 5800 0    50   Input ~ 0
+Text GLabel 14200 5100 0    50   Input ~ 0
 /PerBus/PCI_AD30
 Text GLabel 14200 5600 0    50   Input ~ 0
 /PerBus/PCI_AD31
@@ -1099,7 +1099,9 @@ Wire Wire Line
 Wire Wire Line
 	19600 8000 19000 8000
 Wire Wire Line
-	4700 7100 4900 7100
+	4700 7100 4800 7100
+Wire Wire Line
+	4800 7100 4900 7100
 Wire Wire Line
 	4800 7200 4900 7200
 Wire Wire Line
@@ -1131,7 +1133,25 @@ Connection ~ 4800 7800
 Connection ~ 4800 7900
 Connection ~ 4800 8000
 Wire Wire Line
-	4800 7100 4800 8100
+	4800 7100 4800 7200
+Wire Wire Line
+	4800 7200 4800 7300
+Wire Wire Line
+	4800 7300 4800 7400
+Wire Wire Line
+	4800 7400 4800 7500
+Wire Wire Line
+	4800 7500 4800 7600
+Wire Wire Line
+	4800 7600 4800 7700
+Wire Wire Line
+	4800 7700 4800 7800
+Wire Wire Line
+	4800 7800 4800 7900
+Wire Wire Line
+	4800 7900 4800 8000
+Wire Wire Line
+	4800 8000 4800 8100
 Wire Wire Line
 	1700 7600 1900 7600
 Wire Wire Line
@@ -1147,7 +1167,9 @@ Wire Wire Line
 Wire Wire Line
 	4500 6200 4900 6200
 Wire Wire Line
-	11000 8000 11200 8000
+	11000 8000 11100 8000
+Wire Wire Line
+	11100 8000 11200 8000
 Wire Wire Line
 	11100 8100 11200 8100
 Wire Wire Line
@@ -1175,7 +1197,23 @@ Connection ~ 11100 8600
 Connection ~ 11100 8700
 Connection ~ 11100 8800
 Wire Wire Line
-	11100 8000 11100 8900
+	11100 8000 11100 8100
+Wire Wire Line
+	11100 8100 11100 8200
+Wire Wire Line
+	11100 8200 11100 8300
+Wire Wire Line
+	11100 8300 11100 8400
+Wire Wire Line
+	11100 8400 11100 8500
+Wire Wire Line
+	11100 8500 11100 8600
+Wire Wire Line
+	11100 8600 11100 8700
+Wire Wire Line
+	11100 8700 11100 8800
+Wire Wire Line
+	11100 8800 11100 8900
 Connection ~ 11100 8000
 Wire Wire Line
 	14200 10200 14300 10200
@@ -1205,9 +1243,29 @@ Connection ~ 14200 10700
 Connection ~ 14200 10800
 Connection ~ 14200 10900
 Wire Wire Line
-	14200 10000 14200 11000
+	14200 10000 14200 10100
 Wire Wire Line
-	1700 7700 1900 7700
+	14200 10100 14200 10200
+Wire Wire Line
+	14200 10200 14200 10300
+Wire Wire Line
+	14200 10300 14200 10400
+Wire Wire Line
+	14200 10400 14200 10500
+Wire Wire Line
+	14200 10500 14200 10600
+Wire Wire Line
+	14200 10600 14200 10700
+Wire Wire Line
+	14200 10700 14200 10800
+Wire Wire Line
+	14200 10800 14200 10900
+Wire Wire Line
+	14200 10900 14200 11000
+Wire Wire Line
+	1700 7700 1800 7700
+Wire Wire Line
+	1800 7700 1900 7700
 Wire Wire Line
 	1800 7800 1900 7800
 Wire Wire Line
@@ -1239,7 +1297,25 @@ Connection ~ 1800 8400
 Connection ~ 1800 8500
 Connection ~ 1800 8600
 Wire Wire Line
-	1800 7700 1800 8700
+	1800 7700 1800 7800
+Wire Wire Line
+	1800 7800 1800 7900
+Wire Wire Line
+	1800 7900 1800 8000
+Wire Wire Line
+	1800 8000 1800 8100
+Wire Wire Line
+	1800 8100 1800 8200
+Wire Wire Line
+	1800 8200 1800 8300
+Wire Wire Line
+	1800 8300 1800 8400
+Wire Wire Line
+	1800 8400 1800 8500
+Wire Wire Line
+	1800 8500 1800 8600
+Wire Wire Line
+	1800 8600 1800 8700
 Wire Wire Line
 	8900 2600 9200 2600
 Wire Wire Line
@@ -1257,25 +1333,41 @@ Wire Wire Line
 Wire Wire Line
 	8900 3300 9200 3300
 Wire Bus Line
-	8800 2400 8800 3300
+	8800 2400 8800 2500
+Wire Bus Line
+	8800 2500 8800 2600
+Wire Bus Line
+	8800 2600 8800 2700
+Wire Bus Line
+	8800 2700 8800 2800
+Wire Bus Line
+	8800 2800 8800 2900
+Wire Bus Line
+	8800 2900 8800 3000
+Wire Bus Line
+	8800 3000 8800 3100
+Wire Bus Line
+	8800 3100 8800 3200
+Wire Bus Line
+	8800 3200 8800 3300
 Wire Bus Line
 	8800 2400 8300 2400
 Wire Wire Line
-	14000 4900 14300 4900
+	14000 4100 14300 4100
 Wire Wire Line
-	14000 3200 14300 3200
+	14000 2800 14300 2800
+Wire Wire Line
+	14000 3500 14300 3500
 Wire Wire Line
 	14000 3900 14300 3900
 Wire Wire Line
 	14000 4000 14300 4000
 Wire Wire Line
+	14000 4700 14300 4700
+Wire Wire Line
 	14000 4500 14300 4500
 Wire Wire Line
 	14000 4600 14300 4600
-Wire Wire Line
-	14000 4200 14300 4200
-Wire Wire Line
-	14000 5100 14300 5100
 Wire Wire Line
 	14200 2100 14300 2100
 Wire Wire Line
@@ -1285,7 +1377,7 @@ Wire Wire Line
 Wire Wire Line
 	14200 3300 14300 3300
 Wire Wire Line
-	14200 5000 14300 5000
+	14200 4200 14300 4200
 Wire Wire Line
 	14200 3400 14300 3400
 Wire Wire Line
@@ -1569,9 +1661,9 @@ Wire Wire Line
 Wire Wire Line
 	14300 2900 14200 2900
 Wire Wire Line
-	14200 4100 14300 4100
+	14200 2500 14300 2500
 Wire Wire Line
-	14200 4700 14300 4700
+	14200 3200 14300 3200
 Wire Wire Line
 	14300 2000 14100 2000
 Wire Wire Line
@@ -1581,54 +1673,56 @@ Wire Wire Line
 Wire Wire Line
 	14200 5400 14300 5400
 Wire Wire Line
-	14100 10000 14300 10000
+	14100 10000 14200 10000
+Wire Wire Line
+	14200 10000 14300 10000
 Wire Wire Line
 	14200 10100 14300 10100
 Connection ~ 14200 10000
 Wire Wire Line
 	14200 5600 14300 5600
 Wire Wire Line
-	14200 5800 14300 5800
+	14200 5100 14300 5100
 Wire Wire Line
-	14300 6100 14200 6100
+	14300 4900 14200 4900
 Wire Wire Line
-	14200 6200 14300 6200
+	14200 5000 14300 5000
 Wire Wire Line
-	14200 5500 14300 5500
+	14200 5700 14300 5700
 Wire Wire Line
 	14200 6000 14300 6000
 Wire Wire Line
-	14200 6500 14300 6500
+	14200 5800 14300 5800
 Wire Wire Line
-	14200 6600 14300 6600
+	14200 6100 14300 6100
 Text GLabel 14200 5900 0    50   Input ~ 0
 /PerBus/PCI_CBE#3
 Wire Wire Line
 	14200 5900 14300 5900
 Wire Wire Line
-	14200 7100 14300 7100
+	14200 6200 14300 6200
 Wire Wire Line
-	14200 6300 14300 6300
+	14200 5500 14300 5500
 Wire Wire Line
 	14200 6400 14300 6400
 Wire Wire Line
 	14200 6800 14300 6800
 Wire Wire Line
-	14200 6900 14300 6900
+	14200 8700 14300 8700
 Wire Wire Line
-	14200 7200 14300 7200
+	14200 6500 14300 6500
 Wire Wire Line
 	14200 6700 14300 6700
 Wire Wire Line
 	14200 7400 14300 7400
-Text GLabel 14200 7000 0    50   Input ~ 0
+Text GLabel 14200 6600 0    50   Input ~ 0
 /PerBus/PCI_CBE#2
 Wire Wire Line
-	14200 7000 14300 7000
-Text GLabel 14200 7300 0    50   Input ~ 0
+	14200 6600 14300 6600
+Text GLabel 14200 7700 0    50   Input ~ 0
 /PerBus/PCI_FRAME#
 Wire Wire Line
-	14300 7300 14200 7300
+	14300 7700 14200 7700
 Text GLabel 14200 7600 0    50   Input ~ 0
 /PerBus/PCI_IRDY#
 Wire Wire Line
@@ -1637,14 +1731,14 @@ Text GLabel 14200 7500 0    50   Input ~ 0
 /PerBus/PCI_TRDY#
 Wire Wire Line
 	14200 7500 14300 7500
-Text GLabel 14200 7900 0    50   Input ~ 0
+Text GLabel 14200 7800 0    50   Input ~ 0
 /PerBus/PCI_DEVSEL#
 Wire Wire Line
-	14200 7900 14300 7900
-Text GLabel 14200 8000 0    50   Input ~ 0
+	14200 7800 14300 7800
+Text GLabel 14200 6300 0    50   Input ~ 0
 /PerBus/PCI_STOP#
 Wire Wire Line
-	14300 8000 14200 8000
+	14300 6300 14200 6300
 Text GLabel 14200 8200 0    50   Input ~ 0
 /PerBus/PCI_LOCK#
 Wire Wire Line
@@ -1653,14 +1747,14 @@ Text GLabel 14200 8400 0    50   Input ~ 0
 /PerBus/PCI_PERR#
 Wire Wire Line
 	14200 8400 14300 8400
-Text GLabel 14200 9400 0    50   Input ~ 0
+Text GLabel 14200 7100 0    50   Input ~ 0
 /PerBus/PCI_SERR#
 Wire Wire Line
-	14200 9400 14300 9400
-Text GLabel 14200 8100 0    50   Input ~ 0
+	14200 7100 14300 7100
+Text GLabel 14200 7200 0    50   Input ~ 0
 /PerBus/PCI_PAR
 Wire Wire Line
-	14200 8100 14300 8100
+	14200 7200 14300 7200
 Text GLabel 14200 8300 0    50   Input ~ 0
 /PerBus/PCI_AD15
 Wire Wire Line
@@ -1670,23 +1764,37 @@ Text GLabel 14200 8600 0    50   Input ~ 0
 Wire Wire Line
 	14200 8600 14300 8600
 Wire Wire Line
-	14200 9100 14300 9100
+	14200 8800 14300 8800
 Wire Wire Line
-	14200 9200 14300 9200
+	14200 6900 14300 6900
 Wire Wire Line
 	14200 9600 14300 9600
 Wire Wire Line
 	14200 9500 14300 9500
-Text GLabel 14200 8500 0    50   Input ~ 0
+Text GLabel 14200 8900 0    50   Input ~ 0
 /PerBus/PCI_CBE#0
+Wire Wire Line
+	14200 8100 14300 8100
+Wire Wire Line
+	14200 9100 14300 9100
+Wire Wire Line
+	14200 7900 14300 7900
+Wire Wire Line
+	14200 8000 14300 8000
 Wire Wire Line
 	14200 8500 14300 8500
 Wire Wire Line
-	14200 9300 14300 9300
+	14200 9400 14300 9400
 Wire Wire Line
-	14200 9000 14300 9000
+	14200 9200 14300 9200
 Wire Wire Line
 	14200 8900 14300 8900
 Wire Wire Line
-	14200 8800 14300 8800
+	14200 9000 14300 9000
+Wire Wire Line
+	14200 9300 14300 9300
+Wire Wire Line
+	14200 7000 14300 7000
+Wire Wire Line
+	14200 7300 14300 7300
 $EndSCHEMATC
