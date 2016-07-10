@@ -1,21 +1,6 @@
 EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #
-# +1.5
-#
-DEF +1.5 #PWR 0 0 Y Y 1 L P
-F0 "#PWR" 0 50 30 H I C CNN
-F1 "+1.5" 0 100 50 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-P 2 0 1 0 0 30 0 0 N
-P 2 0 1 0 0 50 0 30 N
-P 5 0 1 0 -50 60 50 60 50 50 -50 50 -50 60 F
-X +1.5 1 0 0 0 U 30 30 1 1 W N
-ENDDRAW
-ENDDEF
-#
 # +12
 #
 DEF +12 #PWR 0 0 Y Y 1 L P
