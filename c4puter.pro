@@ -1,4 +1,4 @@
-update=Sat 09 Jul 2016 11:07:09 AM EDT
+update=Mon 11 Jul 2016 12:51:45 PM EDT
 version=1
 last_client=kicad
 [cvpcb]
@@ -25,6 +25,17 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.15
+[schematic_editor]
+version=1
+PageLayoutDescrFile=schlib/page_layouts/basic.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=50
+ERC_TestSimilarLabels=1
 [eeschema]
 version=1
 LibDir=kicad-schlib/library
@@ -115,14 +126,4 @@ LibName83=schlib/library/TexasInstruments
 LibName84=schlib/library/Vishay
 LibName85=schlib/library/Xilinx
 LibName86=schlib/library/Richtek
-[schematic_editor]
-version=1
-PageLayoutDescrFile=schlib/page_layouts/basic.kicad_wks
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=50
-ERC_TestSimilarLabels=1
+LibName87=schlib/library/semi-diode-Panasonic

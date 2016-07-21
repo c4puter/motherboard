@@ -85,12 +85,13 @@ LIBS:TexasInstruments
 LIBS:Vishay
 LIBS:Xilinx
 LIBS:Richtek
+LIBS:semi-diode-Panasonic
 LIBS:c4puter-cache
 EELAYER 25 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr B 17000 11000
 encoding utf-8
-Sheet 5 9
+Sheet 4 10
 Title ""
 Date ""
 Rev ""
@@ -103,14 +104,82 @@ $EndDescr
 $Comp
 L XC6SLX25-FGG484 CPU0
 U 1 1 577B458D
-P 5200 1400
-AR Path="/5765A5BA/577B458D" Ref="CPU0"  Part="1" 
+P 3800 700
+AR Path="/5765A5BA/577B458D" Ref="CPU0"  Part="3" 
 AR Path="/5765B2E6/577B458D" Ref="CPU1"  Part="1" 
-F 0 "CPU1" H 6331 -1904 50  0000 L CNN
-F 1 "XC6SLX25-FGG484" H 6331 -1995 50  0000 L CNN
-F 2 "manuf:XILINX-FGG484" H 5300 1550 50  0001 C CNN
-F 3 "" H 5400 1650 60  0001 C CNN
-	1    5200 1400
+F 0 "CPU1" H 4931 -2604 50  0000 L CNN
+F 1 "XC6SLX25-FGG484" H 4931 -2695 50  0000 L CNN
+F 2 "manuf:XILINX-FGG484" H 3900 850 50  0001 C CNN
+F 3 "" H 4000 950 60  0001 C CNN
+	1    3800 700 
+	1    0    0    -1  
+$EndComp
+Text HLabel 2000 1800 0    50   BiDi ~ 0
+D[0..31]
+Text HLabel 2000 1900 0    50   Input ~ 0
+WAIT#
+Text HLabel 2000 2000 0    50   Output ~ 0
+ADDR#
+Text HLabel 2000 2100 0    50   Output ~ 0
+WR#
+Text HLabel 2000 2200 0    50   Output ~ 0
+BUSCLK
+Text HLabel 2000 2300 0    50   Output ~ 0
+BUSREQ#
+Text HLabel 2000 2400 0    50   Input ~ 0
+BUSACK#
+Text HLabel 2000 2500 0    50   Input ~ 0
+BUSINT#
+Text Notes 1000 800  0    50   ~ 0
+CACHE RAM: AS7C38098A-10TIN
+Text GLabel 3600 9000 0    50   Input ~ 0
+P3V3_CPU
+Wire Wire Line
+	3600 9000 3800 9000
+Wire Wire Line
+	3700 9100 3800 9100
+Connection ~ 3700 9000
+Connection ~ 3700 9100
+Connection ~ 3700 9200
+Connection ~ 3700 9300
+Connection ~ 3700 9400
+Connection ~ 3700 9500
+Connection ~ 3700 9600
+Connection ~ 3700 9700
+Connection ~ 3700 9800
+Connection ~ 3700 9900
+Wire Wire Line
+	3700 9200 3800 9200
+Wire Wire Line
+	3700 9300 3800 9300
+Wire Wire Line
+	3700 9400 3800 9400
+Wire Wire Line
+	3700 9500 3800 9500
+Wire Wire Line
+	3700 9600 3800 9600
+Wire Wire Line
+	3700 9700 3800 9700
+Wire Wire Line
+	3700 9800 3800 9800
+Wire Wire Line
+	3700 9900 3800 9900
+Wire Wire Line
+	3700 10000 3800 10000
+Wire Wire Line
+	3700 9000 3700 10000
+$Comp
+L AS7C38098A U2
+U 1 1 5783D342
+P 15000 4200
+AR Path="/5765A5BA/5783D342" Ref="U2"  Part="1" 
+AR Path="/5765B2E6/5783D342" Ref="U3"  Part="1" 
+F 0 "U3" H 15000 4467 50  0000 C CNN
+F 1 "AS7C38098A" H 15000 4376 50  0000 C CNN
+F 2 "IPC7351-Nominal:SOP80P1176X120-44" H 15000 1700 50  0001 C CNN
+F 3 "http://www.alliancememory.com/pdf/sram/fa/as7c38098a.pdf" H 15000 1600 50  0001 C CNN
+F 4 "DIST DIGIKEY 1450-1069-ND" H 15000 4200 60  0001 C CNN "BOM"
+	1    15000 4200
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

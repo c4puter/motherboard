@@ -85,12 +85,13 @@ LIBS:TexasInstruments
 LIBS:Vishay
 LIBS:Xilinx
 LIBS:Richtek
+LIBS:semi-diode-Panasonic
 LIBS:c4puter-cache
 EELAYER 25 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 2 9
+Sheet 9 10
 Title ""
 Date ""
 Rev ""
@@ -424,8 +425,6 @@ Text GLabel 1700 7700 0    50   Input ~ 0
 VRAM
 Text GLabel 14100 10000 0    50   Input ~ 0
 VCCO_2
-Text GLabel 14200 2100 0    50   Input ~ 0
-/PerBus/PCI_INTA#
 Text Label 9200 2600 2    50   ~ 0
 LIMBD0
 Text Label 9200 2700 2    50   ~ 0
@@ -488,94 +487,8 @@ Text Label 14300 4500 2    50   ~ 0
 LIMBD6
 Text Label 14300 4600 2    50   ~ 0
 LIMBD7
-Text GLabel 14200 2200 0    50   Input ~ 0
-/PerBus/PCI_INTB#
-Text GLabel 14200 2600 0    50   Input ~ 0
-/PerBus/PCI_INTC#
-Text GLabel 14200 3300 0    50   Input ~ 0
-/PerBus/PCI_INTD#
-Text GLabel 14200 3400 0    50   Input ~ 0
-/PerBus/PCI_CLK
 Text HLabel 14200 4200 0    50   Output ~ 0
 LIMBREQ
-Text GLabel 14200 3600 0    50   Input ~ 0
-/PerBus/PCI_GNT#0
-Text GLabel 14200 4300 0    50   Input ~ 0
-/PerBus/PCI_REQ#0
-Text GLabel 14200 4400 0    50   Input ~ 0
-/PerBus/PCI_GNT#1
-Text GLabel 14200 4800 0    50   Input ~ 0
-/PerBus/PCI_REQ#1
-Text GLabel 14200 3800 0    50   Input ~ 0
-/PerBus/PCI_REQ#2
-Text GLabel 14200 3700 0    50   Input ~ 0
-/PerBus/PCI_GNT#2
-Text GLabel 14200 5200 0    50   Input ~ 0
-/PerBus/PCI_GNT#3
-Text GLabel 14200 5300 0    50   Input ~ 0
-/PerBus/PCI_REQ#3
-Text GLabel 14200 8500 0    50   Input ~ 0
-/PerBus/PCI_AD00
-Text GLabel 14200 9200 0    50   Input ~ 0
-/PerBus/PCI_AD01
-Text GLabel 14200 9100 0    50   Input ~ 0
-/PerBus/PCI_AD02
-Text GLabel 14200 8100 0    50   Input ~ 0
-/PerBus/PCI_AD03
-Text GLabel 14200 9400 0    50   Input ~ 0
-/PerBus/PCI_AD04
-Text GLabel 14200 8000 0    50   Input ~ 0
-/PerBus/PCI_AD05
-Text GLabel 14200 7900 0    50   Input ~ 0
-/PerBus/PCI_AD06
-Text GLabel 14200 7000 0    50   Input ~ 0
-/PerBus/PCI_AD07
-Text GLabel 14200 9300 0    50   Input ~ 0
-/PerBus/PCI_AD08
-Text GLabel 14200 7300 0    50   Input ~ 0
-/PerBus/PCI_AD09
-Text GLabel 14200 9000 0    50   Input ~ 0
-/PerBus/PCI_AD10
-Text GLabel 14200 9500 0    50   Input ~ 0
-/PerBus/PCI_AD11
-Text GLabel 14200 9600 0    50   Input ~ 0
-/PerBus/PCI_AD12
-Text GLabel 14200 6900 0    50   Input ~ 0
-/PerBus/PCI_AD13
-Text GLabel 14200 8800 0    50   Input ~ 0
-/PerBus/PCI_AD14
-Text GLabel 14200 7400 0    50   Input ~ 0
-/PerBus/PCI_AD16
-Text GLabel 14200 6700 0    50   Input ~ 0
-/PerBus/PCI_AD17
-Text GLabel 14200 6500 0    50   Input ~ 0
-/PerBus/PCI_AD18
-Text GLabel 14200 8700 0    50   Input ~ 0
-/PerBus/PCI_AD19
-Text GLabel 14200 6800 0    50   Input ~ 0
-/PerBus/PCI_AD20
-Text GLabel 14200 6400 0    50   Input ~ 0
-/PerBus/PCI_AD21
-Text GLabel 14200 5500 0    50   Input ~ 0
-/PerBus/PCI_AD22
-Text GLabel 14200 6200 0    50   Input ~ 0
-/PerBus/PCI_AD23
-Text GLabel 14200 6100 0    50   Input ~ 0
-/PerBus/PCI_AD24
-Text GLabel 14200 5800 0    50   Input ~ 0
-/PerBus/PCI_AD25
-Text GLabel 14200 6000 0    50   Input ~ 0
-/PerBus/PCI_AD26
-Text GLabel 14200 5700 0    50   Input ~ 0
-/PerBus/PCI_AD27
-Text GLabel 14200 5000 0    50   Input ~ 0
-/PerBus/PCI_AD28
-Text GLabel 14200 4900 0    50   Input ~ 0
-/PerBus/PCI_AD29
-Text GLabel 14200 5100 0    50   Input ~ 0
-/PerBus/PCI_AD30
-Text GLabel 14200 5600 0    50   Input ~ 0
-/PerBus/PCI_AD31
 Text GLabel 11000 8000 0    50   Input ~ 0
 VRAM
 Text GLabel 10800 7100 0    50   Input ~ 0
@@ -826,7 +739,7 @@ Text Label 10800 4900 0    50   ~ 0
 DQ55
 Text Label 10800 6200 0    50   ~ 0
 DQ62
-Text Label 10800 7900 0    50   ~ 0
+Text Label 10800 7800 0    50   ~ 0
 DQ63
 Text HLabel 14100 9900 0    50   Input ~ 0
 PROGRAM_B
@@ -846,8 +759,164 @@ Text Label 14000 3100 0    50   ~ 0
 M1
 Text Label 14000 1700 0    50   ~ 0
 CMPCS
-Text GLabel 14200 5400 0    50   Input ~ 0
-/PerBus/PCI_PME#
+Text Label 4000 3800 0    50   ~ 0
+SDRAMCLK
+Text Label 10400 4800 0    50   ~ 0
+PCICLK
+Text HLabel 4400 9400 0    50   BiDi ~ 0
+CPU_D[0..31]
+Text Label 5200 9400 2    50   ~ 0
+CPU_D[0..31]
+Text HLabel 4400 9500 0    50   Output ~ 0
+CPU_WAIT#
+Text HLabel 4400 9600 0    50   Input ~ 0
+CPU_ADDR#
+Text HLabel 4400 9700 0    50   Input ~ 0
+CPU_WR#
+Text HLabel 4400 9800 0    50   Input ~ 0
+CPU_CLK
+Text HLabel 4400 9900 0    50   Input ~ 0
+CPU_REQ0#
+Text HLabel 4400 10000 0    50   Output ~ 0
+CPU_ACK0#
+Text HLabel 4400 10100 0    50   Input ~ 0
+CPU_REQ1#
+Text HLabel 4400 10200 0    50   Output ~ 0
+CPU_ACK1#
+Text HLabel 4400 10300 0    50   Output ~ 0
+CPU_INT0#
+Text HLabel 4400 10400 0    50   Output ~ 0
+CPU_INT1#
+Text HLabel 6300 9400 0    50   BiDi ~ 0
+PCI_AD[0..31]
+Text Label 7000 9400 2    50   ~ 0
+PCI_AD[0..31]
+Text Label 13900 4900 0    50   ~ 0
+PCI_AD29
+Text Label 13900 5000 0    50   ~ 0
+PCI_AD28
+Text Label 13900 5100 0    50   ~ 0
+PCI_AD30
+Text Label 13900 5500 0    50   ~ 0
+PCI_AD22
+Text Label 13900 5600 0    50   ~ 0
+PCI_AD31
+Text Label 13900 5700 0    50   ~ 0
+PCI_AD27
+Text Label 13900 5800 0    50   ~ 0
+PCI_AD25
+Text Label 13900 6000 0    50   ~ 0
+PCI_AD26
+Text Label 13900 6100 0    50   ~ 0
+PCI_AD24
+Text Label 13900 6200 0    50   ~ 0
+PCI_AD23
+Text Label 13900 6400 0    50   ~ 0
+PCI_AD21
+Text Label 13900 6500 0    50   ~ 0
+PCI_AD18
+Text Label 13900 6700 0    50   ~ 0
+PCI_AD17
+Text Label 13900 6800 0    50   ~ 0
+PCI_AD20
+Text Label 13900 6900 0    50   ~ 0
+PCI_AD13
+Text Label 13900 7000 0    50   ~ 0
+PCI_AD7
+Text Label 13900 7300 0    50   ~ 0
+PCI_AD9
+Text Label 13900 7400 0    50   ~ 0
+PCI_AD16
+Text Label 13900 7900 0    50   ~ 0
+PCI_AD6
+Text Label 13900 8000 0    50   ~ 0
+PCI_AD5
+Text Label 13900 8100 0    50   ~ 0
+PCI_AD3
+Text Label 13900 8300 0    50   ~ 0
+PCI_AD15
+Text Label 13900 8500 0    50   ~ 0
+PCI_AD0
+Text Label 13900 8700 0    50   ~ 0
+PCI_AD19
+Text Label 13900 8800 0    50   ~ 0
+PCI_AD14
+Text Label 13900 9000 0    50   ~ 0
+PCI_AD10
+Text Label 13900 9100 0    50   ~ 0
+PCI_AD2
+Text Label 13900 9200 0    50   ~ 0
+PCI_AD1
+Text Label 13900 9300 0    50   ~ 0
+PCI_AD8
+Text Label 13900 9400 0    50   ~ 0
+PCI_AD4
+Text Label 13900 9500 0    50   ~ 0
+PCI_AD11
+Text Label 13900 9600 0    50   ~ 0
+PCI_AD12
+Text HLabel 6300 9500 0    50   Input ~ 0
+~PCI_REQ[0..3]
+Text HLabel 6300 9600 0    50   Output ~ 0
+~PCI_GNT[0..3]
+Text Label 7000 9500 2    50   ~ 0
+~PCI_REQ[0..3]
+Text Label 7000 9600 2    50   ~ 0
+~PCI_GNT[0..3]
+Text Label 13900 3600 0    50   ~ 0
+~PCI_GNT0
+Text Label 13900 3700 0    50   ~ 0
+~PCI_GNT2
+Text Label 13900 3800 0    50   ~ 0
+~PCI_REQ2
+Text Label 13900 4300 0    50   ~ 0
+~PCI_REQ0
+Text Label 13900 4400 0    50   ~ 0
+~PCI_GNT1
+Text Label 13900 4800 0    50   ~ 0
+~PCI_REQ1
+Text Label 13900 5200 0    50   ~ 0
+~PCI_GNT3
+Text Label 13900 5300 0    50   ~ 0
+~PCI_REQ3
+Text HLabel 6300 9700 0    50   Input ~ 0
+~PCI_INT[0..3]
+Text Label 7000 9700 2    50   ~ 0
+~PCI_INT[0..3]
+Text Label 13900 2100 0    50   ~ 0
+~PCI_INT0
+Text Label 13900 2200 0    50   ~ 0
+~PCI_INT1
+Text Label 13900 2600 0    50   ~ 0
+~PCI_INT2
+Text Label 13900 3300 0    50   ~ 0
+~PCI_INT3
+Text HLabel 13900 3400 0    50   Output ~ 0
+PCI_CLK
+Text HLabel 6300 9800 0    50   Output ~ 0
+~PCI_CBE[0..3]
+Text Label 7000 9800 2    50   ~ 0
+~PCI_CBE[0..3]
+Text Label 13900 5900 0    50   ~ 0
+~PCI_CBE3
+Text Label 13900 6600 0    50   ~ 0
+~PCI_CBE2
+Text Label 13900 8600 0    50   ~ 0
+~PCI_CBE1
+Text Label 13900 8900 0    50   ~ 0
+~PCI_CBE0
+Text HLabel 13900 7700 0    50   Output ~ 0
+~PCI_FRAME
+Text HLabel 13900 7500 0    50   Input ~ 0
+~PCI_TRDY
+Text HLabel 13900 7600 0    50   Output ~ 0
+~PCI_IRDY
+Text HLabel 13900 7800 0    50   Input ~ 0
+~PCI_DEVSEL
+Text HLabel 13900 6300 0    50   Input ~ 0
+~PCI_STOP
+Text HLabel 13900 7100 0    50   BiDi ~ 0
+~PCI_SERR
 Wire Wire Line
 	17400 1700 17800 1700
 Wire Wire Line
@@ -1277,33 +1346,33 @@ Wire Wire Line
 Wire Wire Line
 	14000 4600 14300 4600
 Wire Wire Line
-	14200 2100 14300 2100
+	13900 2100 14300 2100
 Wire Wire Line
-	14200 2200 14300 2200
+	13900 2200 14300 2200
 Wire Wire Line
-	14200 2600 14300 2600
+	13900 2600 14300 2600
 Wire Wire Line
-	14200 3300 14300 3300
+	13900 3300 14300 3300
 Wire Wire Line
 	14200 4200 14300 4200
 Wire Wire Line
-	14200 3400 14300 3400
+	13900 3400 14300 3400
 Wire Wire Line
-	14200 3600 14300 3600
+	13900 3600 14300 3600
 Wire Wire Line
-	14200 4300 14300 4300
+	13900 4300 14300 4300
 Wire Wire Line
-	14200 4400 14300 4400
+	13900 4400 14300 4400
 Wire Wire Line
-	14200 4800 14300 4800
+	13900 4800 14300 4800
 Wire Wire Line
-	14200 3800 14300 3800
+	13900 3800 14300 3800
 Wire Wire Line
-	14200 3700 14300 3700
+	13900 3700 14300 3700
 Wire Wire Line
-	14200 5200 14300 5200
+	13900 5200 14300 5200
 Wire Wire Line
-	14200 5300 14300 5300
+	13900 5300 14300 5300
 Wire Wire Line
 	10800 7100 11200 7100
 Wire Wire Line
@@ -1551,7 +1620,7 @@ Wire Wire Line
 Wire Wire Line
 	10800 6200 11200 6200
 Wire Wire Line
-	10800 7900 11200 7900
+	10800 7800 11200 7800
 Wire Wire Line
 	14200 2700 14300 2700
 Wire Wire Line
@@ -1579,136 +1648,122 @@ Wire Wire Line
 Wire Wire Line
 	14000 1700 14300 1700
 Wire Wire Line
-	14200 5400 14300 5400
-Wire Wire Line
 	14100 10000 14300 10000
 Wire Wire Line
 	14200 10100 14300 10100
 Connection ~ 14200 10000
 Wire Wire Line
-	14200 5600 14300 5600
+	13900 5600 14300 5600
 Wire Wire Line
-	14200 5100 14300 5100
+	13900 5100 14300 5100
 Wire Wire Line
-	14300 4900 14200 4900
+	14300 4900 13900 4900
 Wire Wire Line
-	14200 5000 14300 5000
+	13900 5000 14300 5000
 Wire Wire Line
-	14200 5700 14300 5700
+	13900 5700 14300 5700
 Wire Wire Line
-	14200 6000 14300 6000
+	13900 6000 14300 6000
 Wire Wire Line
-	14200 5800 14300 5800
+	13900 5800 14300 5800
 Wire Wire Line
-	14200 6100 14300 6100
-Text GLabel 14200 5900 0    50   Input ~ 0
-/PerBus/PCI_CBE#3
+	13900 6100 14300 6100
 Wire Wire Line
-	14200 5900 14300 5900
+	13900 5900 14300 5900
 Wire Wire Line
-	14200 6200 14300 6200
+	13900 6200 14300 6200
 Wire Wire Line
-	14200 5500 14300 5500
+	13900 5500 14300 5500
 Wire Wire Line
-	14200 6400 14300 6400
+	13900 6400 14300 6400
 Wire Wire Line
-	14200 6800 14300 6800
+	13900 6800 14300 6800
 Wire Wire Line
-	14200 8700 14300 8700
+	13900 8700 14300 8700
 Wire Wire Line
-	14200 6500 14300 6500
+	13900 6500 14300 6500
 Wire Wire Line
-	14200 6700 14300 6700
+	13900 6700 14300 6700
 Wire Wire Line
-	14200 7400 14300 7400
-Text GLabel 14200 6600 0    50   Input ~ 0
-/PerBus/PCI_CBE#2
+	13900 7400 14300 7400
 Wire Wire Line
-	14200 6600 14300 6600
-Text GLabel 14200 7700 0    50   Input ~ 0
-/PerBus/PCI_FRAME#
+	13900 6600 14300 6600
 Wire Wire Line
-	14300 7700 14200 7700
-Text GLabel 14200 7600 0    50   Input ~ 0
-/PerBus/PCI_IRDY#
+	14300 7700 13900 7700
 Wire Wire Line
-	14200 7600 14300 7600
-Text GLabel 14200 7500 0    50   Input ~ 0
-/PerBus/PCI_TRDY#
+	13900 7600 14300 7600
 Wire Wire Line
-	14200 7500 14300 7500
-Text GLabel 14200 7800 0    50   Input ~ 0
-/PerBus/PCI_DEVSEL#
+	13900 7500 14300 7500
 Wire Wire Line
-	14200 7800 14300 7800
-Text GLabel 14200 6300 0    50   Input ~ 0
-/PerBus/PCI_STOP#
+	13900 7800 14300 7800
 Wire Wire Line
-	14300 6300 14200 6300
-Text GLabel 14200 8200 0    50   Input ~ 0
-/PerBus/PCI_LOCK#
+	14300 6300 13900 6300
 Wire Wire Line
-	14200 8200 14300 8200
-Text GLabel 14200 8400 0    50   Input ~ 0
-/PerBus/PCI_PERR#
+	13900 8200 14300 8200
 Wire Wire Line
-	14200 8400 14300 8400
-Text GLabel 14200 7100 0    50   Input ~ 0
-/PerBus/PCI_SERR#
+	13900 8400 14300 8400
 Wire Wire Line
-	14200 7100 14300 7100
-Text GLabel 14200 7200 0    50   Input ~ 0
-/PerBus/PCI_PAR
+	13900 7100 14300 7100
 Wire Wire Line
-	14200 7200 14300 7200
-Text GLabel 14200 8300 0    50   Input ~ 0
-/PerBus/PCI_AD15
+	13900 7200 14300 7200
 Wire Wire Line
-	14200 8300 14300 8300
-Text GLabel 14200 8600 0    50   Input ~ 0
-/PerBus/PCI_CBE#1
+	13900 8300 14300 8300
 Wire Wire Line
-	14200 8600 14300 8600
+	13900 8600 14300 8600
 Wire Wire Line
-	14200 8800 14300 8800
+	13900 8800 14300 8800
 Wire Wire Line
-	14200 6900 14300 6900
+	13900 6900 14300 6900
 Wire Wire Line
-	14200 9600 14300 9600
+	13900 9600 14300 9600
 Wire Wire Line
-	14200 9500 14300 9500
-Text GLabel 14200 8900 0    50   Input ~ 0
-/PerBus/PCI_CBE#0
+	13900 9500 14300 9500
 Wire Wire Line
-	14200 8100 14300 8100
+	13900 8100 14300 8100
 Wire Wire Line
-	14200 9100 14300 9100
+	13900 9100 14300 9100
 Wire Wire Line
-	14200 7900 14300 7900
+	13900 7900 14300 7900
 Wire Wire Line
-	14200 8000 14300 8000
+	13900 8000 14300 8000
 Wire Wire Line
-	14200 8500 14300 8500
+	13900 8500 14300 8500
 Wire Wire Line
-	14200 9400 14300 9400
+	13900 9400 14300 9400
 Wire Wire Line
-	14200 9200 14300 9200
+	13900 9200 14300 9200
 Wire Wire Line
-	14200 8900 14300 8900
+	13900 8900 14300 8900
 Wire Wire Line
-	14200 9000 14300 9000
+	13900 9000 14300 9000
 Wire Wire Line
-	14200 9300 14300 9300
+	13900 9300 14300 9300
 Wire Wire Line
-	14200 7000 14300 7000
+	13900 7000 14300 7000
 Wire Wire Line
-	14200 7300 14300 7300
-Text Label 4000 3800 0    50   ~ 0
-SDRAMCLK
+	13900 7300 14300 7300
 Wire Wire Line
 	4900 3800 4000 3800
-Text Label 10400 4800 0    50   ~ 0
-PCICLK
 Wire Wire Line
 	10400 4800 11200 4800
+Wire Bus Line
+	4400 9400 5200 9400
+Wire Bus Line
+	6300 9400 7000 9400
+Wire Bus Line
+	7000 9600 6300 9600
+Wire Bus Line
+	7000 9500 6300 9500
+Wire Bus Line
+	7000 9700 6300 9700
+Wire Bus Line
+	6300 9800 7000 9800
+Text HLabel 13900 8400 0    50   BiDi ~ 0
+~PCI_PERR
+Text HLabel 13900 8200 0    50   BiDi ~ 0
+~PCI_LOCK
+Text HLabel 13900 7200 0    50   BiDi ~ 0
+PCI_PAR
+Text Notes 13900 5400 0    50   ~ 0
+Free
 $EndSCHEMATC

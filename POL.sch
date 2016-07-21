@@ -1,0 +1,354 @@
+EESchema Schematic File Version 2
+LIBS:Abracon
+LIBS:Altera
+LIBS:AnalogDevices
+LIBS:AOS
+LIBS:Atmel
+LIBS:conn-2mm
+LIBS:conn-100mil
+LIBS:conn-amphenol
+LIBS:conn-assmann
+LIBS:conn-cui
+LIBS:conn-fci
+LIBS:conn-jae
+LIBS:conn-linx
+LIBS:conn-molex
+LIBS:conn-tagconnect
+LIBS:conn-te
+LIBS:conn-test
+LIBS:DiodesInc
+LIBS:display
+LIBS:electomech-misc
+LIBS:_electromech
+LIBS:Fairchild
+LIBS:FTDI
+LIBS:Intersil
+LIBS:Lattice
+LIBS:_linear
+LIBS:LinearTech
+LIBS:Littelfuse
+LIBS:logic-4000
+LIBS:logic-7400
+LIBS:MACOM
+LIBS:maxim
+LIBS:mechanical
+LIBS:Microchip
+LIBS:Micron
+LIBS:NXP
+LIBS:onsemi
+LIBS:_passive
+LIBS:pasv-BelFuse
+LIBS:pasv-BiTech
+LIBS:pasv-Bourns
+LIBS:pasv-cap
+LIBS:pasv-ind
+LIBS:pasv-Murata
+LIBS:pasv-res
+LIBS:pasv-TDK
+LIBS:pasv-xtal
+LIBS:pcb
+LIBS:power
+LIBS:Recom
+LIBS:_semi
+LIBS:semi-diode-DiodesInc
+LIBS:semi-diode-generic
+LIBS:semi-diode-MCC
+LIBS:semi-diode-NXP
+LIBS:semi-diode-OnSemi
+LIBS:semi-diode-Semtech
+LIBS:semi-diode-ST
+LIBS:semi-diode-Toshiba
+LIBS:semi-opto-generic
+LIBS:semi-opto-liteon
+LIBS:semi-thyristor-generic
+LIBS:semi-trans-AOS
+LIBS:semi-trans-DiodesInc
+LIBS:semi-trans-EPC
+LIBS:semi-trans-Fairchild
+LIBS:semi-trans-generic
+LIBS:semi-trans-Infineon
+LIBS:semi-trans-IRF
+LIBS:semi-trans-IXYS
+LIBS:semi-trans-NXP
+LIBS:semi-trans-OnSemi
+LIBS:semi-trans-ST
+LIBS:semi-trans-TI
+LIBS:semi-trans-Toshiba
+LIBS:semi-trans-Vishay
+LIBS:silabs
+LIBS:skyworks
+LIBS:ST
+LIBS:st_ic
+LIBS:supertex
+LIBS:symbol
+LIBS:TexasInstruments
+LIBS:Vishay
+LIBS:Xilinx
+LIBS:Richtek
+LIBS:semi-diode-Panasonic
+LIBS:c4puter-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 8 10
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L AP3429A U5
+U 1 1 57847EF2
+P 4700 2800
+F 0 "U5" H 4700 3267 50  0000 C CNN
+F 1 "AP3429A" H 4700 3176 50  0000 C CNN
+F 2 "smd-semi:SOT-23-5" H 4700 2400 50  0001 C CNN
+F 3 "http://www.diodes.com/_files/datasheets/AP3429.pdf" H 4700 2200 50  0001 C CNN
+F 4 "IC DIODESINC AP3429A" H 4700 2300 50  0001 C CNN "BOM"
+	1    4700 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L L-BOURNS-SRN3015 L?
+U 1 1 57847EFA
+P 5400 2600
+AR Path="/5765C2BD/57847EFA" Ref="L?"  Part="1" 
+AR Path="/5765C2BD/578475F5/57847EFA" Ref="L2"  Part="1" 
+F 0 "L2" V 5163 2600 50  0000 C CNN
+F 1 "2u2" V 5254 2600 50  0000 C CNN
+F 2 "manuf:BOURNS-SRN3015" H 5400 2650 60  0001 C CNN
+F 3 "" H 5400 2650 60  0000 C CNN
+F 4 "DIST DIGIKEY SRN3015-2R2MCT-ND" H 5400 2600 60  0001 C CNN "BOM"
+	1    5400 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L C-0805 C?
+U 1 1 57847F08
+P 6300 2800
+AR Path="/5765C2BD/57847F08" Ref="C?"  Part="1" 
+AR Path="/5765C2BD/578475F5/57847F08" Ref="C75"  Part="1" 
+F 0 "C75" H 6413 2846 50  0000 L CNN
+F 1 "22u" H 6413 2755 50  0000 L CNN
+F 2 "IPC7351-Nominal:CAPC2012X70" H 6300 2800 50  0001 C CNN
+F 3 "" H 6290 2775 60  0000 C CNN
+F 4 "CAP MLCC 22u ≥X5R 6.3V 20% [0805]" H 7100 3350 60  0001 C CNN "BOM"
+	1    6300 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 57847F0F
+P 6300 3000
+AR Path="/5765C2BD/57847F0F" Ref="#PWR?"  Part="1" 
+AR Path="/5765C2BD/578475F5/57847F0F" Ref="#PWR122"  Part="1" 
+F 0 "#PWR122" H 6300 3000 30  0001 C CNN
+F 1 "GND" H 6300 2930 30  0001 C CNN
+F 2 "" H 6300 3000 60  0000 C CNN
+F 3 "" H 6300 3000 60  0000 C CNN
+	1    6300 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-0805 C?
+U 1 1 57847F16
+P 6700 2800
+AR Path="/5765C2BD/57847F16" Ref="C?"  Part="1" 
+AR Path="/5765C2BD/578475F5/57847F16" Ref="C76"  Part="1" 
+F 0 "C76" H 6813 2846 50  0000 L CNN
+F 1 "22u" H 6813 2755 50  0000 L CNN
+F 2 "IPC7351-Nominal:CAPC2012X70" H 6700 2800 50  0001 C CNN
+F 3 "" H 6690 2775 60  0000 C CNN
+F 4 "CAP MLCC 22u ≥X5R 6.3V 20% [0805]" H 7500 3350 60  0001 C CNN "BOM"
+	1    6700 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 57847F1D
+P 6700 3000
+AR Path="/5765C2BD/57847F1D" Ref="#PWR?"  Part="1" 
+AR Path="/5765C2BD/578475F5/57847F1D" Ref="#PWR123"  Part="1" 
+F 0 "#PWR123" H 6700 3000 30  0001 C CNN
+F 1 "GND" H 6700 2930 30  0001 C CNN
+F 2 "" H 6700 3000 60  0000 C CNN
+F 3 "" H 6700 3000 60  0000 C CNN
+	1    6700 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-0805 C?
+U 1 1 57847F24
+P 3700 3000
+AR Path="/5765C2BD/57847F24" Ref="C?"  Part="1" 
+AR Path="/5765C2BD/578475F5/57847F24" Ref="C57"  Part="1" 
+F 0 "C57" H 3813 3046 50  0000 L CNN
+F 1 "22u" H 3813 2955 50  0000 L CNN
+F 2 "IPC7351-Nominal:CAPC2012X70" H 3700 3000 50  0001 C CNN
+F 3 "" H 3690 2975 60  0000 C CNN
+F 4 "CAP MLCC 22u ≥X5R 6.3V 20% [0805]" H 4500 3550 60  0001 C CNN "BOM"
+	1    3700 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 57847F2B
+P 3700 3200
+AR Path="/5765C2BD/57847F2B" Ref="#PWR?"  Part="1" 
+AR Path="/5765C2BD/578475F5/57847F2B" Ref="#PWR120"  Part="1" 
+F 0 "#PWR120" H 3700 3200 30  0001 C CNN
+F 1 "GND" H 3700 3130 30  0001 C CNN
+F 2 "" H 3700 3200 60  0000 C CNN
+F 3 "" H 3700 3200 60  0000 C CNN
+	1    3700 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 57847F31
+P 4300 3200
+AR Path="/5765C2BD/57847F31" Ref="#PWR?"  Part="1" 
+AR Path="/5765C2BD/578475F5/57847F31" Ref="#PWR121"  Part="1" 
+F 0 "#PWR121" H 4300 3200 30  0001 C CNN
+F 1 "GND" H 4300 3130 30  0001 C CNN
+F 2 "" H 4300 3200 60  0000 C CNN
+F 3 "" H 4300 3200 60  0000 C CNN
+	1    4300 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-0402 R?
+U 1 1 57847F48
+P 5800 2800
+AR Path="/5765C2BD/57847F48" Ref="R?"  Part="1" 
+AR Path="/5765C2BD/578475F5/57847F48" Ref="R61"  Part="1" 
+F 0 "R61" H 5863 2846 50  0000 L CNN
+F 1 "R-0402" H 5863 2755 50  0000 L CNN
+F 2 "IPC7351-Nominal:RESC1005X40" H 5800 2800 50  0001 C CNN
+F 3 "" H 5800 2850 60  0000 C CNN
+F 4 "RES SMD 1k 5% [0402]" H 6550 3350 60  0001 C CNN "BOM"
+	1    5800 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 3200 4300 3000
+Wire Wire Line
+	3700 3200 3700 3100
+Wire Wire Line
+	3700 2600 3700 2900
+Wire Wire Line
+	6700 3000 6700 2900
+Connection ~ 6300 2600
+Wire Wire Line
+	6700 2600 6700 2700
+Wire Wire Line
+	6300 3000 6300 2900
+Connection ~ 5800 2600
+Wire Wire Line
+	6300 2600 6300 2700
+Connection ~ 5600 3000
+Wire Wire Line
+	5600 2900 5600 3000
+Connection ~ 5600 2600
+Wire Wire Line
+	5600 2600 5600 2700
+Connection ~ 5800 3000
+Wire Wire Line
+	5100 3000 5800 3000
+Wire Wire Line
+	5800 2900 5800 3400
+Wire Wire Line
+	5800 2600 5800 2700
+Wire Wire Line
+	5500 2600 8400 2600
+Wire Wire Line
+	5300 2600 5100 2600
+Connection ~ 6700 2600
+Wire Wire Line
+	3500 2600 4300 2600
+Wire Wire Line
+	4300 2800 4100 2800
+Wire Wire Line
+	4100 2800 4100 4000
+Connection ~ 3700 2600
+Connection ~ 7400 2600
+$Comp
+L C-0402 C?
+U 1 1 57847F9F
+P 5600 2800
+AR Path="/5765C2BD/57847F9F" Ref="C?"  Part="1" 
+AR Path="/5765C2BD/578475F5/57847F9F" Ref="C59"  Part="1" 
+F 0 "C59" H 5487 2846 50  0000 R CNN
+F 1 "C-0402" H 5487 2755 50  0000 R CNN
+F 2 "IPC7351-Nominal:CAPC1005X55" H 5600 2800 50  0001 C CNN
+F 3 "" H 5590 2775 60  0000 C CNN
+F 4 "CAP MLCC 100pF C0G 50V 5% [0402]" H 6400 3350 60  0001 C CNN "BOM"
+	1    5600 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 3400 5400 3400
+Text HLabel 5400 3400 0    50   UnSpc ~ 0
+RFB
+Wire Wire Line
+	7400 2600 7400 3200
+Wire Wire Line
+	7400 3400 7400 3500
+$Comp
+L R-0603 R?
+U 1 1 57847F61
+P 7400 3600
+AR Path="/5765C2BD/57847F61" Ref="R?"  Part="1" 
+AR Path="/5765C2BD/578475F5/57847F61" Ref="R62"  Part="1" 
+F 0 "R62" H 7463 3646 50  0000 L CNN
+F 1 "100" H 7463 3555 50  0000 L CNN
+F 2 "IPC7351-Nominal:RESC1608X50" H 7400 3600 50  0001 C CNN
+F 3 "" H 7400 3650 60  0000 C CNN
+F 4 "RES SMD 100 1% [0603]" H 8150 4150 60  0001 C CNN "BOM"
+	1    7400 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR124
+U 1 1 578483BA
+P 7400 3750
+F 0 "#PWR124" H 7400 3750 30  0001 C CNN
+F 1 "GND" H 7400 3680 30  0001 C CNN
+F 2 "" H 7400 3750 60  0000 C CNN
+F 3 "" H 7400 3750 60  0000 C CNN
+	1    7400 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 3750 7400 3700
+Wire Wire Line
+	3500 4000 7100 4000
+Wire Wire Line
+	7100 4000 7100 3250
+Wire Wire Line
+	7100 3250 7300 3250
+$Comp
+L BSH203 Q5
+U 1 1 5784C00E
+P 7350 3300
+F 0 "Q5" H 7477 3346 50  0000 L CNN
+F 1 "BSH203" H 7477 3255 50  0000 L CNN
+F 2 "smd-semi:SOT-23" H 7350 2950 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/BSH203.pdf" H 7350 3150 50  0001 C CNN
+F 4 "PMOS NXP BSH203" H 7350 3050 50  0001 C CNN "BOM"
+	1    7350 3300
+	1    0    0    -1  
+$EndComp
+Text HLabel 3500 4000 0    50   UnSpc ~ 0
+EN
+Connection ~ 4100 4000
+Text HLabel 3500 2600 0    50   Input ~ 0
+VIN
+Text HLabel 8400 2600 2    50   Output ~ 0
+VOUT
+$EndSCHEMATC

@@ -90,7 +90,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 4 9
+Sheet 3 9
 Title ""
 Date ""
 Rev ""
@@ -121,10 +121,8 @@ Text Label 1300 1100 0    50   ~ 0
 PCI_TDI
 Text Label 1300 1200 0    50   ~ 0
 PCI_P5
-Text Label 1300 1300 0    50   ~ 0
-PCI_INTA#
 Text Label 1300 1400 0    50   ~ 0
-PCI_INTC#
+~INT2
 Text Label 1300 1500 0    50   ~ 0
 PCI_P5
 NoConn ~ 1800 1600
@@ -133,12 +131,10 @@ PCI_VIO
 NoConn ~ 1800 1800
 Text Label 1300 2000 0    50   ~ 0
 PCI_P3V3AUX
-Text Label 1300 2100 0    50   ~ 0
-PCI_RST#
 Text Label 1300 2200 0    50   ~ 0
 PCI_VIO
 Text Label 1300 2300 0    50   ~ 0
-PCI_GNT#0
+~GNT0
 $Comp
 L GND #PWR9
 U 1 1 57696D94
@@ -150,16 +146,14 @@ F 3 "" H 1700 2400 60  0000 C CNN
 	1    1700 2400
 	0    1    1    0   
 $EndComp
-Text Label 1300 2500 0    50   ~ 0
-PCI_PME#
 Text Label 1300 2600 0    50   ~ 0
-PCI_AD30
+AD30
 Text Label 1300 2700 0    50   ~ 0
 PCI_P3V3
 Text Label 1300 2800 0    50   ~ 0
-PCI_AD28
+AD28
 Text Label 1300 2900 0    50   ~ 0
-PCI_AD26
+AD26
 $Comp
 L GND #PWR10
 U 1 1 57696E02
@@ -172,15 +166,15 @@ F 3 "" H 1700 3000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 1300 3100 0    50   ~ 0
-PCI_AD24
+AD24
 Text Label 1300 3200 0    50   ~ 0
 PCI_IDSEL0
 Text Label 1300 3300 0    50   ~ 0
 PCI_P3V3
 Text Label 1300 3400 0    50   ~ 0
-PCI_AD22
+AD22
 Text Label 1300 3500 0    50   ~ 0
-PCI_AD20
+AD20
 $Comp
 L GND #PWR11
 U 1 1 57696E77
@@ -193,13 +187,11 @@ F 3 "" H 1700 3600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 1300 3700 0    50   ~ 0
-PCI_AD18
+AD18
 Text Label 1300 3800 0    50   ~ 0
-PCI_AD16
+AD16
 Text Label 1300 3900 0    50   ~ 0
 PCI_P3V3
-Text Label 1300 4000 0    50   ~ 0
-PCI_FRAME#
 $Comp
 L GND #PWR12
 U 1 1 57696EE4
@@ -211,8 +203,6 @@ F 3 "" H 1700 4100 60  0000 C CNN
 	1    1700 4100
 	0    1    1    0   
 $EndComp
-Text Label 1300 4200 0    50   ~ 0
-PCI_TRDY#
 $Comp
 L GND #PWR13
 U 1 1 57696F43
@@ -224,14 +214,8 @@ F 3 "" H 1700 4300 60  0000 C CNN
 	1    1700 4300
 	0    1    1    0   
 $EndComp
-Text Label 1300 4400 0    50   ~ 0
-PCI_STOP#
 Text Label 1300 4500 0    50   ~ 0
 PCI_P3V3
-Text Label 1300 4600 0    50   ~ 0
-PCI_SMBCLK
-Text Label 1300 4700 0    50   ~ 0
-PCI_SMBDAT
 $Comp
 L GND #PWR14
 U 1 1 57696FAF
@@ -243,16 +227,14 @@ F 3 "" H 1700 4800 60  0000 C CNN
 	1    1700 4800
 	0    1    1    0   
 $EndComp
-Text Label 1300 4900 0    50   ~ 0
-PCI_PAR
 Text Label 1300 5000 0    50   ~ 0
-PCI_AD15
+AD15
 Text Label 1300 5100 0    50   ~ 0
 PCI_P3V3
 Text Label 1300 5200 0    50   ~ 0
-PCI_AD13
+AD13
 Text Label 1300 5300 0    50   ~ 0
-PCI_AD11
+AD11
 $Comp
 L GND #PWR15
 U 1 1 5769701E
@@ -265,7 +247,7 @@ F 3 "" H 1700 5400 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 1300 5500 0    50   ~ 0
-PCI_AD09
+AD9
 $Comp
 L GND #PWR16
 U 1 1 5769707E
@@ -289,13 +271,13 @@ F 3 "" H 1700 5700 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 1300 5800 0    50   ~ 0
-PCI_CBE#0
+~CBE0
 Text Label 1300 5900 0    50   ~ 0
 PCI_P3V3
 Text Label 1300 6000 0    50   ~ 0
-PCI_AD06
+AD6
 Text Label 1300 6100 0    50   ~ 0
-PCI_AD04
+AD4
 $Comp
 L GND #PWR18
 U 1 1 5769713C
@@ -308,9 +290,9 @@ F 3 "" H 1700 6200 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 1300 6300 0    50   ~ 0
-PCI_AD02
+AD2
 Text Label 1300 6400 0    50   ~ 0
-PCI_AD00
+AD0
 Text Label 1300 6500 0    50   ~ 0
 PCI_VIO
 Text Label 1300 6700 0    50   ~ 0
@@ -339,14 +321,14 @@ PCI_P5
 Text Label 2800 1300 2    50   ~ 0
 PCI_P5
 Text Label 2800 1400 2    50   ~ 0
-PCI_INTB#
+~INT1
 Text Label 2800 1500 2    50   ~ 0
-PCI_INTD#
+~INT3
 Text Label 2800 1600 2    50   ~ 0
-PCI_PRSNT1#0
+~PRSNT1_0
 NoConn ~ 2300 1700
 Text Label 2800 1800 2    50   ~ 0
-PCI_PRSNT2#0
+~PRSNT2_0
 NoConn ~ 2300 2000
 $Comp
 L GND #PWR20
@@ -359,8 +341,6 @@ F 3 "" H 2400 2100 60  0000 C CNN
 	1    2400 2100
 	0    -1   -1   0   
 $EndComp
-Text Label 2800 2200 2    50   ~ 0
-PCI_CLK
 $Comp
 L GND #PWR21
 U 1 1 57697A7D
@@ -373,13 +353,9 @@ F 3 "" H 2400 2300 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Text Label 2800 2400 2    50   ~ 0
-PCI_REQ#0
+~REQ0
 Text Label 2800 2500 2    50   ~ 0
 PCI_VIO
-Text Label 2800 2600 2    50   ~ 0
-PCI_AD31
-Text Label 2800 2700 2    50   ~ 0
-PCI_AD29
 $Comp
 L GND #PWR22
 U 1 1 57697B35
@@ -391,16 +367,10 @@ F 3 "" H 2400 2800 60  0000 C CNN
 	1    2400 2800
 	0    -1   -1   0   
 $EndComp
-Text Label 2800 2900 2    50   ~ 0
-PCI_AD27
-Text Label 2800 3000 2    50   ~ 0
-PCI_AD25
 Text Label 2800 3100 2    50   ~ 0
 PCI_P3V3
 Text Label 2800 3200 2    50   ~ 0
-PCI_CBE#3
-Text Label 2800 3300 2    50   ~ 0
-PCI_AD23
+~CBE3
 $Comp
 L GND #PWR23
 U 1 1 57697C03
@@ -412,16 +382,10 @@ F 3 "" H 2400 3400 60  0000 C CNN
 	1    2400 3400
 	0    -1   -1   0   
 $EndComp
-Text Label 2800 3500 2    50   ~ 0
-PCI_AD21
-Text Label 2800 3600 2    50   ~ 0
-PCI_AD19
 Text Label 2800 3700 2    50   ~ 0
 PCI_P3V3
-Text Label 2800 3800 2    50   ~ 0
-PCI_AD17
 Text Label 2800 3900 2    50   ~ 0
-PCI_CBE#2
+~CBE2
 $Comp
 L GND #PWR24
 U 1 1 57697CBC
@@ -433,26 +397,14 @@ F 3 "" H 2400 4000 60  0000 C CNN
 	1    2400 4000
 	0    -1   -1   0   
 $EndComp
-Text Label 2800 4100 2    50   ~ 0
-PCI_IRDY#
 Text Label 2800 4200 2    50   ~ 0
 PCI_P3V3
-Text Label 2800 4300 2    50   ~ 0
-PCI_DEVSEL#
-Text Label 2800 4500 2    50   ~ 0
-PCI_LOCK#
-Text Label 2800 4600 2    50   ~ 0
-PCI_PERR#
 Text Label 2800 4700 2    50   ~ 0
 PCI_P3V3
-Text Label 2800 4800 2    50   ~ 0
-PCI_SERR#
 Text Label 2800 4900 2    50   ~ 0
 PCI_P3V3
 Text Label 2800 5000 2    50   ~ 0
-PCI_CBE#1
-Text Label 2800 5100 2    50   ~ 0
-PCI_AD14
+~CBE1
 $Comp
 L GND #PWR26
 U 1 1 57697DA7
@@ -464,12 +416,6 @@ F 3 "" H 2400 5200 60  0000 C CNN
 	1    2400 5200
 	0    -1   -1   0   
 $EndComp
-Text Label 2800 5300 2    50   ~ 0
-PCI_AD12
-Text Label 2800 5400 2    50   ~ 0
-PCI_AD10
-Text Label 2800 5500 2    50   ~ 0
-PCI_M66EN
 $Comp
 L GND #PWR27
 U 1 1 57697E4C
@@ -492,16 +438,12 @@ F 3 "" H 2400 5700 60  0000 C CNN
 	1    2400 5700
 	0    -1   -1   0   
 $EndComp
-Text Label 2800 5800 2    50   ~ 0
-PCI_AD08
-Text Label 2800 5900 2    50   ~ 0
-PCI_AD07
 Text Label 2800 6000 2    50   ~ 0
 PCI_P3V3
 Text Label 2800 6100 2    50   ~ 0
-PCI_AD05
+AD5
 Text Label 2800 6200 2    50   ~ 0
-PCI_AD03
+AD3
 $Comp
 L GND #PWR29
 U 1 1 57697F85
@@ -513,8 +455,6 @@ F 3 "" H 2400 6300 60  0000 C CNN
 	1    2400 6300
 	0    -1   -1   0   
 $EndComp
-Text Label 2800 6400 2    50   ~ 0
-PCI_AD01
 Text Label 2800 6500 2    50   ~ 0
 PCI_VIO
 Text Label 2800 6700 2    50   ~ 0
@@ -543,9 +483,9 @@ PCI_TDI
 Text Label 4200 1200 0    50   ~ 0
 PCI_P5
 Text Label 5700 1500 2    50   ~ 0
-PCI_INTA#
+~INT0
 Text Label 5700 1400 2    50   ~ 0
-PCI_INTC#
+~INT2
 Text Label 4200 1500 0    50   ~ 0
 PCI_P5
 NoConn ~ 4700 1600
@@ -554,12 +494,10 @@ PCI_VIO
 NoConn ~ 4700 1800
 Text Label 4200 2000 0    50   ~ 0
 PCI_P3V3AUX
-Text Label 4200 2100 0    50   ~ 0
-PCI_RST#
 Text Label 4200 2200 0    50   ~ 0
 PCI_VIO
 Text Label 4200 2300 0    50   ~ 0
-PCI_GNT#1
+~GNT1
 $Comp
 L GND #PWR30
 U 1 1 57698711
@@ -571,16 +509,12 @@ F 3 "" H 4600 2400 60  0000 C CNN
 	1    4600 2400
 	0    1    1    0   
 $EndComp
-Text Label 4200 2500 0    50   ~ 0
-PCI_PME#
-Text Label 4200 2600 0    50   ~ 0
-PCI_AD30
 Text Label 4200 2700 0    50   ~ 0
 PCI_P3V3
 Text Label 4200 2800 0    50   ~ 0
-PCI_AD28
+AD28
 Text Label 4200 2900 0    50   ~ 0
-PCI_AD26
+AD26
 $Comp
 L GND #PWR31
 U 1 1 5769871D
@@ -593,15 +527,15 @@ F 3 "" H 4600 3000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 4200 3100 0    50   ~ 0
-PCI_AD24
+AD24
 Text Label 4200 3200 0    50   ~ 0
 PCI_IDSEL1
 Text Label 4200 3300 0    50   ~ 0
 PCI_P3V3
 Text Label 4200 3400 0    50   ~ 0
-PCI_AD22
+AD22
 Text Label 4200 3500 0    50   ~ 0
-PCI_AD20
+AD20
 $Comp
 L GND #PWR32
 U 1 1 57698729
@@ -614,13 +548,11 @@ F 3 "" H 4600 3600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 4200 3700 0    50   ~ 0
-PCI_AD18
+AD18
 Text Label 4200 3800 0    50   ~ 0
-PCI_AD16
+AD16
 Text Label 4200 3900 0    50   ~ 0
 PCI_P3V3
-Text Label 4200 4000 0    50   ~ 0
-PCI_FRAME#
 $Comp
 L GND #PWR33
 U 1 1 57698734
@@ -632,8 +564,6 @@ F 3 "" H 4600 4100 60  0000 C CNN
 	1    4600 4100
 	0    1    1    0   
 $EndComp
-Text Label 4200 4200 0    50   ~ 0
-PCI_TRDY#
 $Comp
 L GND #PWR34
 U 1 1 5769873C
@@ -645,14 +575,8 @@ F 3 "" H 4600 4300 60  0000 C CNN
 	1    4600 4300
 	0    1    1    0   
 $EndComp
-Text Label 4200 4400 0    50   ~ 0
-PCI_STOP#
 Text Label 4200 4500 0    50   ~ 0
 PCI_P3V3
-Text Label 4200 4600 0    50   ~ 0
-PCI_SMBCLK
-Text Label 4200 4700 0    50   ~ 0
-PCI_SMBDAT
 $Comp
 L GND #PWR35
 U 1 1 57698747
@@ -664,16 +588,14 @@ F 3 "" H 4600 4800 60  0000 C CNN
 	1    4600 4800
 	0    1    1    0   
 $EndComp
-Text Label 4200 4900 0    50   ~ 0
-PCI_PAR
 Text Label 4200 5000 0    50   ~ 0
-PCI_AD15
+AD15
 Text Label 4200 5100 0    50   ~ 0
 PCI_P3V3
 Text Label 4200 5200 0    50   ~ 0
-PCI_AD13
+AD13
 Text Label 4200 5300 0    50   ~ 0
-PCI_AD11
+AD11
 $Comp
 L GND #PWR36
 U 1 1 57698753
@@ -686,7 +608,7 @@ F 3 "" H 4600 5400 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 4200 5500 0    50   ~ 0
-PCI_AD09
+AD9
 $Comp
 L GND #PWR37
 U 1 1 5769875B
@@ -710,13 +632,13 @@ F 3 "" H 4600 5700 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 4200 5800 0    50   ~ 0
-PCI_CBE#0
+~CBE0
 Text Label 4200 5900 0    50   ~ 0
 PCI_P3V3
 Text Label 4200 6000 0    50   ~ 0
-PCI_AD06
+AD6
 Text Label 4200 6100 0    50   ~ 0
-PCI_AD04
+AD4
 $Comp
 L GND #PWR39
 U 1 1 5769876D
@@ -729,9 +651,9 @@ F 3 "" H 4600 6200 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 4200 6300 0    50   ~ 0
-PCI_AD02
+AD2
 Text Label 4200 6400 0    50   ~ 0
-PCI_AD00
+AD0
 Text Label 4200 6500 0    50   ~ 0
 PCI_VIO
 Text Label 4200 6700 0    50   ~ 0
@@ -760,14 +682,14 @@ PCI_P5
 Text Label 5700 1300 2    50   ~ 0
 PCI_P5
 Text Label 4200 1300 0    50   ~ 0
-PCI_INTB#
+~INT1
 Text Label 4200 1400 0    50   ~ 0
-PCI_INTD#
+~INT3
 Text Label 5700 1600 2    50   ~ 0
-PCI_PRSNT1#1
+~PRSNT1_1
 NoConn ~ 5200 1700
 Text Label 5700 1800 2    50   ~ 0
-PCI_PRSNT2#1
+~PRSNT2_1
 NoConn ~ 5200 2000
 $Comp
 L GND #PWR41
@@ -780,8 +702,6 @@ F 3 "" H 5300 2100 60  0000 C CNN
 	1    5300 2100
 	0    -1   -1   0   
 $EndComp
-Text Label 5700 2200 2    50   ~ 0
-PCI_CLK
 $Comp
 L GND #PWR42
 U 1 1 576987C4
@@ -794,13 +714,13 @@ F 3 "" H 5300 2300 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Text Label 5700 2400 2    50   ~ 0
-PCI_REQ#1
+~REQ1
 Text Label 5700 2500 2    50   ~ 0
 PCI_VIO
 Text Label 5700 2600 2    50   ~ 0
-PCI_AD31
+AD31
 Text Label 5700 2700 2    50   ~ 0
-PCI_AD29
+AD29
 $Comp
 L GND #PWR43
 U 1 1 576987CF
@@ -813,15 +733,15 @@ F 3 "" H 5300 2800 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Text Label 5700 2900 2    50   ~ 0
-PCI_AD27
+AD27
 Text Label 5700 3000 2    50   ~ 0
-PCI_AD25
+AD25
 Text Label 5700 3100 2    50   ~ 0
 PCI_P3V3
 Text Label 5700 3200 2    50   ~ 0
-PCI_CBE#3
+~CBE3
 Text Label 5700 3300 2    50   ~ 0
-PCI_AD23
+AD23
 $Comp
 L GND #PWR44
 U 1 1 576987DB
@@ -834,15 +754,15 @@ F 3 "" H 5300 3400 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Text Label 5700 3500 2    50   ~ 0
-PCI_AD21
+AD21
 Text Label 5700 3600 2    50   ~ 0
-PCI_AD19
+AD19
 Text Label 5700 3700 2    50   ~ 0
 PCI_P3V3
 Text Label 5700 3800 2    50   ~ 0
-PCI_AD17
+AD17
 Text Label 5700 3900 2    50   ~ 0
-PCI_CBE#2
+~CBE2
 $Comp
 L GND #PWR45
 U 1 1 576987E7
@@ -854,26 +774,16 @@ F 3 "" H 5300 4000 60  0000 C CNN
 	1    5300 4000
 	0    -1   -1   0   
 $EndComp
-Text Label 5700 4100 2    50   ~ 0
-PCI_IRDY#
 Text Label 5700 4200 2    50   ~ 0
 PCI_P3V3
-Text Label 5700 4300 2    50   ~ 0
-PCI_DEVSEL#
-Text Label 5700 4500 2    50   ~ 0
-PCI_LOCK#
-Text Label 5700 4600 2    50   ~ 0
-PCI_PERR#
 Text Label 5700 4700 2    50   ~ 0
 PCI_P3V3
-Text Label 5700 4800 2    50   ~ 0
-PCI_SERR#
 Text Label 5700 4900 2    50   ~ 0
 PCI_P3V3
 Text Label 5700 5000 2    50   ~ 0
-PCI_CBE#1
+~CBE1
 Text Label 5700 5100 2    50   ~ 0
-PCI_AD14
+AD14
 $Comp
 L GND #PWR47
 U 1 1 576987F9
@@ -886,11 +796,9 @@ F 3 "" H 5300 5200 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Text Label 5700 5300 2    50   ~ 0
-PCI_AD12
+AD12
 Text Label 5700 5400 2    50   ~ 0
-PCI_AD10
-Text Label 5700 5500 2    50   ~ 0
-PCI_M66EN
+AD10
 $Comp
 L GND #PWR48
 U 1 1 57698803
@@ -914,15 +822,15 @@ F 3 "" H 5300 5700 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Text Label 5700 5800 2    50   ~ 0
-PCI_AD08
+AD8
 Text Label 5700 5900 2    50   ~ 0
-PCI_AD07
+AD7
 Text Label 5700 6000 2    50   ~ 0
 PCI_P3V3
 Text Label 5700 6100 2    50   ~ 0
-PCI_AD05
+AD5
 Text Label 5700 6200 2    50   ~ 0
-PCI_AD03
+AD3
 $Comp
 L GND #PWR50
 U 1 1 57698816
@@ -964,9 +872,9 @@ PCI_TDI
 Text Label 7000 1200 0    50   ~ 0
 PCI_P5
 Text Label 7000 1400 0    50   ~ 0
-PCI_INTA#
+~INT0
 Text Label 7000 1300 0    50   ~ 0
-PCI_INTC#
+~INT2
 Text Label 7000 1500 0    50   ~ 0
 PCI_P5
 NoConn ~ 7500 1600
@@ -975,12 +883,10 @@ PCI_VIO
 NoConn ~ 7500 1800
 Text Label 7000 2000 0    50   ~ 0
 PCI_P3V3AUX
-Text Label 7000 2100 0    50   ~ 0
-PCI_RST#
 Text Label 7000 2200 0    50   ~ 0
 PCI_VIO
 Text Label 7000 2300 0    50   ~ 0
-PCI_GNT#2
+~GNT2
 $Comp
 L GND #PWR52
 U 1 1 576988DB
@@ -992,16 +898,14 @@ F 3 "" H 7400 2400 60  0000 C CNN
 	1    7400 2400
 	0    1    1    0   
 $EndComp
-Text Label 7000 2500 0    50   ~ 0
-PCI_PME#
 Text Label 7000 2600 0    50   ~ 0
-PCI_AD30
+AD30
 Text Label 7000 2700 0    50   ~ 0
 PCI_P3V3
 Text Label 7000 2800 0    50   ~ 0
-PCI_AD28
+AD28
 Text Label 7000 2900 0    50   ~ 0
-PCI_AD26
+AD26
 $Comp
 L GND #PWR53
 U 1 1 576988E7
@@ -1014,15 +918,15 @@ F 3 "" H 7400 3000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 7000 3100 0    50   ~ 0
-PCI_AD24
+AD24
 Text Label 7000 3200 0    50   ~ 0
 PCI_IDSEL2
 Text Label 7000 3300 0    50   ~ 0
 PCI_P3V3
 Text Label 7000 3400 0    50   ~ 0
-PCI_AD22
+AD22
 Text Label 7000 3500 0    50   ~ 0
-PCI_AD20
+AD20
 $Comp
 L GND #PWR54
 U 1 1 576988F3
@@ -1035,13 +939,11 @@ F 3 "" H 7400 3600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 7000 3700 0    50   ~ 0
-PCI_AD18
+AD18
 Text Label 7000 3800 0    50   ~ 0
-PCI_AD16
+AD16
 Text Label 7000 3900 0    50   ~ 0
 PCI_P3V3
-Text Label 7000 4000 0    50   ~ 0
-PCI_FRAME#
 $Comp
 L GND #PWR55
 U 1 1 576988FE
@@ -1053,8 +955,6 @@ F 3 "" H 7400 4100 60  0000 C CNN
 	1    7400 4100
 	0    1    1    0   
 $EndComp
-Text Label 7000 4200 0    50   ~ 0
-PCI_TRDY#
 $Comp
 L GND #PWR56
 U 1 1 57698906
@@ -1066,14 +966,8 @@ F 3 "" H 7400 4300 60  0000 C CNN
 	1    7400 4300
 	0    1    1    0   
 $EndComp
-Text Label 7000 4400 0    50   ~ 0
-PCI_STOP#
 Text Label 7000 4500 0    50   ~ 0
 PCI_P3V3
-Text Label 7000 4600 0    50   ~ 0
-PCI_SMBCLK
-Text Label 7000 4700 0    50   ~ 0
-PCI_SMBDAT
 $Comp
 L GND #PWR57
 U 1 1 57698911
@@ -1085,16 +979,14 @@ F 3 "" H 7400 4800 60  0000 C CNN
 	1    7400 4800
 	0    1    1    0   
 $EndComp
-Text Label 7000 4900 0    50   ~ 0
-PCI_PAR
 Text Label 7000 5000 0    50   ~ 0
-PCI_AD15
+AD15
 Text Label 7000 5100 0    50   ~ 0
 PCI_P3V3
 Text Label 7000 5200 0    50   ~ 0
-PCI_AD13
+AD13
 Text Label 7000 5300 0    50   ~ 0
-PCI_AD11
+AD11
 $Comp
 L GND #PWR58
 U 1 1 5769891D
@@ -1107,7 +999,7 @@ F 3 "" H 7400 5400 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 7000 5500 0    50   ~ 0
-PCI_AD09
+AD9
 $Comp
 L GND #PWR59
 U 1 1 57698925
@@ -1131,13 +1023,13 @@ F 3 "" H 7400 5700 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 7000 5800 0    50   ~ 0
-PCI_CBE#0
+~CBE0
 Text Label 7000 5900 0    50   ~ 0
 PCI_P3V3
 Text Label 7000 6000 0    50   ~ 0
-PCI_AD06
+AD6
 Text Label 7000 6100 0    50   ~ 0
-PCI_AD04
+AD4
 $Comp
 L GND #PWR61
 U 1 1 57698937
@@ -1150,9 +1042,9 @@ F 3 "" H 7400 6200 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 7000 6300 0    50   ~ 0
-PCI_AD02
+AD2
 Text Label 7000 6400 0    50   ~ 0
-PCI_AD00
+AD0
 Text Label 7000 6500 0    50   ~ 0
 PCI_VIO
 Text Label 7000 6700 0    50   ~ 0
@@ -1181,14 +1073,14 @@ PCI_P5
 Text Label 8500 1300 2    50   ~ 0
 PCI_P5
 Text Label 8500 1500 2    50   ~ 0
-PCI_INTB#
+~INT1
 Text Label 8500 1400 2    50   ~ 0
-PCI_INTD#
+~INT3
 Text Label 8500 1600 2    50   ~ 0
-PCI_PRSNT1#2
+~PRSNT1_2
 NoConn ~ 8000 1700
 Text Label 8500 1800 2    50   ~ 0
-PCI_PRSNT2#2
+~PRSNT2_2
 NoConn ~ 8000 2000
 $Comp
 L GND #PWR63
@@ -1201,8 +1093,6 @@ F 3 "" H 8100 2100 60  0000 C CNN
 	1    8100 2100
 	0    -1   -1   0   
 $EndComp
-Text Label 8500 2200 2    50   ~ 0
-PCI_CLK
 $Comp
 L GND #PWR64
 U 1 1 5769898E
@@ -1215,13 +1105,13 @@ F 3 "" H 8100 2300 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Text Label 8500 2400 2    50   ~ 0
-PCI_REQ#2
+~REQ2
 Text Label 8500 2500 2    50   ~ 0
 PCI_VIO
 Text Label 8500 2600 2    50   ~ 0
-PCI_AD31
+AD31
 Text Label 8500 2700 2    50   ~ 0
-PCI_AD29
+AD29
 $Comp
 L GND #PWR65
 U 1 1 57698999
@@ -1234,15 +1124,15 @@ F 3 "" H 8100 2800 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Text Label 8500 2900 2    50   ~ 0
-PCI_AD27
+AD27
 Text Label 8500 3000 2    50   ~ 0
-PCI_AD25
+AD25
 Text Label 8500 3100 2    50   ~ 0
 PCI_P3V3
 Text Label 8500 3200 2    50   ~ 0
-PCI_CBE#3
+~CBE3
 Text Label 8500 3300 2    50   ~ 0
-PCI_AD23
+AD23
 $Comp
 L GND #PWR66
 U 1 1 576989A5
@@ -1255,15 +1145,15 @@ F 3 "" H 8100 3400 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Text Label 8500 3500 2    50   ~ 0
-PCI_AD21
+AD21
 Text Label 8500 3600 2    50   ~ 0
-PCI_AD19
+AD19
 Text Label 8500 3700 2    50   ~ 0
 PCI_P3V3
 Text Label 8500 3800 2    50   ~ 0
-PCI_AD17
+AD17
 Text Label 8500 3900 2    50   ~ 0
-PCI_CBE#2
+~CBE2
 $Comp
 L GND #PWR67
 U 1 1 576989B1
@@ -1275,26 +1165,16 @@ F 3 "" H 8100 4000 60  0000 C CNN
 	1    8100 4000
 	0    -1   -1   0   
 $EndComp
-Text Label 8500 4100 2    50   ~ 0
-PCI_IRDY#
 Text Label 8500 4200 2    50   ~ 0
 PCI_P3V3
-Text Label 8500 4300 2    50   ~ 0
-PCI_DEVSEL#
-Text Label 8500 4500 2    50   ~ 0
-PCI_LOCK#
-Text Label 8500 4600 2    50   ~ 0
-PCI_PERR#
 Text Label 8500 4700 2    50   ~ 0
 PCI_P3V3
-Text Label 8500 4800 2    50   ~ 0
-PCI_SERR#
 Text Label 8500 4900 2    50   ~ 0
 PCI_P3V3
 Text Label 8500 5000 2    50   ~ 0
-PCI_CBE#1
+~CBE1
 Text Label 8500 5100 2    50   ~ 0
-PCI_AD14
+AD14
 $Comp
 L GND #PWR69
 U 1 1 576989C3
@@ -1307,11 +1187,9 @@ F 3 "" H 8100 5200 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Text Label 8500 5300 2    50   ~ 0
-PCI_AD12
+AD12
 Text Label 8500 5400 2    50   ~ 0
-PCI_AD10
-Text Label 8500 5500 2    50   ~ 0
-PCI_M66EN
+AD10
 $Comp
 L GND #PWR70
 U 1 1 576989CD
@@ -1335,15 +1213,15 @@ F 3 "" H 8100 5700 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Text Label 8500 5800 2    50   ~ 0
-PCI_AD08
+AD8
 Text Label 8500 5900 2    50   ~ 0
-PCI_AD07
+AD7
 Text Label 8500 6000 2    50   ~ 0
 PCI_P3V3
 Text Label 8500 6100 2    50   ~ 0
-PCI_AD05
+AD5
 Text Label 8500 6200 2    50   ~ 0
-PCI_AD03
+AD3
 $Comp
 L GND #PWR72
 U 1 1 576989E0
@@ -1356,7 +1234,7 @@ F 3 "" H 8100 6300 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Text Label 8500 6400 2    50   ~ 0
-PCI_AD01
+AD1
 Text Label 8500 6500 2    50   ~ 0
 PCI_VIO
 Text Label 8500 6700 2    50   ~ 0
@@ -1385,9 +1263,9 @@ PCI_TDI
 Text Label 9800 1200 0    50   ~ 0
 PCI_P5
 Text Label 11300 1400 2    50   ~ 0
-PCI_INTA#
+~INT0
 Text Label 11300 1500 2    50   ~ 0
-PCI_INTC#
+~INT2
 Text Label 9800 1500 0    50   ~ 0
 PCI_P5
 NoConn ~ 10300 1600
@@ -1396,12 +1274,10 @@ PCI_VIO
 NoConn ~ 10300 1800
 Text Label 9800 2000 0    50   ~ 0
 PCI_P3V3AUX
-Text Label 9800 2100 0    50   ~ 0
-PCI_RST#
 Text Label 9800 2200 0    50   ~ 0
 PCI_VIO
 Text Label 9800 2300 0    50   ~ 0
-PCI_GNT#3
+~GNT3
 $Comp
 L GND #PWR74
 U 1 1 57698A31
@@ -1413,16 +1289,14 @@ F 3 "" H 10200 2400 60  0000 C CNN
 	1    10200 2400
 	0    1    1    0   
 $EndComp
-Text Label 9800 2500 0    50   ~ 0
-PCI_PME#
 Text Label 9800 2600 0    50   ~ 0
-PCI_AD30
+AD30
 Text Label 9800 2700 0    50   ~ 0
 PCI_P3V3
 Text Label 9800 2800 0    50   ~ 0
-PCI_AD28
+AD28
 Text Label 9800 2900 0    50   ~ 0
-PCI_AD26
+AD26
 $Comp
 L GND #PWR75
 U 1 1 57698A3D
@@ -1435,15 +1309,15 @@ F 3 "" H 10200 3000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 9800 3100 0    50   ~ 0
-PCI_AD24
+AD24
 Text Label 9800 3200 0    50   ~ 0
 PCI_IDSEL3
 Text Label 9800 3300 0    50   ~ 0
 PCI_P3V3
 Text Label 9800 3400 0    50   ~ 0
-PCI_AD22
+AD22
 Text Label 9800 3500 0    50   ~ 0
-PCI_AD20
+AD20
 $Comp
 L GND #PWR76
 U 1 1 57698A49
@@ -1456,13 +1330,11 @@ F 3 "" H 10200 3600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 9800 3700 0    50   ~ 0
-PCI_AD18
+AD18
 Text Label 9800 3800 0    50   ~ 0
-PCI_AD16
+AD16
 Text Label 9800 3900 0    50   ~ 0
 PCI_P3V3
-Text Label 9800 4000 0    50   ~ 0
-PCI_FRAME#
 $Comp
 L GND #PWR77
 U 1 1 57698A54
@@ -1474,8 +1346,6 @@ F 3 "" H 10200 4100 60  0000 C CNN
 	1    10200 4100
 	0    1    1    0   
 $EndComp
-Text Label 9800 4200 0    50   ~ 0
-PCI_TRDY#
 $Comp
 L GND #PWR78
 U 1 1 57698A5C
@@ -1487,14 +1357,8 @@ F 3 "" H 10200 4300 60  0000 C CNN
 	1    10200 4300
 	0    1    1    0   
 $EndComp
-Text Label 9800 4400 0    50   ~ 0
-PCI_STOP#
 Text Label 9800 4500 0    50   ~ 0
 PCI_P3V3
-Text Label 9800 4600 0    50   ~ 0
-PCI_SMBCLK
-Text Label 9800 4700 0    50   ~ 0
-PCI_SMBDAT
 $Comp
 L GND #PWR79
 U 1 1 57698A67
@@ -1506,16 +1370,14 @@ F 3 "" H 10200 4800 60  0000 C CNN
 	1    10200 4800
 	0    1    1    0   
 $EndComp
-Text Label 9800 4900 0    50   ~ 0
-PCI_PAR
 Text Label 9800 5000 0    50   ~ 0
-PCI_AD15
+AD15
 Text Label 9800 5100 0    50   ~ 0
 PCI_P3V3
 Text Label 9800 5200 0    50   ~ 0
-PCI_AD13
+AD13
 Text Label 9800 5300 0    50   ~ 0
-PCI_AD11
+AD11
 $Comp
 L GND #PWR80
 U 1 1 57698A73
@@ -1528,7 +1390,7 @@ F 3 "" H 10200 5400 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 9800 5500 0    50   ~ 0
-PCI_AD09
+AD9
 $Comp
 L GND #PWR81
 U 1 1 57698A7B
@@ -1552,13 +1414,13 @@ F 3 "" H 10200 5700 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 9800 5800 0    50   ~ 0
-PCI_CBE#0
+~CBE0
 Text Label 9800 5900 0    50   ~ 0
 PCI_P3V3
 Text Label 9800 6000 0    50   ~ 0
-PCI_AD06
+AD6
 Text Label 9800 6100 0    50   ~ 0
-PCI_AD04
+AD4
 $Comp
 L GND #PWR83
 U 1 1 57698A8D
@@ -1571,9 +1433,9 @@ F 3 "" H 10200 6200 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 9800 6300 0    50   ~ 0
-PCI_AD02
+AD2
 Text Label 9800 6400 0    50   ~ 0
-PCI_AD00
+AD0
 Text Label 9800 6500 0    50   ~ 0
 PCI_VIO
 Text Label 9800 6700 0    50   ~ 0
@@ -1602,14 +1464,14 @@ PCI_P5
 Text Label 11300 1300 2    50   ~ 0
 PCI_P5
 Text Label 9800 1400 0    50   ~ 0
-PCI_INTB#
+~INT1
 Text Label 9800 1300 0    50   ~ 0
-PCI_INTD#
+~INT3
 Text Label 11300 1600 2    50   ~ 0
-PCI_PRSNT1#3
+~PRSNT1_3
 NoConn ~ 10800 1700
 Text Label 11300 1800 2    50   ~ 0
-PCI_PRSNT2#3
+~PRSNT2_3
 NoConn ~ 10800 2000
 $Comp
 L GND #PWR85
@@ -1622,8 +1484,6 @@ F 3 "" H 10900 2100 60  0000 C CNN
 	1    10900 2100
 	0    -1   -1   0   
 $EndComp
-Text Label 11300 2200 2    50   ~ 0
-PCI_CLK
 $Comp
 L GND #PWR86
 U 1 1 57698AE4
@@ -1636,13 +1496,13 @@ F 3 "" H 10900 2300 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Text Label 11300 2400 2    50   ~ 0
-PCI_REQ#3
+~REQ3
 Text Label 11300 2500 2    50   ~ 0
 PCI_VIO
 Text Label 11300 2600 2    50   ~ 0
-PCI_AD31
+AD31
 Text Label 11300 2700 2    50   ~ 0
-PCI_AD29
+AD29
 $Comp
 L GND #PWR87
 U 1 1 57698AEF
@@ -1655,15 +1515,15 @@ F 3 "" H 10900 2800 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Text Label 11300 2900 2    50   ~ 0
-PCI_AD27
+AD27
 Text Label 11300 3000 2    50   ~ 0
-PCI_AD25
+AD25
 Text Label 11300 3100 2    50   ~ 0
 PCI_P3V3
 Text Label 11300 3200 2    50   ~ 0
-PCI_CBE#3
+~CBE3
 Text Label 11300 3300 2    50   ~ 0
-PCI_AD23
+AD23
 $Comp
 L GND #PWR88
 U 1 1 57698AFB
@@ -1676,15 +1536,15 @@ F 3 "" H 10900 3400 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Text Label 11300 3500 2    50   ~ 0
-PCI_AD21
+AD21
 Text Label 11300 3600 2    50   ~ 0
-PCI_AD19
+AD19
 Text Label 11300 3700 2    50   ~ 0
 PCI_P3V3
 Text Label 11300 3800 2    50   ~ 0
-PCI_AD17
+AD17
 Text Label 11300 3900 2    50   ~ 0
-PCI_CBE#2
+~CBE2
 $Comp
 L GND #PWR89
 U 1 1 57698B07
@@ -1696,26 +1556,16 @@ F 3 "" H 10900 4000 60  0000 C CNN
 	1    10900 4000
 	0    -1   -1   0   
 $EndComp
-Text Label 11300 4100 2    50   ~ 0
-PCI_IRDY#
 Text Label 11300 4200 2    50   ~ 0
 PCI_P3V3
-Text Label 11300 4300 2    50   ~ 0
-PCI_DEVSEL#
-Text Label 11300 4500 2    50   ~ 0
-PCI_LOCK#
-Text Label 11300 4600 2    50   ~ 0
-PCI_PERR#
 Text Label 11300 4700 2    50   ~ 0
 PCI_P3V3
-Text Label 11300 4800 2    50   ~ 0
-PCI_SERR#
 Text Label 11300 4900 2    50   ~ 0
 PCI_P3V3
 Text Label 11300 5000 2    50   ~ 0
-PCI_CBE#1
+~CBE1
 Text Label 11300 5100 2    50   ~ 0
-PCI_AD14
+AD14
 $Comp
 L GND #PWR91
 U 1 1 57698B19
@@ -1728,11 +1578,9 @@ F 3 "" H 10900 5200 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Text Label 11300 5300 2    50   ~ 0
-PCI_AD12
+AD12
 Text Label 11300 5400 2    50   ~ 0
-PCI_AD10
-Text Label 11300 5500 2    50   ~ 0
-PCI_M66EN
+AD10
 $Comp
 L GND #PWR92
 U 1 1 57698B23
@@ -1756,15 +1604,15 @@ F 3 "" H 10900 5700 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Text Label 11300 5800 2    50   ~ 0
-PCI_AD08
+AD8
 Text Label 11300 5900 2    50   ~ 0
-PCI_AD07
+AD7
 Text Label 11300 6000 2    50   ~ 0
 PCI_P3V3
 Text Label 11300 6100 2    50   ~ 0
-PCI_AD05
+AD5
 Text Label 11300 6200 2    50   ~ 0
-PCI_AD03
+AD3
 $Comp
 L GND #PWR94
 U 1 1 57698B36
@@ -1777,7 +1625,7 @@ F 3 "" H 10900 6300 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Text Label 11300 6400 2    50   ~ 0
-PCI_AD01
+AD1
 Text Label 11300 6500 2    50   ~ 0
 PCI_VIO
 Text Label 11300 6700 2    50   ~ 0
@@ -1788,8 +1636,6 @@ Text Label 15400 1000 2    50   ~ 0
 PCI_N12
 Text Label 14000 1000 0    50   ~ 0
 PCI_P12
-Text Notes 600  11000 0    50   ~ 0
-5V: 25W 5A\n3.3V: 25W 7.6A\n12V: 6W 500mA\n-12V: 1.2W 100mA\n3v3aux: 1.3W 375mA\nVio: 5W 1.5A
 Text Label 14000 1400 0    50   ~ 0
 PCI_P5
 Text Label 14000 1800 0    50   ~ 0
@@ -2166,30 +2012,14 @@ F 4 "RES SMD 160 1% [0603]" H 10350 3750 60  0001 C CNN "BOM"
 	1    9600 3200
 	0    1    1    0   
 $EndComp
-Text Label 1600 7700 0    50   ~ 0
-PCI_FRAME#
-Text Label 1600 7800 0    50   ~ 0
-PCI_TRDY#
-Text Label 1600 7900 0    50   ~ 0
-PCI_IRDY#
-Text Label 1600 8000 0    50   ~ 0
-PCI_DEVSEL#
-Text Label 1600 8100 0    50   ~ 0
-PCI_STOP#
-Text Label 1600 8200 0    50   ~ 0
-PCI_SERR#
-Text Label 1600 8300 0    50   ~ 0
-PCI_PERR#
-Text Label 1600 8400 0    50   ~ 0
-PCI_LOCK#
 Text Label 1600 8500 0    50   ~ 0
-PCI_INTA#
+~INT0
 Text Label 1600 8600 0    50   ~ 0
-PCI_INTB#
+~INT1
 Text Label 1600 8700 0    50   ~ 0
-PCI_INTC#
+~INT2
 Text Label 1600 8800 0    50   ~ 0
-PCI_INTD#
+~INT3
 $Comp
 L R-0603 R27
 U 1 1 576C6209
@@ -2336,10 +2166,6 @@ F 4 "RES SMD 8k2 1% [0603]" H 4050 9350 60  0001 C CNN "BOM"
 $EndComp
 Text Label 3100 7500 0    50   ~ 0
 PCI_VIO
-Text Label 3700 7700 0    50   ~ 0
-PCI_SMBCLK
-Text Label 3700 7800 0    50   ~ 0
-PCI_SMBDAT
 $Comp
 L R-0603 R39
 U 1 1 576CDBBD
@@ -2367,21 +2193,21 @@ $EndComp
 Text Label 4500 7500 0    50   ~ 0
 PCI_P3V3AUX
 Text Label 5300 7700 0    50   ~ 0
-PCI_PRSNT1#0
+~PRSNT1_0
 Text Label 5300 7800 0    50   ~ 0
-PCI_PRSNT2#0
+~PRSNT2_0
 Text Label 5300 7900 0    50   ~ 0
-PCI_PRSNT1#1
+~PRSNT1_1
 Text Label 5300 8000 0    50   ~ 0
-PCI_PRSNT2#1
+~PRSNT2_1
 Text Label 5300 8100 0    50   ~ 0
-PCI_PRSNT1#2
+~PRSNT1_2
 Text Label 5300 8200 0    50   ~ 0
-PCI_PRSNT2#2
+~PRSNT2_2
 Text Label 5300 8300 0    50   ~ 0
-PCI_PRSNT1#3
+~PRSNT1_3
 Text Label 5300 8400 0    50   ~ 0
-PCI_PRSNT2#3
+~PRSNT2_3
 Text Label 8800 7500 0    50   ~ 0
 PCI_P3V3AUX
 $Comp
@@ -2494,30 +2320,28 @@ $EndComp
 $Comp
 L GND #PWR73
 U 1 1 576D7CAE
-P 9700 8900
-F 0 "#PWR73" H 9700 8900 30  0001 C CNN
-F 1 "GND" H 9700 8830 30  0001 C CNN
-F 2 "" H 9700 8900 60  0000 C CNN
-F 3 "" H 9700 8900 60  0000 C CNN
-	1    9700 8900
+P 9900 8900
+F 0 "#PWR73" H 9900 8900 30  0001 C CNN
+F 1 "GND" H 9900 8830 30  0001 C CNN
+F 2 "" H 9900 8900 60  0000 C CNN
+F 3 "" H 9900 8900 60  0000 C CNN
+	1    9900 8900
 	1    0    0    -1  
 $EndComp
-Text Label 10300 8000 0    50   ~ 0
+Text Label 10500 8000 0    50   ~ 0
 PCI_P3V3AUX
 $Comp
 L R-0603 R49
 U 1 1 576D8977
-P 10900 8200
-F 0 "R49" H 10837 8154 50  0000 R CNN
-F 1 "5k1" H 10837 8245 50  0000 R CNN
-F 2 "IPC7351-Nominal:RESC1608X50" H 10900 8200 50  0001 C CNN
-F 3 "" H 10900 8250 60  0000 C CNN
-F 4 "RES SMD 5k1 1% [0603]" H 11650 8750 60  0001 C CNN "BOM"
-	1    10900 8200
+P 11100 8200
+F 0 "R49" H 11037 8154 50  0000 R CNN
+F 1 "5k1" H 11037 8245 50  0000 R CNN
+F 2 "IPC7351-Nominal:RESC1608X50" H 11100 8200 50  0001 C CNN
+F 3 "" H 11100 8250 60  0000 C CNN
+F 4 "RES SMD 5k1 1% [0603]" H 11850 8750 60  0001 C CNN "BOM"
+	1    11100 8200
 	-1   0    0    1   
 $EndComp
-Text Label 9700 8400 0    50   ~ 0
-PCI_M66EN
 $Comp
 L C-0402 C58
 U 1 1 576DB718
@@ -2617,49 +2441,49 @@ $EndComp
 $Comp
 L C-0402 C67
 U 1 1 576DBEC3
-P 9700 8600
-F 0 "C67" H 9813 8646 50  0000 L CNN
-F 1 "10n" H 9813 8555 50  0000 L CNN
-F 2 "IPC7351-Nominal:CAPC1005X55" H 9700 8600 50  0001 C CNN
-F 3 "" H 9690 8575 60  0000 C CNN
-F 4 "CAP MLCC 10n ≥X5R 25V 20% [0603]" H 10500 9150 60  0001 C CNN "BOM"
-	1    9700 8600
+P 9900 8600
+F 0 "C67" H 10013 8646 50  0000 L CNN
+F 1 "10n" H 10013 8555 50  0000 L CNN
+F 2 "IPC7351-Nominal:CAPC1005X55" H 9900 8600 50  0001 C CNN
+F 3 "" H 9890 8575 60  0000 C CNN
+F 4 "CAP MLCC 10n ≥X5R 25V 20% [0603]" H 10700 9150 60  0001 C CNN "BOM"
+	1    9900 8600
 	1    0    0    -1  
 $EndComp
 $Comp
 L C-0402 C68
 U 1 1 576DBF97
-P 10100 8600
-F 0 "C68" H 10213 8646 50  0000 L CNN
-F 1 "10n" H 10213 8555 50  0000 L CNN
-F 2 "IPC7351-Nominal:CAPC1005X55" H 10100 8600 50  0001 C CNN
-F 3 "" H 10090 8575 60  0000 C CNN
-F 4 "CAP MLCC 10n ≥X5R 25V 20% [0603]" H 10900 9150 60  0001 C CNN "BOM"
-	1    10100 8600
+P 10300 8600
+F 0 "C68" H 10413 8646 50  0000 L CNN
+F 1 "10n" H 10413 8555 50  0000 L CNN
+F 2 "IPC7351-Nominal:CAPC1005X55" H 10300 8600 50  0001 C CNN
+F 3 "" H 10290 8575 60  0000 C CNN
+F 4 "CAP MLCC 10n ≥X5R 25V 20% [0603]" H 11100 9150 60  0001 C CNN "BOM"
+	1    10300 8600
 	1    0    0    -1  
 $EndComp
 $Comp
 L C-0402 C69
 U 1 1 576DC064
-P 10500 8600
-F 0 "C69" H 10613 8646 50  0000 L CNN
-F 1 "10n" H 10613 8555 50  0000 L CNN
-F 2 "IPC7351-Nominal:CAPC1005X55" H 10500 8600 50  0001 C CNN
-F 3 "" H 10490 8575 60  0000 C CNN
-F 4 "CAP MLCC 10n ≥X5R 25V 20% [0603]" H 11300 9150 60  0001 C CNN "BOM"
-	1    10500 8600
+P 10700 8600
+F 0 "C69" H 10813 8646 50  0000 L CNN
+F 1 "10n" H 10813 8555 50  0000 L CNN
+F 2 "IPC7351-Nominal:CAPC1005X55" H 10700 8600 50  0001 C CNN
+F 3 "" H 10690 8575 60  0000 C CNN
+F 4 "CAP MLCC 10n ≥X5R 25V 20% [0603]" H 11500 9150 60  0001 C CNN "BOM"
+	1    10700 8600
 	1    0    0    -1  
 $EndComp
 $Comp
 L C-0402 C70
 U 1 1 576DC172
-P 10900 8600
-F 0 "C70" H 11013 8646 50  0000 L CNN
-F 1 "10n" H 11013 8555 50  0000 L CNN
-F 2 "IPC7351-Nominal:CAPC1005X55" H 10900 8600 50  0001 C CNN
-F 3 "" H 10890 8575 60  0000 C CNN
-F 4 "CAP MLCC 10n ≥X5R 25V 20% [0603]" H 11700 9150 60  0001 C CNN "BOM"
-	1    10900 8600
+P 11100 8600
+F 0 "C70" H 11213 8646 50  0000 L CNN
+F 1 "10n" H 11213 8555 50  0000 L CNN
+F 2 "IPC7351-Nominal:CAPC1005X55" H 11100 8600 50  0001 C CNN
+F 3 "" H 11090 8575 60  0000 C CNN
+F 4 "CAP MLCC 10n ≥X5R 25V 20% [0603]" H 11900 9150 60  0001 C CNN "BOM"
+	1    11100 8600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2778,36 +2602,36 @@ Wire Wire Line
 	15400 6500 15000 6500
 Wire Wire Line
 	15000 1400 15400 1400
-Connection ~ 10900 8400
+Connection ~ 11100 8400
 Wire Wire Line
-	10900 8000 10900 8100
+	11100 8000 11100 8100
 Wire Wire Line
-	10300 8000 10900 8000
-Connection ~ 10100 8400
+	10500 8000 11100 8000
+Connection ~ 10300 8400
 Wire Wire Line
-	10100 8500 10100 8400
-Connection ~ 10500 8400
+	10300 8500 10300 8400
+Connection ~ 10700 8400
 Wire Wire Line
-	10500 8500 10500 8400
+	10700 8400 10700 8500
 Wire Wire Line
-	10900 8300 10900 8500
+	11100 8300 11100 8500
 Wire Wire Line
-	9700 8400 10900 8400
+	9800 8400 11100 8400
 Wire Wire Line
-	9700 8500 9700 8400
+	9900 8500 9900 8400
 Wire Wire Line
-	10900 8800 9700 8800
-Connection ~ 9700 8800
-Connection ~ 10100 8800
+	9900 8800 11100 8800
+Connection ~ 9900 8800
+Connection ~ 10300 8800
 Wire Wire Line
-	10100 8700 10100 8800
-Connection ~ 10500 8800
+	10300 8700 10300 8800
+Connection ~ 10700 8800
 Wire Wire Line
-	10500 8700 10500 8800
+	10700 8700 10700 8800
 Wire Wire Line
-	10900 8700 10900 8800
+	11100 8800 11100 8700
 Wire Wire Line
-	9700 8700 9700 8900
+	9900 8700 9900 8900
 Connection ~ 8800 8400
 Wire Wire Line
 	8800 8500 8800 8400
@@ -2838,19 +2662,19 @@ Wire Wire Line
 	6400 8700 6400 8800
 Connection ~ 6800 8800
 Wire Wire Line
-	6800 8700 6800 8800
+	6800 8800 6800 8700
 Connection ~ 7200 8800
 Wire Wire Line
-	7200 8700 7200 8800
+	7200 8800 7200 8700
 Connection ~ 7600 8800
 Wire Wire Line
-	7600 8700 7600 8800
+	7600 8800 7600 8700
 Connection ~ 8000 8800
 Wire Wire Line
-	8000 8700 8000 8800
+	8000 8800 8000 8700
 Connection ~ 8400 8800
 Wire Wire Line
-	8400 8700 8400 8800
+	8400 8800 8400 8700
 Wire Wire Line
 	8800 8800 8800 8700
 Wire Wire Line
@@ -2858,7 +2682,7 @@ Wire Wire Line
 Wire Wire Line
 	6000 8700 6000 8900
 Wire Wire Line
-	9200 8000 9300 8000
+	9300 8000 9200 8000
 Connection ~ 9300 8300
 Connection ~ 9300 8200
 Connection ~ 9300 8100
@@ -2873,9 +2697,9 @@ Wire Wire Line
 Wire Wire Line
 	9300 8400 9200 8400
 Wire Wire Line
-	8100 7700 5300 7700
+	5300 7700 8100 7700
 Wire Wire Line
-	8100 8100 5300 8100
+	5300 8100 8100 8100
 Wire Wire Line
 	8900 8300 9300 8300
 Wire Wire Line
@@ -2910,39 +2734,39 @@ Wire Wire Line
 Wire Wire Line
 	4500 7500 5000 7500
 Wire Wire Line
-	3700 7800 4600 7800
+	3900 7800 4600 7800
 Wire Wire Line
-	4300 7700 3700 7700
+	4300 7700 3900 7700
 Connection ~ 3500 8700
 Wire Wire Line
-	3100 8700 3500 8700
+	3500 8700 3100 8700
 Connection ~ 3500 8600
 Wire Wire Line
-	2800 8600 3500 8600
+	3500 8600 2800 8600
 Connection ~ 3500 8500
 Wire Wire Line
-	2500 8500 3500 8500
+	3500 8500 2500 8500
 Connection ~ 3500 8400
 Wire Wire Line
 	3500 8400 3400 8400
 Connection ~ 3500 8300
 Wire Wire Line
-	3100 8300 3500 8300
+	3500 8300 3100 8300
 Connection ~ 3500 8200
 Wire Wire Line
 	3500 8200 2800 8200
 Connection ~ 3500 8100
 Wire Wire Line
-	2500 8100 3500 8100
+	3500 8100 2500 8100
 Connection ~ 3500 8000
 Wire Wire Line
-	3400 8000 3500 8000
+	3500 8000 3400 8000
 Connection ~ 3500 7900
 Wire Wire Line
-	3100 7900 3500 7900
+	3500 7900 3100 7900
 Connection ~ 3500 7800
 Wire Wire Line
-	2800 7800 3500 7800
+	3500 7800 2800 7800
 Connection ~ 3500 7700
 Wire Wire Line
 	2500 7700 3500 7700
@@ -2987,7 +2811,7 @@ Wire Wire Line
 Connection ~ 14700 7300
 Connection ~ 14700 6900
 Wire Wire Line
-	14600 6900 14700 6900
+	14700 6900 14600 6900
 Connection ~ 14700 6500
 Wire Wire Line
 	14600 6500 14800 6500
@@ -3011,7 +2835,7 @@ Wire Wire Line
 Connection ~ 14700 5600
 Connection ~ 14700 5200
 Wire Wire Line
-	14600 5200 14700 5200
+	14700 5200 14600 5200
 Connection ~ 14700 4800
 Wire Wire Line
 	14600 4800 14800 4800
@@ -3035,7 +2859,7 @@ Wire Wire Line
 Connection ~ 14700 3900
 Connection ~ 14700 3500
 Wire Wire Line
-	14600 3500 14700 3500
+	14700 3500 14600 3500
 Connection ~ 14700 3100
 Wire Wire Line
 	14600 3100 14800 3100
@@ -3059,7 +2883,7 @@ Wire Wire Line
 Connection ~ 14700 2200
 Connection ~ 14700 1800
 Wire Wire Line
-	14600 1800 14700 1800
+	14700 1800 14600 1800
 Connection ~ 14700 1400
 Wire Wire Line
 	14600 1400 14800 1400
@@ -3821,8 +3645,6 @@ Wire Wire Line
 Wire Wire Line
 	2800 4200 2300 4200
 Wire Wire Line
-	2800 4100 2300 4100
-Wire Wire Line
 	2800 3900 2300 3900
 Wire Wire Line
 	2800 3800 2300 3800
@@ -3984,4 +3806,223 @@ Wire Wire Line
 	1300 900  1800 900 
 Wire Wire Line
 	1800 800  1300 800 
+Text Label 2800 2600 2    50   ~ 0
+AD31
+Text Label 2800 2700 2    50   ~ 0
+AD29
+Text Label 2800 2900 2    50   ~ 0
+AD27
+Text Label 2800 3000 2    50   ~ 0
+AD25
+Text Label 2800 3300 2    50   ~ 0
+AD23
+Text Label 2800 3500 2    50   ~ 0
+AD21
+Text Label 2800 3600 2    50   ~ 0
+AD19
+Text Label 2800 3800 2    50   ~ 0
+AD17
+Text Label 2800 5100 2    50   ~ 0
+AD14
+Text Label 2800 5300 2    50   ~ 0
+AD12
+Text Label 2800 5400 2    50   ~ 0
+AD10
+Text Label 2800 5800 2    50   ~ 0
+AD8
+Text Label 2800 5900 2    50   ~ 0
+AD7
+Text Label 2800 6400 2    50   ~ 0
+AD1
+Text Label 4200 2600 0    50   ~ 0
+AD30
+Text HLabel 1300 9500 0    50   BiDi ~ 0
+AD[0..31]
+Wire Bus Line
+	1300 9500 2100 9500
+Text Label 2100 9500 2    50   ~ 0
+AD[0..31]
+Text HLabel 1300 9700 0    50   Input ~ 0
+~GNT[0..3]
+Text HLabel 1300 9600 0    50   Output ~ 0
+~REQ[0..3]
+Wire Bus Line
+	1300 9600 2100 9600
+Wire Bus Line
+	2100 9700 1300 9700
+Text Label 2100 9600 2    50   ~ 0
+~REQ[0..3]
+Text Label 2100 9700 2    50   ~ 0
+~GNT[0..3]
+Text Label 1300 1300 0    50   ~ 0
+~INT0
+Text HLabel 1300 9800 0    50   Output ~ 0
+~INT[0..3]
+Text Label 2100 9800 2    50   ~ 0
+~INT[0..3]
+Wire Bus Line
+	2100 9800 1300 9800
+Text HLabel 3300 9500 0    50   Output ~ 0
+~PRSNT1_[0..3]
+Text HLabel 3300 9600 0    50   Output ~ 0
+~PRSNT2_[0..3]
+Text Label 4100 9500 2    50   ~ 0
+~PRSNT1_[0..3]
+Text Label 4100 9600 2    50   ~ 0
+~PRSNT2_[0..3]
+Wire Bus Line
+	4100 9600 3300 9600
+Wire Bus Line
+	4100 9500 3300 9500
+Text HLabel 2800 2200 2    50   Input ~ 0
+CLK
+Text HLabel 5700 2200 2    50   Input ~ 0
+CLK
+Text HLabel 11300 2200 2    50   Input ~ 0
+CLK
+Text HLabel 8500 2200 2    50   Input ~ 0
+CLK
+Text HLabel 1300 2100 0    50   Input ~ 0
+~RST
+Text HLabel 4200 2100 0    50   Input ~ 0
+~RST
+Text HLabel 7000 2100 0    50   Input ~ 0
+~RST
+Text HLabel 9800 2100 0    50   Input ~ 0
+~RST
+Text HLabel 1300 2500 0    50   Output ~ 0
+~PME
+Text HLabel 4200 2500 0    50   Output ~ 0
+~PME
+Text HLabel 7000 2500 0    50   Output ~ 0
+~PME
+Text HLabel 9800 2500 0    50   Output ~ 0
+~PME
+Text HLabel 1300 9900 0    50   Input ~ 0
+~CBE[0..3]
+Wire Bus Line
+	1300 9900 2100 9900
+Text Label 2100 9900 2    50   ~ 0
+~CBE[0..3]
+Text HLabel 1300 4000 0    50   Input ~ 0
+~FRAME
+Text HLabel 4200 4000 0    50   Input ~ 0
+~FRAME
+Text HLabel 7000 4000 0    50   Input ~ 0
+~FRAME
+Text HLabel 9800 4000 0    50   Input ~ 0
+~FRAME
+Text HLabel 1600 7700 0    50   Input ~ 0
+~FRAME
+Text HLabel 1300 4200 0    50   Output ~ 0
+~TRDY
+Text HLabel 4200 4200 0    50   Output ~ 0
+~TRDY
+Text HLabel 7000 4200 0    50   Output ~ 0
+~TRDY
+Text HLabel 9800 4200 0    50   Output ~ 0
+~TRDY
+Text HLabel 1600 7800 0    50   Output ~ 0
+~TRDY
+Wire Wire Line
+	2800 4100 2300 4100
+Text HLabel 2800 4100 2    50   Input ~ 0
+~IRDY
+Text HLabel 5700 4100 2    50   Input ~ 0
+~IRDY
+Text HLabel 8500 4100 2    50   Input ~ 0
+~IRDY
+Text HLabel 11300 4100 2    50   Input ~ 0
+~IRDY
+Text HLabel 1600 7900 0    50   Input ~ 0
+~IRDY
+Text HLabel 2800 4300 2    50   Output ~ 0
+~DEVSEL
+Text HLabel 5700 4300 2    50   Output ~ 0
+~DEVSEL
+Text HLabel 8500 4300 2    50   Output ~ 0
+~DEVSEL
+Text HLabel 11300 4300 2    50   Output ~ 0
+~DEVSEL
+Text HLabel 1600 8000 0    50   Output ~ 0
+~DEVSEL
+Text HLabel 1300 4400 0    50   Output ~ 0
+~STOP
+Text HLabel 4200 4400 0    50   Output ~ 0
+~STOP
+Text HLabel 7000 4400 0    50   Output ~ 0
+~STOP
+Text HLabel 9800 4400 0    50   Output ~ 0
+~STOP
+Text HLabel 1600 8100 0    50   Output ~ 0
+~STOP
+Text HLabel 2800 4800 2    50   BiDi ~ 0
+~SERR
+Text HLabel 5700 4800 2    50   BiDi ~ 0
+~SERR
+Text HLabel 8500 4800 2    50   BiDi ~ 0
+~SERR
+Text HLabel 11300 4800 2    50   BiDi ~ 0
+~SERR
+Text HLabel 1600 8200 0    50   BiDi ~ 0
+~SERR
+Text HLabel 2800 4600 2    50   BiDi ~ 0
+~PERR
+Text HLabel 5700 4600 2    50   BiDi ~ 0
+~PERR
+Text HLabel 8500 4600 2    50   BiDi ~ 0
+~PERR
+Text HLabel 11300 4600 2    50   BiDi ~ 0
+~PERR
+Text HLabel 1600 8300 0    50   BiDi ~ 0
+~PERR
+Text HLabel 2800 4500 2    50   BiDi ~ 0
+~LOCK
+Text HLabel 5700 4500 2    50   BiDi ~ 0
+~LOCK
+Text HLabel 8500 4500 2    50   BiDi ~ 0
+~LOCK
+Text HLabel 11300 4500 2    50   BiDi ~ 0
+~LOCK
+Text HLabel 1600 8400 0    50   BiDi ~ 0
+~LOCK
+Text HLabel 1300 4900 0    50   BiDi ~ 0
+PAR
+Text HLabel 4200 4900 0    50   BiDi ~ 0
+PAR
+Text HLabel 7000 4900 0    50   BiDi ~ 0
+PAR
+Text HLabel 9800 4900 0    50   BiDi ~ 0
+PAR
+Text HLabel 1300 4600 0    50   BiDi ~ 0
+SCL
+Text HLabel 4200 4600 0    50   BiDi ~ 0
+SCL
+Text HLabel 7000 4600 0    50   BiDi ~ 0
+SCL
+Text HLabel 9800 4600 0    50   BiDi ~ 0
+SCL
+Text HLabel 9800 4700 0    50   BiDi ~ 0
+SDA
+Text HLabel 7000 4700 0    50   BiDi ~ 0
+SDA
+Text HLabel 4200 4700 0    50   BiDi ~ 0
+SDA
+Text HLabel 1300 4700 0    50   BiDi ~ 0
+SDA
+Text HLabel 3900 7700 0    50   BiDi ~ 0
+SCL
+Text HLabel 3900 7800 0    50   BiDi ~ 0
+SDA
+Text HLabel 5700 5500 2    50   Output ~ 0
+M66EN
+Text HLabel 2800 5500 2    50   Output ~ 0
+M66EN
+Text HLabel 8500 5500 2    50   Output ~ 0
+M66EN
+Text HLabel 11300 5500 2    50   Output ~ 0
+M66EN
+Text HLabel 9800 8400 0    50   Output ~ 0
+M66EN
+Connection ~ 9900 8400
 $EndSCHEMATC
