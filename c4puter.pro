@@ -1,4 +1,4 @@
-update=Mon 11 Jul 2016 12:51:45 PM EDT
+update=Thursday, July 21, 2016 'PMt' 10:04:44 PM
 version=1
 last_client=kicad
 [cvpcb]
@@ -127,3 +127,4 @@ LibName84=schlib/library/Vishay
 LibName85=schlib/library/Xilinx
 LibName86=schlib/library/Richtek
 LibName87=schlib/library/semi-diode-Panasonic
+LibName88=schlib/library/Murata

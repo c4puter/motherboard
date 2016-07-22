@@ -86,12 +86,13 @@ LIBS:Vishay
 LIBS:Xilinx
 LIBS:Richtek
 LIBS:semi-diode-Panasonic
+LIBS:Murata
 LIBS:c4puter-cache
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 3 10
+Sheet 3 9
 Title "C4-0 PCI BUS"
 Date "2016-07-10"
 Rev "R1.0"

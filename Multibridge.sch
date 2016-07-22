@@ -86,12 +86,13 @@ LIBS:Vishay
 LIBS:Xilinx
 LIBS:Richtek
 LIBS:semi-diode-Panasonic
+LIBS:Murata
 LIBS:c4puter-cache
 EELAYER 25 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 9 10
+Sheet 9 9
 Title ""
 Date ""
 Rev ""
