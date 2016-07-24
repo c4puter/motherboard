@@ -379,7 +379,7 @@ Text GLabel 4700 7100 0    50   Input ~ 0
 VRAM
 Text GLabel 1800 2200 0    50   Input ~ 0
 VDDRREF
-Text GLabel 1800 1400 0    50   Input ~ 0
+Text GLabel 1400 1400 0    50   Input ~ 0
 VDDRREF
 $Comp
 L XC6SLX25-FGG484 BRIDGE1
@@ -762,31 +762,29 @@ Text Label 14000 1700 0    50   ~ 0
 CMPCS
 Text Label 4000 3800 0    50   ~ 0
 SDRAMCLK
-Text Label 10400 4800 0    50   ~ 0
-PCICLK
 Text HLabel 4400 9400 0    50   BiDi ~ 0
 CPU_D[0..31]
 Text Label 5200 9400 2    50   ~ 0
 CPU_D[0..31]
-Text HLabel 4400 9500 0    50   Output ~ 0
+Text HLabel 1400 2800 0    50   Output ~ 0
 CPU_WAIT#
-Text HLabel 4400 9600 0    50   Input ~ 0
+Text HLabel 10600 6300 0    50   Input ~ 0
 CPU_ADDR#
-Text HLabel 4400 9700 0    50   Input ~ 0
+Text HLabel 10600 6700 0    50   Input ~ 0
 CPU_WR#
-Text HLabel 4400 9800 0    50   Input ~ 0
+Text HLabel 1100 4500 0    50   Input ~ 0
 CPU_CLK
-Text HLabel 4400 9900 0    50   Input ~ 0
+Text HLabel 10600 6900 0    50   Input ~ 0
 CPU_REQ0#
-Text HLabel 4400 10000 0    50   Output ~ 0
+Text HLabel 1400 1900 0    50   Output ~ 0
 CPU_ACK0#
-Text HLabel 4400 10100 0    50   Input ~ 0
+Text HLabel 10600 7500 0    50   Input ~ 0
 CPU_REQ1#
-Text HLabel 4400 10200 0    50   Output ~ 0
+Text HLabel 10600 6800 0    50   Output ~ 0
 CPU_ACK1#
-Text HLabel 4400 10300 0    50   Output ~ 0
+Text HLabel 10600 6500 0    50   Output ~ 0
 CPU_INT0#
-Text HLabel 4400 10400 0    50   Output ~ 0
+Text HLabel 10600 7400 0    50   Output ~ 0
 CPU_INT1#
 Text HLabel 6300 9400 0    50   BiDi ~ 0
 PCI_AD[0..31]
@@ -892,7 +890,7 @@ Text Label 13900 2600 0    50   ~ 0
 ~PCI_INT2
 Text Label 13900 3300 0    50   ~ 0
 ~PCI_INT3
-Text HLabel 13900 3400 0    50   Output ~ 0
+Text HLabel 13900 5400 0    50   Output ~ 0
 PCI_CLK
 Text HLabel 6300 9800 0    50   Output ~ 0
 ~PCI_CBE[0..3]
@@ -1207,7 +1205,7 @@ Wire Wire Line
 Wire Wire Line
 	1800 2200 1900 2200
 Wire Wire Line
-	1800 1400 1900 1400
+	1400 1400 1900 1400
 Wire Wire Line
 	4500 1400 4900 1400
 Wire Wire Line
@@ -1357,7 +1355,7 @@ Wire Wire Line
 Wire Wire Line
 	14200 4200 14300 4200
 Wire Wire Line
-	13900 3400 14300 3400
+	13900 5400 14300 5400
 Wire Wire Line
 	13900 3600 14300 3600
 Wire Wire Line
@@ -1745,8 +1743,6 @@ Wire Wire Line
 	13900 7300 14300 7300
 Wire Wire Line
 	4900 3800 4000 3800
-Wire Wire Line
-	10400 4800 11200 4800
 Wire Bus Line
 	4400 9400 5200 9400
 Wire Bus Line
@@ -1765,6 +1761,152 @@ Text HLabel 13900 8200 0    50   BiDi ~ 0
 ~PCI_LOCK
 Text HLabel 13900 7200 0    50   BiDi ~ 0
 PCI_PAR
-Text Notes 13900 5400 0    50   ~ 0
-Free
+Wire Wire Line
+	1100 4500 1900 4500
+Text Label 4500 6500 0    50   ~ 0
+CPU_D0
+Wire Wire Line
+	4500 6500 4900 6500
+Text Label 4500 5100 0    50   ~ 0
+CPU_D1
+Wire Wire Line
+	4900 5100 4500 5100
+Text Label 4500 2500 0    50   ~ 0
+CPU_D2
+Wire Wire Line
+	4500 2500 4900 2500
+Text Label 4500 5000 0    50   ~ 0
+CPU_D3
+Wire Wire Line
+	4500 5000 4900 5000
+Text Label 4500 4600 0    50   ~ 0
+CPU_D4
+Wire Wire Line
+	4500 4600 4900 4600
+Text Label 1400 5800 0    50   ~ 0
+CPU_D5
+Wire Wire Line
+	1400 5800 1900 5800
+Text Label 4500 4900 0    50   ~ 0
+CPU_D7
+Wire Wire Line
+	4500 4900 4900 4900
+Text Label 1400 5000 0    50   ~ 0
+CPU_D8
+Wire Wire Line
+	1400 5000 1900 5000
+Text Label 1400 7100 0    50   ~ 0
+CPU_D9
+Wire Wire Line
+	1400 7100 1900 7100
+Text Label 1400 4900 0    50   ~ 0
+CPU_D10
+Wire Wire Line
+	1400 4900 1900 4900
+Text Label 10700 5800 0    50   ~ 0
+CPU_D11
+Wire Wire Line
+	10700 5800 11200 5800
+Text Label 1400 2100 0    50   ~ 0
+CPU_D12
+Wire Wire Line
+	1400 2100 1900 2100
+Text Label 10700 6600 0    50   ~ 0
+CPU_D13
+Wire Wire Line
+	10700 6600 11200 6600
+Text Label 10700 7900 0    50   ~ 0
+CPU_D14
+Wire Wire Line
+	10700 7900 11200 7900
+Text Label 10700 2400 0    50   ~ 0
+CPU_D15
+Wire Wire Line
+	10700 2400 11200 2400
+Text Label 10700 3300 0    50   ~ 0
+CPU_D16
+Wire Wire Line
+	10700 3300 11200 3300
+Text Label 10700 7700 0    50   ~ 0
+CPU_D17
+Wire Wire Line
+	10700 7700 11200 7700
+Text Label 10700 6400 0    50   ~ 0
+CPU_D6
+Wire Wire Line
+	10700 6400 11200 6400
+Text Label 1400 3000 0    50   ~ 0
+CPU_D18
+Wire Wire Line
+	1400 3000 1900 3000
+Text Label 10700 4200 0    50   ~ 0
+CPU_D19
+Wire Wire Line
+	10700 4200 11200 4200
+Text Label 10700 3600 0    50   ~ 0
+CPU_D20
+Wire Wire Line
+	10700 3600 11200 3600
+Text Label 10700 3700 0    50   ~ 0
+CPU_D31
+Wire Wire Line
+	10700 3700 11200 3700
+Text Label 1400 2700 0    50   ~ 0
+CPU_D21
+Wire Wire Line
+	1400 2700 1900 2700
+Text Label 1400 2400 0    50   ~ 0
+CPU_D22
+Wire Wire Line
+	1400 2400 1900 2400
+Wire Wire Line
+	1400 2800 1900 2800
+Text Label 1400 2600 0    50   ~ 0
+CPU_D24
+Wire Wire Line
+	1400 2600 1900 2600
+Text Label 1400 1600 0    50   ~ 0
+CPU_D25
+Wire Wire Line
+	1400 1600 1900 1600
+Text Label 1400 2300 0    50   ~ 0
+CPU_D23
+Wire Wire Line
+	1400 2300 1900 2300
+Text Label 1400 1700 0    50   ~ 0
+CPU_D28
+Wire Wire Line
+	1400 1700 1900 1700
+Text Label 1400 1300 0    50   ~ 0
+CPU_D29
+Wire Wire Line
+	1400 1300 1900 1300
+Text Label 1400 2500 0    50   ~ 0
+CPU_D26
+Wire Wire Line
+	1400 2500 1900 2500
+Text Label 1400 2000 0    50   ~ 0
+CPU_D27
+Wire Wire Line
+	1400 2000 1900 2000
+Wire Wire Line
+	1400 1900 1900 1900
+Text Label 1400 1500 0    50   ~ 0
+CPU_D30
+Wire Wire Line
+	1400 1500 1900 1500
+Wire Wire Line
+	11200 6300 10600 6300
+Wire Wire Line
+	10600 6700 11200 6700
+Wire Wire Line
+	10600 6500 11200 6500
+Wire Wire Line
+	10600 6900 11200 6900
+Wire Wire Line
+	10600 6800 11200 6800
+Wire Wire Line
+	10600 7400 11200 7400
+Wire Wire Line
+	10600 7500 11200 7500
 $EndSCHEMATC
