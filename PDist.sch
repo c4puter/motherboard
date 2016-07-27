@@ -92,7 +92,7 @@ EELAYER 25 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 2 9
+Sheet 2 10
 Title ""
 Date ""
 Rev ""
@@ -434,7 +434,7 @@ Connection ~ 4600 4700
 Wire Wire Line
 	4600 1500 4600 2800
 Text GLabel 4500 2900 0    50   Input ~ 0
-P1V2_BRIDGE
+P1V2_CORE
 Wire Wire Line
 	4600 2900 4600 4800
 Wire Wire Line
@@ -1456,7 +1456,7 @@ Wire Wire Line
 Text GLabel 6900 1500 0    50   Input ~ 0
 P3V3_CPU
 Text GLabel 6900 2900 0    50   Input ~ 0
-P1V2_CPU
+P1V2_CORE
 Wire Wire Line
 	6900 2900 7100 2900
 Connection ~ 7000 2900
@@ -1794,7 +1794,7 @@ Wire Wire Line
 Text GLabel 9300 1500 0    50   Input ~ 0
 P3V3_CPU
 Text GLabel 9300 2900 0    50   Input ~ 0
-P1V2_CPU
+P1V2_CORE
 Wire Wire Line
 	9300 2900 9500 2900
 Connection ~ 9400 2900
@@ -1910,7 +1910,7 @@ $EndComp
 Wire Wire Line
 	6800 7700 6800 7600
 Text GLabel 7500 7300 0    50   Input ~ 0
-P1V2_CPU
+P1V2_CORE
 $Comp
 L C-TANT-6032-28 C?
 U 1 1 57941170
@@ -1943,7 +1943,7 @@ $EndComp
 Wire Wire Line
 	7600 7700 7600 7600
 Text GLabel 8300 7300 0    50   Input ~ 0
-P1V2_BRIDGE
+P1V5_BRIDGE
 $Comp
 L C-TANT-6032-28 C?
 U 1 1 57941998

@@ -92,7 +92,7 @@ EELAYER 25 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 1 9
+Sheet 1 10
 Title ""
 Date ""
 Rev ""
@@ -103,7 +103,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 2000 9200 1300 1100
+S 9100 9200 1300 1100
 U 5763AB3B
 F0 "Power Distrib" 60
 F1 "PDist.sch" 60
@@ -206,13 +206,13 @@ F 3 "" H 900 1000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 7400 8900 1300 700 
+S 7400 9600 1300 700 
 U 5765C2BD
 F0 "Power" 60
 F1 "Power.sch" 60
-F2 "SCL" I L 7400 9100 50 
-F3 "SDA" B L 7400 9000 50 
-F4 "~INT" O L 7400 9200 50 
+F2 "SCL" I L 7400 9800 50 
+F3 "SDA" B L 7400 9700 50 
+F4 "~INT" O L 7400 9900 50 
 $EndSheet
 $Comp
 L AOD4189 Q2
@@ -302,12 +302,12 @@ $EndComp
 Text Label 1250 800  0    50   ~ 0
 12VIN
 $Sheet
-S 7400 7800 1300 900 
+S 7400 8500 1300 900 
 U 577C2AEA
 F0 "Blinkenlights" 50
 F1 "Blinkenlights.sch" 50
-F2 "SDA" B L 7400 7900 50 
-F3 "SCL" I L 7400 8000 50 
+F2 "SDA" B L 7400 8600 50 
+F3 "SCL" I L 7400 8700 50 
 $EndSheet
 $Sheet
 S 7400 1400 1300 6000
@@ -757,19 +757,33 @@ Connection ~ 1600 7000
 Wire Wire Line
 	6300 7100 6900 7100
 Wire Wire Line
-	6900 7100 6900 9000
+	6900 7100 6900 9700
 Wire Wire Line
-	6900 7900 7400 7900
+	6900 8600 7400 8600
 Wire Wire Line
-	7400 8000 6800 8000
+	7400 8700 6800 8700
 Wire Wire Line
-	6800 7200 6800 9100
+	6800 7200 6800 9800
 Wire Wire Line
 	6800 7200 6300 7200
 Wire Wire Line
-	6900 9000 7400 9000
-Connection ~ 6900 7900
+	6900 9700 7400 9700
+Connection ~ 6900 8600
 Wire Wire Line
-	6800 9100 7400 9100
-Connection ~ 6800 8000
+	6800 9800 7400 9800
+Connection ~ 6800 8700
+$Sheet
+S 7400 7600 1300 700 
+U 57981212
+F0 "Misc" 50
+F1 "Misc.sch" 50
+F2 "SDA" B L 7400 7700 50 
+F3 "SCL" I L 7400 7800 50 
+$EndSheet
+Wire Wire Line
+	7400 7700 6900 7700
+Connection ~ 6900 7700
+Wire Wire Line
+	7400 7800 6800 7800
+Connection ~ 6800 7800
 $EndSCHEMATC

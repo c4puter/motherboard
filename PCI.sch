@@ -92,7 +92,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 3 9
+Sheet 3 10
 Title "C4-0 PCI BUS"
 Date "2016-07-10"
 Rev "R1.0"
@@ -2388,25 +2388,13 @@ Connection ~ 14900 2900
 Wire Wire Line
 	14900 2900 14900 3000
 Wire Wire Line
-	15300 2800 15300 2900
+	15300 2800 15300 3000
 Wire Wire Line
-	15300 2900 15300 3000
-Wire Wire Line
-	13700 2900 14100 2900
-Wire Wire Line
-	14100 2900 14500 2900
-Wire Wire Line
-	14500 2900 14900 2900
-Wire Wire Line
-	14900 2900 15300 2900
+	13700 2900 15300 2900
 Wire Wire Line
 	14100 3000 14100 2900
 Wire Wire Line
-	14100 3300 14500 3300
-Wire Wire Line
-	14500 3300 14900 3300
-Wire Wire Line
-	14900 3300 15300 3300
+	14100 3300 15300 3300
 Connection ~ 14100 3300
 Connection ~ 14500 3300
 Wire Wire Line
@@ -2417,9 +2405,7 @@ Wire Wire Line
 Wire Wire Line
 	15300 3300 15300 3200
 Wire Wire Line
-	14100 3200 14100 3300
-Wire Wire Line
-	14100 3300 14100 3400
+	14100 3200 14100 3400
 Connection ~ 15300 1900
 Wire Wire Line
 	15300 2000 15300 1900
@@ -2466,23 +2452,9 @@ Wire Wire Line
 Wire Wire Line
 	15300 2300 15300 2200
 Wire Wire Line
-	12500 2300 12900 2300
+	12500 2300 15300 2300
 Wire Wire Line
-	12900 2300 13300 2300
-Wire Wire Line
-	13300 2300 13700 2300
-Wire Wire Line
-	13700 2300 14100 2300
-Wire Wire Line
-	14100 2300 14500 2300
-Wire Wire Line
-	14500 2300 14900 2300
-Wire Wire Line
-	14900 2300 15300 2300
-Wire Wire Line
-	12500 2200 12500 2300
-Wire Wire Line
-	12500 2300 12500 2400
+	12500 2200 12500 2400
 Wire Wire Line
 	15800 1500 15700 1500
 Connection ~ 15800 1800
@@ -2495,31 +2467,13 @@ Connection ~ 15800 1200
 Wire Wire Line
 	15800 1000 15600 1000
 Wire Wire Line
-	15800 1000 15800 1200
-Wire Wire Line
-	15800 1200 15800 1300
-Wire Wire Line
-	15800 1300 15800 1400
-Wire Wire Line
-	15800 1400 15800 1500
-Wire Wire Line
-	15800 1500 15800 1600
-Wire Wire Line
-	15800 1600 15800 1700
-Wire Wire Line
-	15800 1700 15800 1800
-Wire Wire Line
-	15800 1800 15800 1900
+	15800 1000 15800 1900
 Wire Wire Line
 	15800 1900 15700 1900
 Wire Wire Line
-	11800 1200 12500 1200
+	11800 1200 14600 1200
 Wire Wire Line
-	12500 1200 14600 1200
-Wire Wire Line
-	11800 1600 14100 1600
-Wire Wire Line
-	14100 1600 14600 1600
+	11800 1600 14600 1600
 Wire Wire Line
 	15400 1800 15800 1800
 Wire Wire Line
@@ -2533,38 +2487,24 @@ Wire Wire Line
 Wire Wire Line
 	14800 1200 15800 1200
 Wire Wire Line
-	11800 1900 15300 1900
+	11800 1900 15500 1900
 Wire Wire Line
-	15300 1900 15500 1900
+	11800 1800 15200 1800
 Wire Wire Line
-	11800 1800 14900 1800
+	11800 1700 14900 1700
 Wire Wire Line
-	14900 1800 15200 1800
+	11800 1500 15500 1500
 Wire Wire Line
-	11800 1700 14500 1700
+	11800 1400 15200 1400
 Wire Wire Line
-	14500 1700 14900 1700
-Wire Wire Line
-	11800 1500 13700 1500
-Wire Wire Line
-	13700 1500 15500 1500
-Wire Wire Line
-	11800 1400 13300 1400
-Wire Wire Line
-	13300 1400 15200 1400
-Wire Wire Line
-	11800 1300 12900 1300
-Wire Wire Line
-	12900 1300 14900 1300
+	11800 1300 14900 1300
 Connection ~ 15400 8200
 Wire Wire Line
 	14600 8200 15400 8200
 Wire Wire Line
 	15400 8300 14900 8300
 Wire Wire Line
-	15400 8000 15400 8200
-Wire Wire Line
-	15400 8200 15400 8300
+	15400 8000 15400 8300
 Wire Wire Line
 	15300 8000 15400 8000
 Wire Wire Line
@@ -2607,29 +2547,7 @@ Wire Wire Line
 Wire Wire Line
 	15400 6000 15300 6000
 Wire Wire Line
-	15400 6000 15400 6200
-Wire Wire Line
-	15400 6200 15400 6300
-Wire Wire Line
-	15400 6300 15400 6400
-Wire Wire Line
-	15400 6400 15400 6500
-Wire Wire Line
-	15400 6500 15400 6600
-Wire Wire Line
-	15400 6600 15400 6700
-Wire Wire Line
-	15400 6700 15400 6800
-Wire Wire Line
-	15400 6800 15400 6900
-Wire Wire Line
-	15400 6900 15400 7000
-Wire Wire Line
-	15400 7000 15400 7100
-Wire Wire Line
-	15400 7100 15400 7200
-Wire Wire Line
-	15400 7200 15400 7300
+	15400 6000 15400 7300
 Wire Wire Line
 	15400 7300 15300 7300
 Wire Wire Line
@@ -2670,96 +2588,56 @@ Wire Wire Line
 	11000 10200 10900 10200
 Connection ~ 11000 9800
 Wire Wire Line
-	10900 9800 11000 9800
-Wire Wire Line
-	11000 9800 11100 9800
+	10900 9800 11100 9800
 Connection ~ 11000 9400
 Wire Wire Line
-	11000 9400 11000 9800
+	11000 9400 11000 10600
 Wire Wire Line
-	11000 9800 11000 10200
+	10900 10600 11100 10600
 Wire Wire Line
-	11000 10200 11000 10600
-Wire Wire Line
-	10900 10600 11000 10600
-Wire Wire Line
-	11000 10600 11100 10600
-Wire Wire Line
-	10900 9400 11000 9400
-Wire Wire Line
-	11000 9400 11100 9400
+	10900 9400 11100 9400
 Connection ~ 8200 10600
 Connection ~ 8200 10200
 Wire Wire Line
 	8200 10200 8100 10200
 Connection ~ 8200 9800
 Wire Wire Line
-	8100 9800 8200 9800
-Wire Wire Line
-	8200 9800 8300 9800
+	8100 9800 8300 9800
 Connection ~ 8200 9400
 Wire Wire Line
-	8200 9400 8200 9800
+	8200 9400 8200 10600
 Wire Wire Line
-	8200 9800 8200 10200
+	8100 10600 8300 10600
 Wire Wire Line
-	8200 10200 8200 10600
-Wire Wire Line
-	8100 10600 8200 10600
-Wire Wire Line
-	8200 10600 8300 10600
-Wire Wire Line
-	8100 9400 8200 9400
-Wire Wire Line
-	8200 9400 8300 9400
+	8100 9400 8300 9400
 Connection ~ 5400 10600
 Connection ~ 5400 10200
 Wire Wire Line
 	5400 10200 5300 10200
 Connection ~ 5400 9800
 Wire Wire Line
-	5300 9800 5400 9800
-Wire Wire Line
-	5400 9800 5500 9800
+	5300 9800 5500 9800
 Connection ~ 5400 9400
 Wire Wire Line
-	5400 9400 5400 9800
+	5400 9400 5400 10600
 Wire Wire Line
-	5400 9800 5400 10200
+	5300 10600 5500 10600
 Wire Wire Line
-	5400 10200 5400 10600
-Wire Wire Line
-	5300 10600 5400 10600
-Wire Wire Line
-	5400 10600 5500 10600
-Wire Wire Line
-	5300 9400 5400 9400
-Wire Wire Line
-	5400 9400 5500 9400
+	5300 9400 5500 9400
 Connection ~ 2500 10600
 Connection ~ 2500 10200
 Wire Wire Line
 	2500 10200 2400 10200
 Connection ~ 2500 9800
 Wire Wire Line
-	2400 9800 2500 9800
-Wire Wire Line
-	2500 9800 2600 9800
+	2400 9800 2600 9800
 Connection ~ 2500 9400
 Wire Wire Line
-	2500 9400 2500 9800
+	2500 9400 2500 10600
 Wire Wire Line
-	2500 9800 2500 10200
+	2400 10600 2600 10600
 Wire Wire Line
-	2500 10200 2500 10600
-Wire Wire Line
-	2400 10600 2500 10600
-Wire Wire Line
-	2500 10600 2600 10600
-Wire Wire Line
-	2400 9400 2500 9400
-Wire Wire Line
-	2500 9400 2600 9400
+	2400 9400 2600 9400
 Wire Wire Line
 	12200 8300 12100 8300
 Wire Wire Line
@@ -3910,251 +3788,251 @@ M66EN
 Wire Notes Line
 	1300 500  1300 11200
 Text GLabel 2600 3500 0    50   Input ~ 0
-P5_PCI
+P5V_PCI_A
 Text GLabel 2600 3200 0    50   Input ~ 0
-P5_PCI
+P5V_PCI_A
 Text GLabel 4100 3200 2    50   Input ~ 0
-P5_PCI
+P5V_PCI_A
 Text GLabel 4100 3300 2    50   Input ~ 0
-P5_PCI
+P5V_PCI_A
 Text GLabel 2600 3700 0    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_A
 Text GLabel 2600 4200 0    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_A
 Text GLabel 2600 4700 0    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_A
 Text GLabel 2600 5300 0    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_A
 Text GLabel 2600 5900 0    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_A
 Text GLabel 2600 6500 0    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_A
 Text GLabel 2600 7100 0    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_A
 Text GLabel 2600 7900 0    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_A
 Text GLabel 2600 8500 0    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_A
 Text GLabel 2600 8700 0    50   Input ~ 0
-P5_PCI
+P5V_PCI_A
 Text GLabel 2600 8800 0    50   Input ~ 0
-P5_PCI
+P5V_PCI_A
 Text GLabel 4100 8800 2    50   Input ~ 0
-P5_PCI
+P5V_PCI_A
 Text GLabel 4100 8700 2    50   Input ~ 0
-P5_PCI
+P5V_PCI_A
 Text GLabel 4100 8500 2    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_A
 Text GLabel 4100 8000 2    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_A
 Text GLabel 4100 6900 2    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_A
 Text GLabel 4100 6700 2    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_A
 Text GLabel 4100 6200 2    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_A
 Text GLabel 4100 5700 2    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_A
 Text GLabel 4100 5100 2    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_A
 Text GLabel 4100 4500 2    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_A
 Text GLabel 4100 2800 2    50   Input ~ 0
-N12_PCI
+N12V_PCI
 Text GLabel 2600 2900 0    50   Input ~ 0
-P12_PCI
+P12V_PCI
 Text GLabel 7000 3200 2    50   Input ~ 0
-P5_PCI
+P5V_PCI_B
 Text GLabel 7000 3300 2    50   Input ~ 0
-P5_PCI
+P5V_PCI_B
 Text GLabel 7000 8800 2    50   Input ~ 0
-P5_PCI
+P5V_PCI_B
 Text GLabel 7000 8700 2    50   Input ~ 0
-P5_PCI
+P5V_PCI_B
 Text GLabel 7000 8500 2    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_B
 Text GLabel 7000 8000 2    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_B
 Text GLabel 7000 6900 2    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_B
 Text GLabel 7000 6700 2    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_B
 Text GLabel 7000 6200 2    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_B
 Text GLabel 7000 5700 2    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_B
 Text GLabel 7000 5100 2    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_B
 Text GLabel 7000 4500 2    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_B
 Text GLabel 7000 2800 2    50   Input ~ 0
-N12_PCI
+N12V_PCI
 Text GLabel 9800 3200 2    50   Input ~ 0
-P5_PCI
+P5V_PCI_A
 Text GLabel 9800 3300 2    50   Input ~ 0
-P5_PCI
+P5V_PCI_A
 Text GLabel 9800 8800 2    50   Input ~ 0
-P5_PCI
+P5V_PCI_A
 Text GLabel 9800 8700 2    50   Input ~ 0
-P5_PCI
+P5V_PCI_A
 Text GLabel 9800 8500 2    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_A
 Text GLabel 9800 8000 2    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_A
 Text GLabel 9800 6900 2    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_A
 Text GLabel 9800 6700 2    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_A
 Text GLabel 9800 6200 2    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_A
 Text GLabel 9800 5700 2    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_A
 Text GLabel 9800 5100 2    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_A
 Text GLabel 9800 4500 2    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_A
 Text GLabel 9800 2800 2    50   Input ~ 0
-N12_PCI
+N12V_PCI
 Text GLabel 12600 3200 2    50   Input ~ 0
-P5_PCI
+P5V_PCI_B
 Text GLabel 12600 3300 2    50   Input ~ 0
-P5_PCI
+P5V_PCI_B
 Text GLabel 12600 8800 2    50   Input ~ 0
-P5_PCI
+P5V_PCI_B
 Text GLabel 12600 8700 2    50   Input ~ 0
-P5_PCI
+P5V_PCI_B
 Text GLabel 12600 8500 2    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_B
 Text GLabel 12600 8000 2    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_B
 Text GLabel 12600 6900 2    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_B
 Text GLabel 12600 6700 2    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_B
 Text GLabel 12600 6200 2    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_B
 Text GLabel 12600 5700 2    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_B
 Text GLabel 12600 5100 2    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_B
 Text GLabel 12600 4500 2    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_B
 Text GLabel 12600 2800 2    50   Input ~ 0
-N12_PCI
+N12V_PCI
 Text GLabel 5500 3500 0    50   Input ~ 0
-P5_PCI
+P5V_PCI_B
 Text GLabel 5500 3200 0    50   Input ~ 0
-P5_PCI
+P5V_PCI_B
 Text GLabel 5500 3700 0    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_B
 Text GLabel 5500 4200 0    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_B
 Text GLabel 5500 4700 0    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_B
 Text GLabel 5500 2900 0    50   Input ~ 0
-P12_PCI
+P12V_PCI
 Text GLabel 8300 3500 0    50   Input ~ 0
-P5_PCI
+P5V_PCI_A
 Text GLabel 8300 3200 0    50   Input ~ 0
-P5_PCI
+P5V_PCI_A
 Text GLabel 8300 3700 0    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_A
 Text GLabel 8300 4200 0    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_A
 Text GLabel 8300 4700 0    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_A
 Text GLabel 8300 2900 0    50   Input ~ 0
-P12_PCI
+P12V_PCI
 Text GLabel 11100 3500 0    50   Input ~ 0
-P5_PCI
+P5V_PCI_B
 Text GLabel 11100 3200 0    50   Input ~ 0
-P5_PCI
+P5V_PCI_B
 Text GLabel 11100 3700 0    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_B
 Text GLabel 11100 4200 0    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_B
 Text GLabel 11100 4700 0    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_B
 Text GLabel 11100 2900 0    50   Input ~ 0
-P12_PCI
+P12V_PCI
 Text GLabel 5500 5300 0    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_B
 Text GLabel 5500 5900 0    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_B
 Text GLabel 5500 6500 0    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_B
 Text GLabel 5500 7100 0    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_B
 Text GLabel 5500 7900 0    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_B
 Text GLabel 5500 8500 0    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_B
 Text GLabel 5500 8700 0    50   Input ~ 0
-P5_PCI
+P5V_PCI_B
 Text GLabel 5500 8800 0    50   Input ~ 0
-P5_PCI
+P5V_PCI_B
 Text GLabel 8300 5300 0    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_A
 Text GLabel 8300 5900 0    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_A
 Text GLabel 8300 6500 0    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_A
 Text GLabel 8300 7100 0    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_A
 Text GLabel 8300 7900 0    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_A
 Text GLabel 8300 8500 0    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_A
 Text GLabel 8300 8700 0    50   Input ~ 0
-P5_PCI
+P5V_PCI_A
 Text GLabel 8300 8800 0    50   Input ~ 0
-P5_PCI
+P5V_PCI_A
 Text GLabel 11100 5300 0    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_B
 Text GLabel 11100 5900 0    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_B
 Text GLabel 11100 6500 0    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_B
 Text GLabel 11100 7100 0    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_B
 Text GLabel 11100 7900 0    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_B
 Text GLabel 11100 8500 0    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_B
 Text GLabel 11100 8700 0    50   Input ~ 0
-P5_PCI
+P5V_PCI_B
 Text GLabel 11100 8800 0    50   Input ~ 0
-P5_PCI
+P5V_PCI_B
 Wire Wire Line
 	12600 6700 12100 6700
 Wire Wire Line
 	12600 5100 12100 5100
 Text GLabel 11100 4000 0    50   Input ~ 0
-P3V3_PCI_AUX
+P3V3_PCI_B
 Text GLabel 8300 4000 0    50   Input ~ 0
-P3V3_PCI_AUX
+P3V3_PCI_A
 Text GLabel 5500 4000 0    50   Input ~ 0
-P3V3_PCI_AUX
+P3V3_PCI_B
 Text GLabel 2600 4000 0    50   Input ~ 0
-P3V3_PCI_AUX
+P3V3_PCI_A
 Text GLabel 15300 6000 0    50   Input ~ 0
-P3V3_PCI
+P3V3_BRIDGE
 Text GLabel 15200 2500 0    50   Input ~ 0
-P3V3_PCI
+P3V3_AUX
 Text GLabel 15600 1000 0    50   Input ~ 0
-P3V3_PCI
+P3V3_AUX
 Text GLabel 10600 9400 0    50   Input ~ 0
-P12_PCI
+P12V_PCI
 Text GLabel 10600 9800 0    50   Input ~ 0
-P5_PCI
+P5V_PCI_B
 Text GLabel 10600 10200 0    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_B
 Text GLabel 10600 10600 0    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_B
 Text GLabel 11400 9400 2    50   Input ~ 0
-N12_PCI
+N12V_PCI
 Text GLabel 11400 9800 2    50   Input ~ 0
-P5_PCI
+P5V_PCI_B
 Wire Wire Line
 	10600 9400 10700 9400
 Wire Wire Line
@@ -4168,21 +4046,21 @@ Wire Wire Line
 Wire Wire Line
 	11400 9800 11300 9800
 Text GLabel 8600 9400 2    50   Input ~ 0
-N12_PCI
+N12V_PCI
 Text GLabel 8600 9800 2    50   Input ~ 0
-P5_PCI
+P5V_PCI_A
 Wire Wire Line
 	8600 9400 8500 9400
 Wire Wire Line
 	8600 9800 8500 9800
 Text GLabel 7800 9400 0    50   Input ~ 0
-P12_PCI
+P12V_PCI
 Text GLabel 7800 9800 0    50   Input ~ 0
-P5_PCI
+P5V_PCI_A
 Text GLabel 7800 10200 0    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_A
 Text GLabel 7800 10600 0    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_A
 Wire Wire Line
 	7800 9400 7900 9400
 Wire Wire Line
@@ -4192,13 +4070,13 @@ Wire Wire Line
 Wire Wire Line
 	7800 10600 7900 10600
 Text GLabel 5000 9400 0    50   Input ~ 0
-P12_PCI
+P12V_PCI
 Text GLabel 5000 9800 0    50   Input ~ 0
-P5_PCI
+P5V_PCI_B
 Text GLabel 5000 10200 0    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_B
 Text GLabel 5000 10600 0    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_B
 Wire Wire Line
 	5000 9400 5100 9400
 Wire Wire Line
@@ -4208,29 +4086,29 @@ Wire Wire Line
 Wire Wire Line
 	5000 10600 5100 10600
 Text GLabel 5800 9400 2    50   Input ~ 0
-N12_PCI
+N12V_PCI
 Text GLabel 5800 9800 2    50   Input ~ 0
-P5_PCI
+P5V_PCI_B
 Wire Wire Line
 	5800 9400 5700 9400
 Wire Wire Line
 	5800 9800 5700 9800
 Text GLabel 2900 9400 2    50   Input ~ 0
-N12_PCI
+N12V_PCI
 Text GLabel 2900 9800 2    50   Input ~ 0
-P5_PCI
+P5V_PCI_A
 Wire Wire Line
 	2900 9400 2800 9400
 Wire Wire Line
 	2900 9800 2800 9800
 Text GLabel 2100 9400 0    50   Input ~ 0
-P12_PCI
+P12V_PCI
 Text GLabel 2100 9800 0    50   Input ~ 0
-P5_PCI
+P5V_PCI_A
 Text GLabel 2100 10200 0    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_A
 Text GLabel 2100 10600 0    50   Input ~ 0
-P3V3_PCI
+P3V3_PCI_A
 Wire Wire Line
 	2100 9400 2200 9400
 Wire Wire Line
@@ -4246,5 +4124,5 @@ Wire Notes Line
 Wire Notes Line
 	13500 3600 13900 3100
 Text GLabel 15300 8000 0    50   Input ~ 0
-P3V3_PCI
+P3V3_AUX
 $EndSCHEMATC

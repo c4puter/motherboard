@@ -92,7 +92,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 9
+Sheet 6 10
 Title ""
 Date ""
 Rev ""
@@ -185,7 +185,7 @@ Wire Wire Line
 	7000 1100 7000 1850
 Connection ~ 7000 1100
 Text GLabel 7950 700  0    50   Input ~ 0
-3V3_LIMB
+P3V3_STBY
 Wire Wire Line
 	7950 700  8100 700 
 Wire Wire Line
@@ -494,7 +494,7 @@ Wire Wire Line
 	10600 6700 10500 6700
 Connection ~ 10600 6700
 Text GLabel 9100 1400 0    50   Input ~ 0
-3V3_LIMB
+P3V3_STBY
 Wire Wire Line
 	9100 1400 9300 1400
 Wire Wire Line
