@@ -1,4 +1,6 @@
+Tidy schematic
 JTAG/reset pullups
+CPU handshake lines
 Voltage sense
 Check footprints: SD, DE9, power
 Full SD interface
