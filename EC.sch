@@ -135,18 +135,6 @@ F 4 "MCU ATMEL ATSAM4S16CA-AU" H 9900 1100 50  0001 C CNN "BOM"
 $EndComp
 Text Label 10600 3200 0    50   ~ 0
 A0
-Text Label 10600 3300 0    50   ~ 0
-A1
-Text Label 10600 3400 0    50   ~ 0
-A2
-Text Label 10600 3500 0    50   ~ 0
-A3
-Text Label 10600 3600 0    50   ~ 0
-A4
-Text Label 10600 3700 0    50   ~ 0
-A5
-Text Label 10600 3800 0    50   ~ 0
-A6
 Text Label 10600 3900 0    50   ~ 0
 A7
 Text Label 10600 4000 0    50   ~ 0
@@ -169,10 +157,6 @@ Text Label 9000 5600 0    50   ~ 0
 A16
 Text Label 9000 3600 0    50   ~ 0
 A17
-Text Label 9000 3700 0    50   ~ 0
-A18
-Text Label 10600 3000 0    50   ~ 0
-A21
 Text Label 10600 3100 0    50   ~ 0
 A22
 Text Label 10600 1400 0    50   ~ 0
@@ -191,10 +175,6 @@ Text Label 10600 2000 0    50   ~ 0
 D6
 Text Label 10600 2100 0    50   ~ 0
 D7
-Text Label 10600 2300 0    50   ~ 0
-NANDOE
-Text Label 10600 2400 0    50   ~ 0
-NANDWE
 Text Label 10600 2800 0    50   ~ 0
 NCS0
 Text Label 10600 2900 0    50   ~ 0
@@ -1570,4 +1550,64 @@ Connection ~ 6200 5500
 Text HLabel 6100 5600 0    50   BiDi ~ 0
 PCI_SCL
 Connection ~ 6500 5600
+Text HLabel 1400 6900 0    50   Input ~ 0
+~PRSNT1_[0..3]
+Text HLabel 1400 7000 0    50   Input ~ 0
+~PRSNT2_[0..3]
+Text Label 2100 6900 2    50   ~ 0
+~PRSNT1_[0..3]
+Wire Wire Line
+	1400 6900 2100 6900
+Text Label 2100 7000 2    50   ~ 0
+~PRSNT2_[0..3]
+Wire Wire Line
+	1400 7000 2100 7000
+Text Label 10600 3500 0    50   ~ 0
+~PRSNT1_0
+Text Label 10600 3400 0    50   ~ 0
+~PRSNT2_0
+Text Label 10600 3300 0    50   ~ 0
+~PRSNT2_1
+Wire Wire Line
+	9000 3800 9300 3800
+Text Label 10600 3000 0    50   ~ 0
+~PRSNT1_1
+Text Label 9000 3700 2    50   ~ 0
+~PRSNT2_2
+Wire Wire Line
+	9300 1500 9100 1500
+Wire Wire Line
+	9100 1500 9100 2500
+Wire Wire Line
+	9100 2100 9300 2100
+Wire Wire Line
+	9100 2200 9300 2200
+Connection ~ 9100 2100
+Wire Wire Line
+	9100 2300 9300 2300
+Connection ~ 9100 2200
+Wire Wire Line
+	9100 2400 9300 2400
+Connection ~ 9100 2300
+Wire Wire Line
+	9100 2500 9300 2500
+Connection ~ 9100 2400
+NoConn ~ 9300 2800
+Wire Wire Line
+	8900 2900 9300 2900
+NoConn ~ 9300 3000
+Text Label 8900 2900 0    50   ~ 0
+~RST
+Text Label 9000 3800 2    50   ~ 0
+~PRSNT1_2
+Text Label 10600 2400 0    50   ~ 0
+~PRSNT2_3
+Text Label 10600 2300 0    50   ~ 0
+~PRSNT1_3
+Text HLabel 10600 3600 2    50   Output ~ 0
+~PCIRST
+Text HLabel 10600 3700 2    50   Input ~ 0
+~PCIPME
+Text HLabel 10600 3800 2    50   Input ~ 0
+PCIM66EN
 $EndSCHEMATC

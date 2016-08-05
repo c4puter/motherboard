@@ -1,4 +1,4 @@
-PCI presence detect, reset, PME, M66EN (another expander?)
+JTAG/reset pullups
 Voltage sense
 Full SD interface
 Switch all standard resistors to 0402
