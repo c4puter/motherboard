@@ -1903,30 +1903,6 @@ F 4 "RES SMD 8k2 1% [0603]" H 15950 7850 60  0001 C CNN "BOM"
 	1    15200 7300
 	0    1    1    0   
 $EndComp
-$Comp
-L R-0603 R39
-U 1 1 576CDBBD
-P 14500 8200
-F 0 "R39" V 14300 8200 50  0000 C CNN
-F 1 "5k1" V 14391 8200 50  0000 C CNN
-F 2 "IPC7351-Nominal:RESC1608X50" H 14500 8200 50  0001 C CNN
-F 3 "" H 14500 8250 60  0000 C CNN
-F 4 "RES SMD 5k1 1% [0603]" H 15250 8750 60  0001 C CNN "BOM"
-	1    14500 8200
-	0    1    1    0   
-$EndComp
-$Comp
-L R-0603 R40
-U 1 1 576CDF58
-P 14800 8300
-F 0 "R40" V 14908 8300 50  0000 C CNN
-F 1 "5k1" V 14999 8300 50  0000 C CNN
-F 2 "IPC7351-Nominal:RESC1608X50" H 14800 8300 50  0001 C CNN
-F 3 "" H 14800 8350 60  0000 C CNN
-F 4 "RES SMD 5k1 1% [0603]" H 15550 8850 60  0001 C CNN "BOM"
-	1    14800 8300
-	0    1    1    0   
-$EndComp
 Text Label 11800 1200 0    50   ~ 0
 ~PRSNT1_0
 Text Label 11800 1300 0    50   ~ 0
@@ -2565,10 +2541,6 @@ Text Label 13500 6800 0    50   ~ 0
 ~PERR
 Text Label 13500 6900 0    50   ~ 0
 ~LOCK
-Text Label 13900 8200 0    50   ~ 0
-SCL
-Text Label 13900 8300 0    50   ~ 0
-SDA
 Text Label 13700 2900 0    50   ~ 0
 M66EN
 Text GLabel 2600 3500 0    50   Input ~ 0
@@ -2851,8 +2823,6 @@ Text GLabel 2100 10600 0    50   Input ~ 0
 P3V3_PCI_A
 Text Notes 13400 3800 0    50   ~ 0
 Placement: Lo-Z: These capacitors provide\nAC return path for adjacent signals.
-Text GLabel 15300 8000 0    50   Input ~ 0
-P3V3_AUX
 $Comp
 L C-0402 C?
 U 1 1 579C2947
@@ -3085,19 +3055,6 @@ Wire Wire Line
 	11800 1400 15200 1400
 Wire Wire Line
 	11800 1300 14900 1300
-Connection ~ 15400 8200
-Wire Wire Line
-	14600 8200 15400 8200
-Wire Wire Line
-	15400 8300 14900 8300
-Wire Wire Line
-	15400 8000 15400 8300
-Wire Wire Line
-	15300 8000 15400 8000
-Wire Wire Line
-	13900 8300 14700 8300
-Wire Wire Line
-	14400 8200 13900 8200
 Connection ~ 15400 7200
 Wire Wire Line
 	15400 7200 15000 7200
