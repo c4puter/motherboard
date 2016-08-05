@@ -1,4 +1,6 @@
 Tidy schematic
+Fix VREG1/VREG2 vset resistors
+Drop Q3, Q8, Q7, Q19 (PCF8575 can drive those resistors directly)
 JTAG/reset pullups
 CPU handshake lines
 Voltage sense
