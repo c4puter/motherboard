@@ -1,0 +1,15 @@
+PCI SMBUS
+PCI presence detect, reset, PME, M66EN (another expander?)
+Catalog all I2C addresses on main bus
+    - Label in schematic
+    - Label on PCB
+I2C max resistance should be 1.4k
+    - on buses with S5/S0 capacitance, make sure to note on
+        schematic that pullup resistance is half as strong in
+        standby, and thus I2C speed should be halved
+Another DIP switch: system clock low speed
+    - can be used for demoing with no fan
+Route all power
+Reorder sheets
+Reannotate (use four-digit numbers)
+Arrange silks on PCB
