@@ -1,17 +1,20 @@
 JTAG/reset pullups
 Voltage sense
+Check footprints: SD, DE9, power
 Full SD interface
 Switch all standard resistors to 0402
 Catalog all I2C addresses on main bus
     - Label in schematic
     - Label on PCB
-I2C max resistance should be 1.4k
-    - on buses with S5/S0 capacitance, make sure to note on
+I2C resistance should be between 900 and 5k
+    - bus capacitance too high for 400 kHz; target speed 100 kHz
+    - on buses with S5/S0 segments, make sure to note on
         schematic that pullup resistance is half as strong in
         standby, and thus I2C speed should be halved
 Another DIP switch: system clock low speed
     - can be used for demoing with no fan
 Route all power
+Length-tune interfaces
 Catalog all parts, combine when possible
 Reorder sheets
 Reannotate (use four-digit numbers)
