@@ -1283,4 +1283,53 @@ Wire Wire Line
 Text HLabel 9750 9600 0    50   Input ~ 0
 SUSPEND
 Connection ~ 9900 9600
+Text GLabel 8000 6800 0    50   Input ~ 0
+P3V3_CPU
+Wire Wire Line
+	8000 6800 8200 6800
+Wire Wire Line
+	8100 6900 8200 6900
+Wire Wire Line
+	8100 7000 8200 7000
+Wire Wire Line
+	8100 7100 8200 7100
+Wire Wire Line
+	8100 7200 8200 7200
+Wire Wire Line
+	8100 7300 8200 7300
+Wire Wire Line
+	8100 7400 8200 7400
+Wire Wire Line
+	8100 7500 8200 7500
+Wire Wire Line
+	8100 7600 8200 7600
+Wire Wire Line
+	8100 7700 8200 7700
+Connection ~ 8100 6800
+Connection ~ 8100 6900
+Connection ~ 8100 7000
+Connection ~ 8100 7100
+Connection ~ 8100 7200
+Connection ~ 8100 7300
+Connection ~ 8100 7400
+Connection ~ 8100 7500
+Connection ~ 8100 7600
+Wire Wire Line
+	8100 6800 8100 7700
+Text HLabel 8100 3700 0    50   Output ~ 0
+ICPU_REQ_OUT
+Wire Wire Line
+	8200 3700 8100 3700
+Text HLabel 8100 3600 0    50   Input ~ 0
+ICPU_ACK_IN
+Wire Wire Line
+	8100 3600 8200 3600
+Text HLabel 8100 3500 0    50   Input ~ 0
+ICPU_REQ_IN
+Wire Wire Line
+	8100 3500 8200 3500
+Text HLabel 8100 3400 0    50   Output ~ 0
+ICPU_ACK_OUT
+Wire Wire Line
+	8100 3400 8200 3400
 $EndSCHEMATC

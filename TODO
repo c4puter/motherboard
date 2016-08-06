@@ -1,4 +1,3 @@
-CPU handshake lines
 Voltage sense
 Fix "Error: No footprint defined"
 Check footprints: SD, DE9, power
@@ -7,7 +6,6 @@ Switch all standard resistors to 0402
 Tidy up LIMB vs EC
 Pick a consistent name for active low signals (ideally one that can be used in code)
 LIMB ADVREF
-CPU power, bank 0
 Catalog all I2C addresses on main bus
     - Label in schematic
     - Label on PCB
