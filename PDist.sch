@@ -88,7 +88,7 @@ LIBS:Richtek
 LIBS:semi-diode-Panasonic
 LIBS:Murata
 LIBS:semi-trans-Panasonic
-LIBS:c4puter-cache
+LIBS:motherboard-cache
 EELAYER 25 0
 EELAYER END
 $Descr B 17000 11000

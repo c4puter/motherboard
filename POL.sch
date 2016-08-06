@@ -86,7 +86,7 @@ LIBS:Vishay
 LIBS:Xilinx
 LIBS:Richtek
 LIBS:semi-diode-Panasonic
-LIBS:c4puter-cache
+LIBS:motherboard-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268

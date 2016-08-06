@@ -84,7 +84,7 @@ LIBS:symbol
 LIBS:TexasInstruments
 LIBS:Vishay
 LIBS:Xilinx
-LIBS:c4puter-cache
+LIBS:motherboard-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
