@@ -126,9 +126,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 2000 4900 2000
 Wire Wire Line
-	4900 2000 4900 2100
-Wire Wire Line
-	4900 2100 4900 2200
+	4900 2000 4900 2200
 Wire Wire Line
 	5000 2100 4900 2100
 Connection ~ 4900 2100
@@ -190,15 +188,7 @@ F 4 "RES SMD 1k 1% [0402]" H 2650 2050 60  0001 C CNN "BOM"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2000 1500 2100 1500
-Wire Wire Line
-	2100 1500 2450 1500
-Wire Wire Line
-	2450 1500 2800 1500
-Wire Wire Line
-	2800 1500 3150 1500
-Wire Wire Line
-	3150 1500 5000 1500
+	2000 1500 5000 1500
 $Comp
 L C-0402 C?
 U 1 1 57984F3A
@@ -350,9 +340,7 @@ F 4 "DIST DIGIKEY BU2032SM-HD-GCT-ND" H 3800 1800 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3800 1600 4300 1600
-Wire Wire Line
-	4300 1600 5000 1600
+	3800 1600 5000 1600
 Wire Wire Line
 	3800 1600 3800 1700
 $Comp
@@ -431,9 +419,7 @@ $EndComp
 Wire Wire Line
 	6100 3900 6200 3900
 Wire Wire Line
-	6200 3900 6200 4000
-Wire Wire Line
-	6200 4000 6200 4100
+	6200 3900 6200 4100
 Wire Wire Line
 	6200 4000 6100 4000
 Connection ~ 6200 4000
@@ -459,9 +445,7 @@ F 4 "IC TI TLV702vvDBV" H 3950 3300 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4300 3800 4600 3800
-Wire Wire Line
-	4600 3800 5100 3800
+	4300 3800 5100 3800
 $Comp
 L GND #PWR169
 U 1 1 5798C570
@@ -495,22 +479,16 @@ Wire Wire Line
 Wire Wire Line
 	3600 3900 3500 3900
 Wire Wire Line
-	3500 3900 3500 3800
+	3500 3800 3500 3900
 Wire Wire Line
-	3000 3800 3100 3800
-Wire Wire Line
-	3100 3800 3400 3800
-Wire Wire Line
-	3400 3800 3500 3800
-Wire Wire Line
-	3500 3800 3600 3800
+	3000 3800 3600 3800
 Connection ~ 3500 3800
 Text GLabel 3000 3800 0    50   Input ~ 0
 P3V3_AUX
 Wire Wire Line
 	3400 3800 3400 4300
 Wire Wire Line
-	3400 4300 5000 4300
+	5000 4300 3400 4300
 Wire Wire Line
 	5000 3900 5100 3900
 Connection ~ 3400 3800
@@ -580,9 +558,7 @@ $EndComp
 Wire Wire Line
 	4600 4150 4600 4100
 Wire Wire Line
-	5000 4300 5000 4000
-Wire Wire Line
-	5000 4000 5000 3900
+	5000 3900 5000 4300
 $Comp
 L LM75BDP U7
 U 1 1 579F4ACE
@@ -598,9 +574,7 @@ $EndComp
 Text GLabel 4700 4800 0    50   Input ~ 0
 P3V3_AUX
 Wire Wire Line
-	4700 4800 4800 4800
-Wire Wire Line
-	4800 4800 5200 4800
+	4700 4800 5200 4800
 Text HLabel 1600 2500 0    50   BiDi ~ 0
 SDA_S0
 Text HLabel 1600 2600 0    50   Input ~ 0
@@ -608,17 +582,9 @@ SCL_S0
 Wire Wire Line
 	1600 2500 2400 2500
 Wire Wire Line
-	2400 2500 2400 3400
+	2400 2500 2400 6200
 Wire Wire Line
-	2400 3400 2400 4900
-Wire Wire Line
-	2400 4900 2400 6200
-Wire Wire Line
-	2300 2600 2300 3500
-Wire Wire Line
-	2300 3500 2300 5000
-Wire Wire Line
-	2300 5000 2300 6300
+	2300 2600 2300 6300
 Wire Wire Line
 	2300 2600 1600 2600
 Wire Wire Line
@@ -639,13 +605,7 @@ F 3 "" H 5100 5500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5100 5100 5100 5200
-Wire Wire Line
-	5100 5200 5100 5300
-Wire Wire Line
-	5100 5300 5100 5400
-Wire Wire Line
-	5100 5400 5100 5500
+	5100 5100 5100 5500
 Wire Wire Line
 	5100 5100 5200 5100
 Wire Wire Line
@@ -674,11 +634,7 @@ NoConn ~ 6000 6100
 Text GLabel 4700 6100 0    50   Input ~ 0
 P3V3_AUX
 Wire Wire Line
-	4700 6100 4800 6100
-Wire Wire Line
-	4800 6100 5100 6100
-Wire Wire Line
-	5100 6100 5200 6100
+	4700 6100 5200 6100
 Wire Wire Line
 	2400 6200 5200 6200
 Connection ~ 2400 4900
@@ -688,11 +644,7 @@ Connection ~ 2300 5000
 Wire Wire Line
 	5200 6500 5100 6500
 Wire Wire Line
-	5100 6500 5100 6600
-Wire Wire Line
-	5100 6600 5100 6700
-Wire Wire Line
-	5100 6700 5100 6800
+	5100 6500 5100 6800
 $Comp
 L GND #PWR176
 U 1 1 579F532E
@@ -794,9 +746,7 @@ $EndComp
 Wire Wire Line
 	6600 3100 6100 3100
 Wire Wire Line
-	6800 3100 7200 3100
-Wire Wire Line
-	7200 3100 7400 3100
+	6800 3100 7400 3100
 $Comp
 L R-0402 R89
 U 1 1 57A152BE
@@ -810,9 +760,7 @@ F 4 "RES SMD 91 1% [0402]" H 7450 3750 60  0001 C CNN "BOM"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6800 3200 6900 3200
-Wire Wire Line
-	6900 3200 7400 3200
+	6800 3200 7400 3200
 Wire Wire Line
 	6600 3200 6100 3200
 $Comp
