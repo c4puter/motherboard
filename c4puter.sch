@@ -288,8 +288,8 @@ $EndSheet
 $Sheet
 S 7400 1100 1300 5000
 U 5763A638
-F0 "Multibridge" 60
-F1 "Multibridge.sch" 60
+F0 "Northbridge" 60
+F1 "Northbridge.sch" 60
 F2 "LIMBD[0..7]" B L 7400 4800 50 
 F3 "LIMBA15" I L 7400 4900 50 
 F4 "LIMBNCS" I L 7400 5000 50 
