@@ -1,4 +1,3 @@
-FPGA SUSPEND pins
 CPU handshake lines
 Voltage sense
 Fix "Error: No footprint defined"
