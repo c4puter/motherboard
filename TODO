@@ -1,5 +1,4 @@
-Fix "Error: No footprint defined"
-Check footprints: SD, DE9, power
+Check footprints: SD, power
 Full SD interface
 Switch all standard resistors to 0402
 Tidy up LIMB vs EC
@@ -18,6 +17,7 @@ Another DIP switch: system clock low speed
 Route all power
 Voltage sense
 Length-tune interfaces
+Finish all pours, add possible stitching?
 Reorder sheets
 Reannotate (use four-digit numbers)
 Catalog all parts, combine when possible
