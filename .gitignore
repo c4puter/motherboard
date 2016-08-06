@@ -1,4 +1,5 @@
 *.bak
+*.bck
 *.kicad_pcb-bak
 
 fw.elf
