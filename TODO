@@ -2,8 +2,10 @@ Tidy schematic
 Fix VREG1/VREG2 vset resistors
 Drop Q3, Q8, Q7, Q19 (PCF8575 can drive those resistors directly)
 JTAG/reset pullups
+FPGA SUSPEND pins
 CPU handshake lines
 Voltage sense
+Fix "Error: No footprint defined"
 Check footprints: SD, DE9, power
 Full SD interface
 Switch all standard resistors to 0402
