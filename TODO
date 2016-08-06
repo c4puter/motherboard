@@ -1,4 +1,3 @@
-JTAG/reset pullups
 FPGA SUSPEND pins
 CPU handshake lines
 Voltage sense
