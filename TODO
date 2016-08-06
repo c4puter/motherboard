@@ -11,6 +11,7 @@ Full SD interface
 Switch all standard resistors to 0402
 Tidy up LIMB vs EC
 LIMB ADVREF
+CPU power, bank 0
 Catalog all I2C addresses on main bus
     - Label in schematic
     - Label on PCB
