@@ -94,9 +94,9 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 3 10
-Title "C4-0 PCI BUS"
-Date "2016-07-10"
-Rev "R1.0"
+Title "PCI bus"
+Date "2016-08-05"
+Rev ""
 Comp ""
 Comment1 ""
 Comment2 ""
