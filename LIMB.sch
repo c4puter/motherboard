@@ -94,8 +94,8 @@ EELAYER END
 $Descr B 17000 11000
 encoding utf-8
 Sheet 10 10
-Title ""
-Date ""
+Title "Local Integrated Management Bits"
+Date "2016-08-07"
 Rev ""
 Comp ""
 Comment1 ""
