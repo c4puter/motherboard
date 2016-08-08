@@ -1,4 +1,5 @@
-Pick a consistent name for active low signals (ideally one that can be used in code)
+SODIMM ~EVENT ?
+PCI JTAG
 LIMB ADVREF
 Catalog all I2C addresses on main bus
     - Label in schematic

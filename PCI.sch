@@ -115,7 +115,7 @@ F 3 "" H 3375 2800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 2600 2800 0    50   ~ 0
-PCI_TRST#
+~PCI_TRST
 Text Label 2600 3000 0    50   ~ 0
 PCI_TMS
 Text Label 2600 3100 0    50   ~ 0
@@ -420,7 +420,7 @@ F 3 "" H 6275 2800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 5500 2800 0    50   ~ 0
-PCI_TRST#
+~PCI_TRST
 Text Label 5500 3000 0    50   ~ 0
 PCI_TMS
 Text Label 5500 3100 0    50   ~ 0
@@ -753,7 +753,7 @@ F 3 "" H 9075 2800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 8300 2800 0    50   ~ 0
-PCI_TRST#
+~PCI_TRST
 Text Label 8300 3000 0    50   ~ 0
 PCI_TMS
 Text Label 8300 3100 0    50   ~ 0
@@ -1088,7 +1088,7 @@ F 3 "" H 11875 2800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 11100 2800 0    50   ~ 0
-PCI_TRST#
+~PCI_TRST
 Text Label 11100 3000 0    50   ~ 0
 PCI_TMS
 Text Label 11100 3100 0    50   ~ 0

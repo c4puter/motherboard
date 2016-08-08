@@ -730,25 +730,25 @@ CPU_D[0..31]
 Text Label 2500 14400 2    50   ~ 0
 CPU_D[0..31]
 Text HLabel 13200 4300 0    50   Output ~ 0
-CPU_WAIT#
+~CPU_WAIT
 Text HLabel 10200 7500 0    50   Input ~ 0
-CPU_ADDR#
+~CPU_ADDR
 Text HLabel 10200 7900 0    50   Input ~ 0
-CPU_WR#
+~CPU_WR
 Text HLabel 13200 6000 0    50   Input ~ 0
 CPU_CLK
 Text HLabel 10200 8100 0    50   Input ~ 0
-CPU_REQ0#
+~CPU_REQ0
 Text HLabel 13100 3400 0    50   Output ~ 0
-CPU_ACK0#
+~CPU_ACK0
 Text HLabel 10200 8700 0    50   Input ~ 0
-CPU_REQ1#
+~CPU_REQ1
 Text HLabel 10200 8000 0    50   Output ~ 0
-CPU_ACK1#
+~CPU_ACK1
 Text HLabel 10200 7700 0    50   Output ~ 0
-CPU_INT0#
+~CPU_INT0
 Text HLabel 10200 8600 0    50   Output ~ 0
-CPU_INT1#
+~CPU_INT1
 Text HLabel 1700 13800 0    50   BiDi ~ 0
 PCI_AD[0..31]
 Text Label 2500 13800 2    50   ~ 0
