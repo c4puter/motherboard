@@ -153,8 +153,6 @@ F 3 "" H 6000 6900 60  0000 C CNN
 	1    6000 6900
 	1    0    0    -1  
 $EndComp
-Text Label 2800 5700 2    50   ~ 0
-~EVENT
 $Comp
 L C-0402 C?
 U 1 1 578193FA
@@ -1297,8 +1295,6 @@ Wire Wire Line
 Connection ~ 1200 6100
 Wire Wire Line
 	2500 5800 2800 5800
-Wire Wire Line
-	2800 5700 2500 5700
 Wire Wire Line
 	2600 2400 2500 2400
 Connection ~ 2600 2300

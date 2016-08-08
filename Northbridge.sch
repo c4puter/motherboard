@@ -93,7 +93,7 @@ EELAYER 25 0
 EELAYER END
 $Descr C 22000 17000
 encoding utf-8
-Sheet 7 10
+Sheet 10 10
 Title "Northbridge"
 Date "2016-08-05"
 Rev ""
@@ -2417,4 +2417,8 @@ F 3 "" H 8900 15000 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	8900 15000 8900 14950
+Wire Wire Line
+	18500 8800 17900 8800
+Text HLabel 17900 8800 0    50   Output ~ 0
+~SDRAM_EVENT
 $EndSCHEMATC

@@ -1,4 +1,3 @@
-SODIMM ~EVENT ?
 PCI JTAG
 LIMB ADVREF
 Catalog all I2C addresses on main bus
