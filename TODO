@@ -5,6 +5,9 @@ I2C resistance should be between 900 and 5k
         standby, and thus I2C speed should be halved
 Another DIP switch: system clock low speed
     - can be used for demoing with no fan
+FPGA config data: control reflections with a 50 ohm / 10pF AC termination at the end
+RTC alarm? linux/Documentation/rtc.txt and the kernel RTC driver
+Slave power connector for e.g. SATA
 Route all power
 Voltage sense
 Length-tune interfaces
