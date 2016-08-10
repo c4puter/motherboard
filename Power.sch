@@ -2333,4 +2333,8 @@ F 4 "RES SMD 100k 1% [0402]" H 11000 8250 60  0001 C CNN "BOM"
 	1    10250 7700
 	1    0    0    -1  
 $EndComp
+Text Notes 2650 10150 0    60   ~ 0
+I2C: 0x47
+Text Notes 6400 4450 0    60   ~ 0
+I2C: 0x20
 $EndSCHEMATC

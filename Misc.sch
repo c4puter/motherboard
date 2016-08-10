@@ -93,7 +93,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 8 10
+Sheet 7 10
 Title "Miscellaneous peripherals"
 Date "2016-08-05"
 Rev ""
@@ -479,7 +479,7 @@ Wire Wire Line
 Wire Wire Line
 	3600 3900 3500 3900
 Wire Wire Line
-	3500 3800 3500 3900
+	3500 3900 3500 3800
 Wire Wire Line
 	3000 3800 3600 3800
 Connection ~ 3500 3800
@@ -488,7 +488,7 @@ P3V3_AUX
 Wire Wire Line
 	3400 3800 3400 4300
 Wire Wire Line
-	5000 4300 3400 4300
+	3400 4300 5000 4300
 Wire Wire Line
 	5000 3900 5100 3900
 Connection ~ 3400 3800
@@ -558,7 +558,7 @@ $EndComp
 Wire Wire Line
 	4600 4150 4600 4100
 Wire Wire Line
-	5000 3900 5000 4300
+	5000 4300 5000 3900
 $Comp
 L LM75BDP U7
 U 1 1 579F4ACE
@@ -852,4 +852,12 @@ Text Notes 5400 6900 0    50   ~ 0
 Ambient
 Text Notes 5400 5600 0    50   ~ 0
 Near logic
+Text Notes 5200 2350 0    60   ~ 0
+I2C: 0x68
+Text Notes 5250 4250 0    60   ~ 0
+I2C: 0x65
+Text Notes 5400 5700 0    60   ~ 0
+I2C: 0x48
+Text Notes 5400 7000 0    60   ~ 0
+I2C: 0x49
 $EndSCHEMATC

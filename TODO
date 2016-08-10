@@ -1,5 +1,4 @@
-Catalog all I2C addresses on main bus
-    - Label in schematic
+Put CPUs on I2C? What about bridge?
 I2C resistance should be between 900 and 5k
     - bus capacitance too high for 400 kHz; target speed 100 kHz
     - on buses with S5/S0 segments, make sure to note on
