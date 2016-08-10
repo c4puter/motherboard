@@ -1332,4 +1332,12 @@ Text HLabel 8100 3400 0    50   Output ~ 0
 ICPU_ACK_OUT
 Wire Wire Line
 	8100 3400 8200 3400
+Text HLabel 2000 5700 0    50   Input ~ 0
+SCL
+Wire Wire Line
+	2000 5700 2300 5700
+Text HLabel 2000 5300 0    50   Input ~ 0
+SDA
+Wire Wire Line
+	2000 5300 2300 5300
 $EndSCHEMATC
