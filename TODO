@@ -1,4 +1,3 @@
-FPGA config data: control reflections with a 50 ohm / 10pF AC termination at the end
 RTC alarm? linux/Documentation/rtc.txt and the kernel RTC driver
 Slave power connector for e.g. SATA
 Route all power
