@@ -740,7 +740,7 @@ F 3 "" H 6600 8300 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Text Label 7000 8400 2    50   ~ 0
-PCI_AD01
+AD1
 $Comp
 L CONN-5145154-1-PCI PCI2
 U 1 1 57698896
