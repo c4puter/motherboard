@@ -1,4 +1,3 @@
-RTC alarm? linux/Documentation/rtc.txt and the kernel RTC driver
 Slave power connector for e.g. SATA
 Route all power
 Voltage sense

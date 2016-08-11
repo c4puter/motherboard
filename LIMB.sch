@@ -121,8 +121,6 @@ F 4 "MCU ATMEL ATSAM4S16CA-AU" H 2900 1000 50  0001 C CNN "BOM"
 	1    2900 3950
 	1    0    0    -1  
 $EndComp
-Text Label 3600 3800 0    50   ~ 0
-A7
 Text Label 3600 3900 0    50   ~ 0
 A8
 Text Label 3600 4100 0    50   ~ 0
@@ -2062,4 +2060,6 @@ Text Label 3800 4600 2    50   ~ 0
 VREFEN
 Wire Wire Line
 	3800 4600 3500 4600
+Text HLabel 3600 3800 2    50   Input ~ 0
+~RTCINT
 $EndSCHEMATC

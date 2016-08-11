@@ -141,7 +141,6 @@ F 3 "" H 4900 2200 60  0000 C CNN
 	1    4900 2200
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6200 2100
 Wire Wire Line
 	6200 1900 6700 1900
 Wire Wire Line
@@ -860,4 +859,8 @@ Text Notes 5400 5700 0    60   ~ 0
 I2C: 0x48
 Text Notes 5400 7000 0    60   ~ 0
 I2C: 0x49
+Text HLabel 7400 2100 2    50   Output ~ 0
+~RTCINT
+Wire Wire Line
+	7400 2100 6200 2100
 $EndSCHEMATC
