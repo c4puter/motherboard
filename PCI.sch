@@ -93,7 +93,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 3 10
+Sheet 4 10
 Title "PCI bus"
 Date "2016-08-05"
 Rev ""
@@ -3002,6 +3002,18 @@ Text Label 14000 4600 0    50   ~ 0
 PCI_TCK
 Text GLabel 15300 7200 0    50   Input ~ 0
 P3V3_BRIDGE
+NoConn ~ 12600 3100
+NoConn ~ 9800 3100
+NoConn ~ 7000 3100
+NoConn ~ 4100 3100
+NoConn ~ 9300 8600
+NoConn ~ 8800 8600
+NoConn ~ 6500 8600
+NoConn ~ 6000 8600
+NoConn ~ 3600 8600
+NoConn ~ 3100 8600
+NoConn ~ 12100 8600
+NoConn ~ 11600 8600
 Wire Wire Line
 	12200 6400 12100 6400
 Wire Wire Line
@@ -4329,16 +4341,4 @@ Wire Wire Line
 	15000 4500 14000 4500
 Wire Wire Line
 	15400 7200 15300 7200
-NoConn ~ 12600 3100
-NoConn ~ 9800 3100
-NoConn ~ 7000 3100
-NoConn ~ 4100 3100
-NoConn ~ 9300 8600
-NoConn ~ 8800 8600
-NoConn ~ 6500 8600
-NoConn ~ 6000 8600
-NoConn ~ 3600 8600
-NoConn ~ 3100 8600
-NoConn ~ 12100 8600
-NoConn ~ 11600 8600
 $EndSCHEMATC
