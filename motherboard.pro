@@ -1,4 +1,4 @@
-update=Sun 31 Jul 2016 08:00:41 PM EDT
+update=Fri 19 Aug 2016 12:13:25 PM EDT
 version=1
 last_client=kicad
 [cvpcb]
@@ -129,3 +129,4 @@ LibName86=schlib/library/Richtek
 LibName87=schlib/library/semi-diode-Panasonic
 LibName88=schlib/library/Murata
 LibName89=schlib/library/semi-trans-Panasonic
+LibName90=schlib/library/AMS
