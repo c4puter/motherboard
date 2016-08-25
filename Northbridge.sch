@@ -1291,7 +1291,6 @@ F 4 "DIST DIGIKEY 490-6281-1-ND" H 12900 14200 60  0001 C CNN "BOM"
 	1    12100 13650
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4200 4500
 NoConn ~ 4200 2800
 Text Label 16000 6100 0    50   ~ 0
 DQ6
@@ -3165,4 +3164,368 @@ Text Label 13300 5600 0    50   ~ 0
 CPU_D30
 Text HLabel 13300 7700 0    50   Output ~ 0
 CPU_CLK_OUT
+Text Label 3900 3600 0    50   ~ 0
+BANK2
+Text Label 3900 3700 0    50   ~ 0
+BANK2
+Text Label 3900 3800 0    50   ~ 0
+BANK2
+Text Label 3900 3900 0    50   ~ 0
+BANK2
+Text Label 3900 4000 0    50   ~ 0
+BANK2
+Text Label 3900 4100 0    50   ~ 0
+BANK2
+Text Label 3900 4200 0    50   ~ 0
+BANK2
+Text Label 3900 4300 0    50   ~ 0
+BANK2
+Text Label 3900 4400 0    50   ~ 0
+BANK2
+Text Label 3900 4500 0    50   ~ 0
+BANK2
+Text Label 3900 4600 0    50   ~ 0
+BANK2
+Text Label 3900 4700 0    50   ~ 0
+BANK2
+Text Label 3900 4800 0    50   ~ 0
+BANK2
+Text Label 3900 4900 0    50   ~ 0
+BANK2
+Text Label 3900 5000 0    50   ~ 0
+BANK2
+Text Label 3900 5100 0    50   ~ 0
+BANK2
+Text Label 3900 5200 0    50   ~ 0
+BANK2
+Text Label 3900 5300 0    50   ~ 0
+BANK2
+Wire Wire Line
+	3900 3600 4200 3600
+Wire Wire Line
+	3900 3700 4200 3700
+Wire Wire Line
+	3900 3800 4200 3800
+Wire Wire Line
+	3900 3900 4200 3900
+Wire Wire Line
+	3900 4000 4200 4000
+Wire Wire Line
+	3900 4100 4200 4100
+Wire Wire Line
+	3900 4200 4200 4200
+Wire Wire Line
+	3900 4300 4200 4300
+Wire Wire Line
+	3900 4400 4200 4400
+Wire Wire Line
+	3900 4500 4200 4500
+Wire Wire Line
+	3900 4600 4200 4600
+Wire Wire Line
+	3900 4700 4200 4700
+Wire Wire Line
+	3900 4800 4200 4800
+Wire Wire Line
+	3900 4900 4200 4900
+Wire Wire Line
+	3900 5000 4200 5000
+Wire Wire Line
+	3900 5100 4200 5100
+Wire Wire Line
+	3900 5200 4200 5200
+Wire Wire Line
+	3900 5300 4200 5300
+Text Label 3900 5500 0    50   ~ 0
+BANK2
+Text Label 3900 5600 0    50   ~ 0
+BANK2
+Text Label 3900 5700 0    50   ~ 0
+BANK2
+Text Label 3900 5800 0    50   ~ 0
+BANK2
+Text Label 3900 5900 0    50   ~ 0
+BANK2
+Text Label 3900 6000 0    50   ~ 0
+BANK2
+Text Label 3900 6100 0    50   ~ 0
+BANK2
+Text Label 3900 6200 0    50   ~ 0
+BANK2
+Text Label 3900 6300 0    50   ~ 0
+BANK2
+Text Label 3900 6400 0    50   ~ 0
+BANK2
+Text Label 3900 6500 0    50   ~ 0
+BANK2
+Text Label 3900 6600 0    50   ~ 0
+BANK2
+Text Label 3900 6700 0    50   ~ 0
+BANK2
+Text Label 3900 6800 0    50   ~ 0
+BANK2
+Text Label 3900 6900 0    50   ~ 0
+BANK2
+Text Label 3900 7000 0    50   ~ 0
+BANK2
+Text Label 3900 7100 0    50   ~ 0
+BANK2
+Text Label 3900 7200 0    50   ~ 0
+BANK2
+Wire Wire Line
+	3900 5500 4200 5500
+Wire Wire Line
+	3900 5600 4200 5600
+Wire Wire Line
+	3900 5700 4200 5700
+Wire Wire Line
+	3900 5800 4200 5800
+Wire Wire Line
+	3900 5900 4200 5900
+Wire Wire Line
+	3900 6000 4200 6000
+Wire Wire Line
+	3900 6100 4200 6100
+Wire Wire Line
+	3900 6200 4200 6200
+Wire Wire Line
+	3900 6300 4200 6300
+Wire Wire Line
+	3900 6400 4200 6400
+Wire Wire Line
+	3900 6500 4200 6500
+Wire Wire Line
+	3900 6600 4200 6600
+Wire Wire Line
+	3900 6700 4200 6700
+Wire Wire Line
+	3900 6800 4200 6800
+Wire Wire Line
+	3900 6900 4200 6900
+Wire Wire Line
+	3900 7000 4200 7000
+Wire Wire Line
+	3900 7100 4200 7100
+Wire Wire Line
+	3900 7200 4200 7200
+Text Label 3900 7300 0    50   ~ 0
+BANK2
+Text Label 3900 7400 0    50   ~ 0
+BANK2
+Text Label 3900 7500 0    50   ~ 0
+BANK2
+Text Label 3900 7600 0    50   ~ 0
+BANK2
+Text Label 3900 7700 0    50   ~ 0
+BANK2
+Text Label 3900 7800 0    50   ~ 0
+BANK2
+Text Label 3900 7900 0    50   ~ 0
+BANK2
+Text Label 3900 8000 0    50   ~ 0
+BANK2
+Text Label 3900 8100 0    50   ~ 0
+BANK2
+Text Label 3900 8200 0    50   ~ 0
+BANK2
+Text Label 3900 8300 0    50   ~ 0
+BANK2
+Text Label 3900 8400 0    50   ~ 0
+BANK2
+Text Label 3900 8500 0    50   ~ 0
+BANK2
+Text Label 3900 8600 0    50   ~ 0
+BANK2
+Text Label 3900 8700 0    50   ~ 0
+BANK2
+Text Label 3900 8800 0    50   ~ 0
+BANK2
+Text Label 3900 8900 0    50   ~ 0
+BANK2
+Text Label 3900 9000 0    50   ~ 0
+BANK2
+Wire Wire Line
+	3900 7300 4200 7300
+Wire Wire Line
+	3900 7400 4200 7400
+Wire Wire Line
+	3900 7500 4200 7500
+Wire Wire Line
+	3900 7600 4200 7600
+Wire Wire Line
+	3900 7700 4200 7700
+Wire Wire Line
+	3900 7800 4200 7800
+Wire Wire Line
+	3900 7900 4200 7900
+Wire Wire Line
+	3900 8000 4200 8000
+Wire Wire Line
+	3900 8100 4200 8100
+Wire Wire Line
+	3900 8200 4200 8200
+Wire Wire Line
+	3900 8300 4200 8300
+Wire Wire Line
+	3900 8400 4200 8400
+Wire Wire Line
+	3900 8500 4200 8500
+Wire Wire Line
+	3900 8600 4200 8600
+Wire Wire Line
+	3900 8700 4200 8700
+Wire Wire Line
+	3900 8800 4200 8800
+Wire Wire Line
+	3900 8900 4200 8900
+Wire Wire Line
+	3900 9000 4200 9000
+Text Label 3900 9100 0    50   ~ 0
+BANK2
+Text Label 3900 9200 0    50   ~ 0
+BANK2
+Text Label 3900 9300 0    50   ~ 0
+BANK2
+Text Label 3900 9400 0    50   ~ 0
+BANK2
+Text Label 3900 9500 0    50   ~ 0
+BANK2
+Text Label 3900 9600 0    50   ~ 0
+BANK2
+Text Label 3900 9700 0    50   ~ 0
+BANK2
+Text Label 3900 9800 0    50   ~ 0
+BANK2
+Text Label 3900 9900 0    50   ~ 0
+BANK2
+Text Label 3900 10000 0    50   ~ 0
+BANK2
+Text Label 3900 10100 0    50   ~ 0
+BANK2
+Text Label 3900 10200 0    50   ~ 0
+BANK2
+Text Label 3900 10300 0    50   ~ 0
+BANK2
+Text Label 3900 10400 0    50   ~ 0
+BANK2
+Text Label 3900 10500 0    50   ~ 0
+BANK2
+Wire Wire Line
+	3900 9100 4200 9100
+Wire Wire Line
+	3900 9200 4200 9200
+Wire Wire Line
+	3900 9300 4200 9300
+Wire Wire Line
+	3900 9400 4200 9400
+Wire Wire Line
+	3900 9500 4200 9500
+Wire Wire Line
+	3900 9600 4200 9600
+Wire Wire Line
+	3900 9700 4200 9700
+Wire Wire Line
+	3900 9800 4200 9800
+Wire Wire Line
+	3900 9900 4200 9900
+Wire Wire Line
+	3900 10000 4200 10000
+Wire Wire Line
+	3900 10100 4200 10100
+Wire Wire Line
+	3900 10200 4200 10200
+Wire Wire Line
+	3900 10300 4200 10300
+Wire Wire Line
+	3900 10400 4200 10400
+Wire Wire Line
+	3900 10500 4200 10500
+Text Label 3900 10600 0    50   ~ 0
+BANK2
+Text Label 3900 10700 0    50   ~ 0
+BANK2
+Text Label 3900 10800 0    50   ~ 0
+BANK2
+Text Label 3900 10900 0    50   ~ 0
+BANK2
+Text Label 3900 11000 0    50   ~ 0
+BANK2
+Text Label 3900 11100 0    50   ~ 0
+BANK2
+Text Label 3900 11200 0    50   ~ 0
+BANK2
+Text Label 3900 11300 0    50   ~ 0
+BANK2
+Text Label 3900 11400 0    50   ~ 0
+BANK2
+Text Label 3900 11500 0    50   ~ 0
+BANK2
+Text Label 3900 11600 0    50   ~ 0
+BANK2
+Text Label 3900 11700 0    50   ~ 0
+BANK2
+Text Label 3900 11800 0    50   ~ 0
+BANK2
+Text Label 3900 11900 0    50   ~ 0
+BANK2
+Text Label 3900 12000 0    50   ~ 0
+BANK2
+Wire Wire Line
+	3900 10600 4200 10600
+Wire Wire Line
+	3900 10700 4200 10700
+Wire Wire Line
+	3900 10800 4200 10800
+Wire Wire Line
+	3900 10900 4200 10900
+Wire Wire Line
+	3900 11000 4200 11000
+Wire Wire Line
+	3900 11100 4200 11100
+Wire Wire Line
+	3900 11200 4200 11200
+Wire Wire Line
+	3900 11300 4200 11300
+Wire Wire Line
+	3900 11400 4200 11400
+Wire Wire Line
+	3900 11500 4200 11500
+Wire Wire Line
+	3900 11600 4200 11600
+Wire Wire Line
+	3900 11700 4200 11700
+Wire Wire Line
+	3900 11800 4200 11800
+Wire Wire Line
+	3900 11900 4200 11900
+Wire Wire Line
+	3900 12000 4200 12000
+Text Label 3900 12100 0    50   ~ 0
+BANK2
+Text Label 3900 12200 0    50   ~ 0
+BANK2
+Text Label 3900 12300 0    50   ~ 0
+BANK2
+Text Label 3900 12400 0    50   ~ 0
+BANK2
+Text Label 3900 12500 0    50   ~ 0
+BANK2
+Text Label 3900 12600 0    50   ~ 0
+BANK2
+Text Label 3900 12700 0    50   ~ 0
+BANK2
+Wire Wire Line
+	3900 12100 4200 12100
+Wire Wire Line
+	3900 12200 4200 12200
+Wire Wire Line
+	3900 12300 4200 12300
+Wire Wire Line
+	3900 12400 4200 12400
+Wire Wire Line
+	3900 12500 4200 12500
+Wire Wire Line
+	3900 12600 4200 12600
+Wire Wire Line
+	3900 12700 4200 12700
 $EndSCHEMATC
