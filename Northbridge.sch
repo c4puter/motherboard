@@ -386,84 +386,6 @@ Text HLabel 3900 5200 0    50   Output ~ 0
 LIMBREQ
 Text GLabel 10500 11000 0    50   Input ~ 0
 P1V5_BRIDGE
-Text Label 16000 9300 0    50   ~ 0
-DM3
-Text Label 16000 9100 0    50   ~ 0
-DQ25
-Text Label 16000 8100 0    50   ~ 0
-DQS2_P
-Text Label 16000 8200 0    50   ~ 0
-DQS2_N
-Text Label 16000 8400 0    50   ~ 0
-DQ18
-Text Label 16000 8300 0    50   ~ 0
-DQ19
-Text Label 16000 9200 0    50   ~ 0
-DQ24
-Text Label 16000 7700 0    50   ~ 0
-DQ17
-Text Label 16000 7800 0    50   ~ 0
-DQ16
-Text Label 16000 5900 0    50   ~ 0
-DQS1_P
-Text Label 16000 6000 0    50   ~ 0
-DQS1_N
-Text Label 16000 7100 0    50   ~ 0
-DQ10
-Text Label 16000 7400 0    50   ~ 0
-DQ11
-Text Label 16000 5700 0    50   ~ 0
-DQ9
-Text Label 16000 5800 0    50   ~ 0
-DQ8
-Text Label 16000 5600 0    50   ~ 0
-DQ3
-Text Label 16050 5350 0    50   ~ 0
-DQ2
-Text Label 16500 4800 0    50   ~ 0
-DM0
-Text Label 16500 4400 0    50   ~ 0
-DQ1
-Text Label 16500 4500 0    50   ~ 0
-DQ0
-Text Label 16000 8600 0    50   ~ 0
-DQS3_N
-Text Label 16000 8500 0    50   ~ 0
-DQS3_P
-Text Label 16500 4600 0    50   ~ 0
-DQS0_P
-Text Label 16500 4700 0    50   ~ 0
-DQS0_N
-Text Label 16000 8700 0    50   ~ 0
-DQ28
-Text Label 16000 8800 0    50   ~ 0
-DQ23
-Text Label 16000 8000 0    50   ~ 0
-DQ22
-Text Label 16000 7900 0    50   ~ 0
-DM2
-Text Label 16000 7300 0    50   ~ 0
-DQ21
-Text Label 16000 6900 0    50   ~ 0
-DQ20
-Text Label 16000 7000 0    50   ~ 0
-DQ15
-Text Label 16000 6600 0    50   ~ 0
-DQ14
-Text Label 16000 6400 0    50   ~ 0
-SDRAM_~RST
-Text Label 16000 6500 0    50   ~ 0
-DM1
-Text Label 16000 6200 0    50   ~ 0
-DQ13
-Text Label 16000 5500 0    50   ~ 0
-DQ12
-Text Label 16000 6700 0    50   ~ 0
-DQ7
-Text Label 16500 4200 0    50   ~ 0
-DQ5
-Text Label 16500 3100 0    50   ~ 0
-DQ4
 Text HLabel 4000 13000 0    50   Input ~ 0
 PROGRAM_B
 Text HLabel 3600 3000 0    50   Input ~ 0
@@ -491,7 +413,7 @@ Text HLabel 13300 5500 0    50   Input ~ 0
 ~CPU_ADDR
 Text HLabel 13300 3600 0    50   Input ~ 0
 ~CPU_WR
-Text HLabel 16000 6300 0    50   Input ~ 0
+Text HLabel 10300 6500 0    50   Input ~ 0
 CPU_CLK_IN
 Text HLabel 13300 5200 0    50   Input ~ 0
 ~CPU_REQ0
@@ -545,38 +467,6 @@ Text HLabel 3900 9800 0    50   BiDi ~ 0
 ~PCI_LOCK
 Text HLabel 3900 9900 0    50   BiDi ~ 0
 PCI_PAR
-Text Label 15900 7600 0    50   ~ 0
-CPU_D5
-Text Label 15900 6800 0    50   ~ 0
-CPU_D8
-Text Label 15900 9000 0    50   ~ 0
-CPU_D9
-Text Label 15900 8900 0    50   ~ 0
-CPU_D10
-Text Label 16400 3400 0    50   ~ 0
-CPU_D12
-Text Label 16400 4300 0    50   ~ 0
-CPU_D18
-Text Label 16400 4000 0    50   ~ 0
-CPU_D21
-Text Label 16400 3700 0    50   ~ 0
-CPU_D22
-Text Label 16400 3900 0    50   ~ 0
-CPU_D24
-Text Label 16400 2900 0    50   ~ 0
-CPU_D25
-Text Label 16400 3600 0    50   ~ 0
-CPU_D23
-Text Label 16400 3000 0    50   ~ 0
-CPU_D28
-Text Label 16400 2600 0    50   ~ 0
-CPU_D29
-Text Label 16400 3800 0    50   ~ 0
-CPU_D26
-Text Label 16400 3300 0    50   ~ 0
-CPU_D27
-Text Label 16400 2800 0    50   ~ 0
-CPU_D30
 $Comp
 L GND #PWR?
 U 1 1 5799D8FC
@@ -768,8 +658,6 @@ PV75_SDRAM_VREF
 Text GLabel 11100 13700 0    50   Input ~ 0
 PV75_SDRAM_VREF
 NoConn ~ 4200 2800
-Text Label 16000 6100 0    50   ~ 0
-DQ6
 $Comp
 L XC6SLX45-FGG484 BRIDGE1
 U 3 1 57B718AA
@@ -978,84 +866,6 @@ Wire Wire Line
 Wire Wire Line
 	10350 2900 10700 2900
 Wire Wire Line
-	16000 9300 16400 9300
-Wire Wire Line
-	16000 9100 16400 9100
-Wire Wire Line
-	16000 8100 16400 8100
-Wire Wire Line
-	16000 8200 16400 8200
-Wire Wire Line
-	16000 8400 16400 8400
-Wire Wire Line
-	16000 8300 16400 8300
-Wire Wire Line
-	16000 9200 16400 9200
-Wire Wire Line
-	16000 7700 16400 7700
-Wire Wire Line
-	16000 7800 16400 7800
-Wire Wire Line
-	16000 5900 16400 5900
-Wire Wire Line
-	16000 6000 16400 6000
-Wire Wire Line
-	16000 7100 16400 7100
-Wire Wire Line
-	16000 7400 16400 7400
-Wire Wire Line
-	16000 5700 16400 5700
-Wire Wire Line
-	16000 5800 16400 5800
-Wire Wire Line
-	16000 5600 16400 5600
-Wire Wire Line
-	16050 5350 16450 5350
-Wire Wire Line
-	16500 4800 16900 4800
-Wire Wire Line
-	16500 4400 16900 4400
-Wire Wire Line
-	16500 4500 16900 4500
-Wire Wire Line
-	16000 8600 16400 8600
-Wire Wire Line
-	16000 8500 16400 8500
-Wire Wire Line
-	16500 4600 16900 4600
-Wire Wire Line
-	16500 4700 16900 4700
-Wire Wire Line
-	16000 8700 16400 8700
-Wire Wire Line
-	16000 8800 16400 8800
-Wire Wire Line
-	16000 8000 16400 8000
-Wire Wire Line
-	16000 7900 16400 7900
-Wire Wire Line
-	16000 7300 16400 7300
-Wire Wire Line
-	16000 6900 16400 6900
-Wire Wire Line
-	16000 7000 16400 7000
-Wire Wire Line
-	16000 6600 16400 6600
-Wire Wire Line
-	16000 6400 16400 6400
-Wire Wire Line
-	16000 6500 16400 6500
-Wire Wire Line
-	16000 6200 16400 6200
-Wire Wire Line
-	16000 5500 16400 5500
-Wire Wire Line
-	16000 6700 16400 6700
-Wire Wire Line
-	16500 4200 16900 4200
-Wire Wire Line
-	16500 3100 16900 3100
-Wire Wire Line
 	4000 13000 4200 13000
 Wire Wire Line
 	3600 3000 4200 3000
@@ -1086,44 +896,6 @@ Wire Bus Line
 	2500 14100 1700 14100
 Wire Bus Line
 	1700 14200 2500 14200
-Wire Wire Line
-	16000 6300 16400 6300
-Wire Wire Line
-	15900 7600 16400 7600
-Wire Wire Line
-	15900 6800 16400 6800
-Wire Wire Line
-	15900 9000 16400 9000
-Wire Wire Line
-	15900 8900 16400 8900
-Wire Wire Line
-	16400 3400 16900 3400
-Wire Wire Line
-	16400 4300 16900 4300
-Wire Wire Line
-	16400 4000 16900 4000
-Wire Wire Line
-	16400 3700 16900 3700
-Wire Wire Line
-	16500 4100 16900 4100
-Wire Wire Line
-	16400 3900 16900 3900
-Wire Wire Line
-	16400 2900 16900 2900
-Wire Wire Line
-	16400 3600 16900 3600
-Wire Wire Line
-	16400 3000 16900 3000
-Wire Wire Line
-	16400 2600 16900 2600
-Wire Wire Line
-	16400 3800 16900 3800
-Wire Wire Line
-	16400 3300 16900 3300
-Wire Wire Line
-	16400 3200 16900 3200
-Wire Wire Line
-	16400 2800 16900 2800
 Wire Wire Line
 	5700 17700 5700 17800
 Wire Wire Line
@@ -1523,19 +1295,13 @@ Wire Wire Line
 	12500 13700 12500 13800
 Connection ~ 12000 13700
 Wire Wire Line
-	16000 6100 16400 6100
-Wire Wire Line
 	3650 5400 4200 5400
 Wire Wire Line
 	13500 10100 13600 10100
 Wire Wire Line
 	10600 4100 10700 4100
-Text Label 8200 3100 0    50   ~ 0
-BANK0
 Wire Wire Line
 	8200 3000 8500 3000
-Wire Wire Line
-	8500 3100 8200 3100
 Wire Wire Line
 	8200 3200 8500 3200
 Wire Wire Line
@@ -1550,18 +1316,10 @@ Wire Wire Line
 	8500 3700 8200 3700
 Wire Wire Line
 	8500 3800 8200 3800
-Text Label 8200 4100 0    50   ~ 0
-BANK0
-Text Label 8200 4200 0    50   ~ 0
-BANK0
 Wire Wire Line
 	8200 3900 8500 3900
 Wire Wire Line
 	8500 4000 8200 4000
-Wire Wire Line
-	8200 4100 8500 4100
-Wire Wire Line
-	8500 4200 8200 4200
 Wire Wire Line
 	8200 4400 8500 4400
 Wire Wire Line
@@ -1576,8 +1334,6 @@ Wire Wire Line
 	8200 5000 8500 5000
 Wire Wire Line
 	8500 5100 8200 5100
-Wire Wire Line
-	8500 5200 8200 5200
 Wire Wire Line
 	8200 5300 8500 5300
 Wire Wire Line
@@ -1604,10 +1360,6 @@ Wire Wire Line
 	8200 6600 8500 6600
 Wire Wire Line
 	8500 6700 8200 6700
-Text Label 8200 6800 0    50   ~ 0
-BANK0
-Wire Wire Line
-	8500 6800 8200 6800
 Wire Wire Line
 	8200 6900 8500 6900
 Wire Wire Line
@@ -1616,22 +1368,10 @@ Wire Wire Line
 	8200 7100 8500 7100
 Wire Wire Line
 	8500 7200 8200 7200
-Text Label 8200 7300 0    50   ~ 0
-BANK0
-Wire Wire Line
-	8500 7300 8200 7300
 Wire Wire Line
 	10400 2800 10700 2800
-Text Label 10400 3000 0    50   ~ 0
-BANK1
-Wire Wire Line
-	10400 3000 10700 3000
 Wire Wire Line
 	10400 3100 10700 3100
-Text Label 10400 3200 0    50   ~ 0
-BANK1
-Wire Wire Line
-	10400 3200 10700 3200
 Wire Wire Line
 	10400 3300 10700 3300
 Wire Wire Line
@@ -1644,14 +1384,6 @@ Wire Wire Line
 	10400 3700 10700 3700
 Wire Wire Line
 	10400 3800 10700 3800
-Text Label 10400 3900 0    50   ~ 0
-BANK1
-Wire Wire Line
-	10400 3900 10700 3900
-Text Label 10400 4000 0    50   ~ 0
-BANK1
-Wire Wire Line
-	10400 4000 10700 4000
 Wire Wire Line
 	10400 4200 10700 4200
 Wire Wire Line
@@ -1674,24 +1406,12 @@ Wire Wire Line
 	10400 5100 10700 5100
 Wire Wire Line
 	10400 5200 10700 5200
-Text Label 10400 5300 0    50   ~ 0
-BANK1
-Wire Wire Line
-	10400 5300 10700 5300
 Wire Wire Line
 	10400 5400 10700 5400
 Wire Wire Line
 	10400 5500 10700 5500
-Text Label 10400 5600 0    50   ~ 0
-BANK1
-Wire Wire Line
-	10400 5600 10700 5600
 Wire Wire Line
 	10400 5700 10700 5700
-Text Label 10400 5800 0    50   ~ 0
-BANK1
-Wire Wire Line
-	10400 5800 10700 5800
 Wire Wire Line
 	10400 5900 10700 5900
 Wire Wire Line
@@ -1702,14 +1422,6 @@ Wire Wire Line
 	10400 6200 10700 6200
 Wire Wire Line
 	10400 6300 10700 6300
-Text Label 10400 6400 0    50   ~ 0
-BANK1
-Wire Wire Line
-	10400 6400 10700 6400
-Text Label 10400 6500 0    50   ~ 0
-BANK1
-Wire Wire Line
-	10400 6500 10700 6500
 Wire Wire Line
 	10400 6600 10700 6600
 Wire Wire Line
@@ -1722,8 +1434,6 @@ Wire Wire Line
 	10400 7000 10700 7000
 Wire Wire Line
 	10400 7100 10700 7100
-Wire Wire Line
-	10400 7200 10700 7200
 Wire Wire Line
 	10400 7300 10700 7300
 Wire Wire Line
@@ -1775,12 +1485,6 @@ Wire Wire Line
 Wire Wire Line
 	10400 9800 10700 9800
 Wire Wire Line
-	10400 9900 10700 9900
-Text Label 10400 10000 0    50   ~ 0
-BANK1
-Wire Wire Line
-	10400 10000 10700 10000
-Wire Wire Line
 	10400 10100 10700 10100
 Wire Wire Line
 	10400 10200 10700 10200
@@ -1792,64 +1496,12 @@ Wire Wire Line
 	10400 10500 10700 10500
 Wire Wire Line
 	10400 10600 10700 10600
-Text Label 10400 10700 0    50   ~ 0
-BANK1
-Wire Wire Line
-	10400 10700 10700 10700
-Text Label 13300 2800 0    50   ~ 0
-BANK3
-Wire Wire Line
-	13300 2800 13600 2800
-Text Label 13300 3000 0    50   ~ 0
-BANK3
-Wire Wire Line
-	13300 3000 13600 3000
-Text Label 13300 3100 0    50   ~ 0
-BANK3
-Wire Wire Line
-	13300 3100 13600 3100
-Text Label 13300 3200 0    50   ~ 0
-BANK3
-Wire Wire Line
-	13300 3200 13600 3200
-Text Label 13300 3300 0    50   ~ 0
-BANK3
-Wire Wire Line
-	13300 3300 13600 3300
-Text Label 13300 3400 0    50   ~ 0
-BANK3
-Wire Wire Line
-	13300 3400 13600 3400
-Text Label 13300 3500 0    50   ~ 0
-BANK3
-Wire Wire Line
-	13300 3500 13600 3500
 Wire Wire Line
 	13300 3600 13600 3600
 Wire Wire Line
 	13300 3700 13600 3700
 Wire Wire Line
 	13300 3800 13600 3800
-Text Label 13300 3900 0    50   ~ 0
-BANK3
-Wire Wire Line
-	13300 3900 13600 3900
-Text Label 13300 4000 0    50   ~ 0
-BANK3
-Wire Wire Line
-	13300 4000 13600 4000
-Text Label 13300 4100 0    50   ~ 0
-BANK3
-Wire Wire Line
-	13300 4100 13600 4100
-Text Label 13300 4200 0    50   ~ 0
-BANK3
-Wire Wire Line
-	13300 4200 13600 4200
-Text Label 13300 4300 0    50   ~ 0
-BANK3
-Wire Wire Line
-	13300 4300 13600 4300
 Wire Wire Line
 	13300 4400 13600 4400
 Wire Wire Line
@@ -1932,14 +1584,6 @@ Wire Wire Line
 	13300 8400 13600 8400
 Wire Wire Line
 	13300 8500 13600 8500
-Text Label 13300 8600 0    50   ~ 0
-BANK3
-Wire Wire Line
-	13300 8600 13600 8600
-Text Label 13300 8700 0    50   ~ 0
-BANK3
-Wire Wire Line
-	13300 8700 13600 8700
 Wire Wire Line
 	13300 8800 13600 8800
 Wire Wire Line
@@ -1960,52 +1604,20 @@ Wire Wire Line
 	13300 9600 13600 9600
 Wire Wire Line
 	13300 9700 13600 9700
-Text Label 13300 9800 0    50   ~ 0
-BANK3
-Wire Wire Line
-	13300 9800 13600 9800
-Text Label 13300 9900 0    50   ~ 0
-BANK3
-Wire Wire Line
-	13300 9900 13600 9900
-Text Label 13300 10000 0    50   ~ 0
-BANK3
-Wire Wire Line
-	13300 10000 13600 10000
 Wire Wire Line
 	13300 10200 13600 10200
 Wire Wire Line
 	13300 10300 13600 10300
-Text Label 13300 10400 0    50   ~ 0
-BANK3
-Wire Wire Line
-	13300 10400 13600 10400
-Text Label 13300 10500 0    50   ~ 0
-BANK3
-Wire Wire Line
-	13300 10500 13600 10500
 Wire Wire Line
 	13300 10600 13600 10600
 Wire Wire Line
 	13300 10700 13600 10700
-Text Label 13300 10800 0    50   ~ 0
-BANK3
-Wire Wire Line
-	13300 10800 13600 10800
-Text Label 13300 10900 0    50   ~ 0
-BANK3
-Wire Wire Line
-	13300 10900 13600 10900
 Wire Wire Line
 	13300 11000 13600 11000
 Wire Wire Line
 	13300 11100 13600 11100
 Wire Wire Line
 	13300 11200 13600 11200
-Text Label 13300 11300 0    50   ~ 0
-BANK3
-Wire Wire Line
-	13300 11300 13600 11300
 Wire Wire Line
 	13300 11400 13600 11400
 Text Label 10400 9600 0    50   ~ 0
@@ -2316,8 +1928,6 @@ Text Label 3900 3900 0    50   ~ 0
 ~PCI_INT1
 Text Label 3900 4000 0    50   ~ 0
 ~PCI_INT2
-Text Label 3900 4100 0    50   ~ 0
-BANK2
 Text Label 3900 5100 0    50   ~ 0
 ~PCI_INT3
 Wire Wire Line
@@ -2330,8 +1940,6 @@ Wire Wire Line
 	3900 3900 4200 3900
 Wire Wire Line
 	3900 4000 4200 4000
-Wire Wire Line
-	3900 4100 4200 4100
 Wire Wire Line
 	3900 4200 4200 4200
 Wire Wire Line
@@ -2368,12 +1976,8 @@ Text Label 3900 6000 0    50   ~ 0
 PCI_AD29
 Text Label 3900 6100 0    50   ~ 0
 PCI_AD28
-Text Label 3900 6200 0    50   ~ 0
-BANK2
 Text Label 3900 6300 0    50   ~ 0
 ~PCI_REQ0
-Text Label 3900 6400 0    50   ~ 0
-BANK2
 Text Label 3900 6500 0    50   ~ 0
 PCI_AD27
 Text Label 3900 6600 0    50   ~ 0
@@ -2386,8 +1990,6 @@ Text Label 3900 7000 0    50   ~ 0
 ~PCI_GNT0
 Text Label 3900 7100 0    50   ~ 0
 PCI_AD31
-Text Label 3900 7200 0    50   ~ 0
-BANK2
 Wire Wire Line
 	3900 5500 4200 5500
 Wire Wire Line
@@ -2403,11 +2005,7 @@ Wire Wire Line
 Wire Wire Line
 	3900 6100 4200 6100
 Wire Wire Line
-	3900 6200 4200 6200
-Wire Wire Line
 	3900 6300 4200 6300
-Wire Wire Line
-	3900 6400 4200 6400
 Wire Wire Line
 	3900 6500 4200 6500
 Wire Wire Line
@@ -2422,12 +2020,8 @@ Wire Wire Line
 	3900 7000 4200 7000
 Wire Wire Line
 	3900 7100 4200 7100
-Wire Wire Line
-	3900 7200 4200 7200
 Text Label 3900 7300 0    50   ~ 0
 PCI_AD22
-Text Label 3900 7500 0    50   ~ 0
-BANK2
 Text Label 3900 7700 0    50   ~ 0
 PCI_AD25
 Text Label 3900 7800 0    50   ~ 0
@@ -2436,16 +2030,8 @@ Text Label 3900 7900 0    50   ~ 0
 PCI_AD24
 Text Label 3900 8100 0    50   ~ 0
 PCI_AD23
-Text Label 3900 8400 0    50   ~ 0
-BANK2
-Text Label 3900 8500 0    50   ~ 0
-BANK2
 Wire Wire Line
 	3900 7300 4200 7300
-Wire Wire Line
-	3900 7400 4200 7400
-Wire Wire Line
-	3900 7500 4200 7500
 Wire Wire Line
 	3900 7600 4200 7600
 Wire Wire Line
@@ -2463,10 +2049,6 @@ Wire Wire Line
 Wire Wire Line
 	3900 8300 4200 8300
 Wire Wire Line
-	3900 8400 4200 8400
-Wire Wire Line
-	3900 8500 4200 8500
-Wire Wire Line
 	3900 8600 4200 8600
 Wire Wire Line
 	3900 8700 4200 8700
@@ -2476,10 +2058,6 @@ Wire Wire Line
 	3900 8900 4200 8900
 Wire Wire Line
 	3900 9000 4200 9000
-Text Label 3900 9600 0    50   ~ 0
-BANK2
-Text Label 3900 9700 0    50   ~ 0
-BANK2
 Wire Wire Line
 	3900 9100 4200 9100
 Wire Wire Line
@@ -2490,10 +2068,6 @@ Wire Wire Line
 	3900 9400 4200 9400
 Wire Wire Line
 	3900 9500 4200 9500
-Wire Wire Line
-	3900 9600 4200 9600
-Wire Wire Line
-	3900 9700 4200 9700
 Wire Wire Line
 	3900 9800 4200 9800
 Wire Wire Line
@@ -2510,28 +2084,6 @@ Wire Wire Line
 	3900 10400 4200 10400
 Wire Wire Line
 	3900 10500 4200 10500
-Text Label 3900 10600 0    50   ~ 0
-BANK2
-Text Label 3900 10700 0    50   ~ 0
-BANK2
-Text Label 3900 10800 0    50   ~ 0
-BANK2
-Text Label 3900 10900 0    50   ~ 0
-BANK2
-Text Label 3900 11800 0    50   ~ 0
-BANK2
-Text Label 3900 11900 0    50   ~ 0
-BANK2
-Text Label 3900 12000 0    50   ~ 0
-BANK2
-Wire Wire Line
-	3900 10600 4200 10600
-Wire Wire Line
-	3900 10700 4200 10700
-Wire Wire Line
-	3900 10800 4200 10800
-Wire Wire Line
-	3900 10900 4200 10900
 Wire Wire Line
 	3900 11000 4200 11000
 Wire Wire Line
@@ -2549,23 +2101,9 @@ Wire Wire Line
 Wire Wire Line
 	3900 11700 4200 11700
 Wire Wire Line
-	3900 11800 4200 11800
-Wire Wire Line
-	3900 11900 4200 11900
-Wire Wire Line
-	3900 12000 4200 12000
-Text Label 3900 12100 0    50   ~ 0
-BANK2
-Text Label 3900 12400 0    50   ~ 0
-BANK2
-Wire Wire Line
-	3900 12100 4200 12100
-Wire Wire Line
 	3900 12200 4200 12200
 Wire Wire Line
 	3900 12300 4200 12300
-Wire Wire Line
-	3900 12400 4200 12400
 Wire Wire Line
 	3900 12500 4200 12500
 Wire Wire Line
@@ -3693,7 +3231,7 @@ Connection ~ 12000 14700
 Wire Wire Line
 	12500 15100 12500 15000
 Wire Wire Line
-	11500 15100 12900 15100
+	12900 15100 11500 15100
 Wire Wire Line
 	11500 15100 11500 15000
 Wire Wire Line
@@ -3723,4 +3261,72 @@ F 3 "" H 12900 15200 60  0000 C CNN
 	1    12900 15200
 	1    0    0    -1  
 $EndComp
+NoConn ~ 4200 3200
+NoConn ~ 4200 3300
+NoConn ~ 4200 4100
+NoConn ~ 4200 6200
+NoConn ~ 4200 6400
+NoConn ~ 4200 7200
+NoConn ~ 4200 7400
+NoConn ~ 4200 7500
+NoConn ~ 4200 8400
+NoConn ~ 4200 8500
+NoConn ~ 4200 9600
+NoConn ~ 4200 9700
+NoConn ~ 4200 10600
+NoConn ~ 4200 10700
+NoConn ~ 4200 10800
+NoConn ~ 4200 10900
+NoConn ~ 4200 11800
+NoConn ~ 4200 11900
+NoConn ~ 4200 12000
+NoConn ~ 4200 12100
+NoConn ~ 4200 12400
+NoConn ~ 8500 2800
+NoConn ~ 8500 3100
+NoConn ~ 8500 4100
+NoConn ~ 8500 4200
+NoConn ~ 8500 6800
+NoConn ~ 8500 7300
+NoConn ~ 10700 9900
+NoConn ~ 10700 10000
+NoConn ~ 10700 10700
+NoConn ~ 10700 10800
+NoConn ~ 10700 10900
+NoConn ~ 10700 3900
+NoConn ~ 10700 4000
+NoConn ~ 10700 3000
+NoConn ~ 10700 3200
+NoConn ~ 10700 5300
+NoConn ~ 10700 5600
+NoConn ~ 10700 5800
+NoConn ~ 10700 7200
+NoConn ~ 13600 2800
+NoConn ~ 13600 3000
+NoConn ~ 13600 3100
+NoConn ~ 13600 3200
+NoConn ~ 13600 3300
+NoConn ~ 13600 3400
+NoConn ~ 13600 3500
+NoConn ~ 13600 3900
+NoConn ~ 13600 4000
+NoConn ~ 13600 4100
+NoConn ~ 13600 4200
+NoConn ~ 13600 4300
+NoConn ~ 13600 8600
+NoConn ~ 13600 8700
+NoConn ~ 13600 9800
+NoConn ~ 13600 9900
+NoConn ~ 13600 10000
+NoConn ~ 13600 10400
+NoConn ~ 13600 10500
+NoConn ~ 13600 10800
+NoConn ~ 13600 10900
+NoConn ~ 13600 11300
+Text HLabel 10300 6400 0    50   Input ~ 0
+SDRAMCLK
+Wire Wire Line
+	10300 6500 10700 6500
+Wire Wire Line
+	10700 6400 10300 6400
 $EndSCHEMATC

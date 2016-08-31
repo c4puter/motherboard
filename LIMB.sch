@@ -2463,32 +2463,6 @@ Wire Wire Line
 	6700 8700 6000 8700
 Wire Wire Line
 	5800 8700 5700 8700
-Wire Notes Line
-	2350 11000 2350 0   
-Wire Notes Line
-	4350 0    4350 11000
-Wire Notes Line
-	6300 11000 6300 0   
-Wire Notes Line
-	8300 0    8300 11000
-Wire Notes Line
-	10250 11000 10250 0   
-Wire Notes Line
-	12200 0    12200 11000
-Wire Notes Line
-	14150 11000 14150 0   
-Wire Notes Line
-	16150 0    16150 11000
-Wire Notes Line
-	0    2400 17000 2400
-Wire Notes Line
-	0    4350 17000 4350
-Wire Notes Line
-	17000 6300 -50  6300
-Wire Notes Line
-	0    8300 17000 8300
-Wire Notes Line
-	17000 10250 0    10250
 $Comp
 L R-0402 R234
 U 1 1 57B102D3
