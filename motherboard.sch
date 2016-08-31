@@ -1921,4 +1921,74 @@ Wire Wire Line
 	9900 8500 9900 6800
 Wire Wire Line
 	9900 6800 9500 6800
+$Comp
+L CONN-100MIL-M-2x5 J107
+U 1 1 57C71B85
+P 7400 4600
+F 0 "J107" H 7400 4840 50  0000 C CNN
+F 1 "EC_BUS_DEB" H 7400 4749 50  0000 C CNN
+F 2 "conn-100mil:CONN-100MIL-M-2x5" H 7375 4600 50  0001 C CNN
+F 3 "" H 7375 4600 50  0000 C CNN
+	1    7400 4600
+	1    0    0    -1  
+$EndComp
+Text Label 7200 5400 0    50   ~ 0
+ECD[0..7]
+Text Label 6900 4600 0    50   ~ 0
+ECD0
+Text Label 6900 4700 0    50   ~ 0
+ECD1
+Text Label 6900 4800 0    50   ~ 0
+ECD2
+Text Label 6900 4900 0    50   ~ 0
+ECD3
+Wire Wire Line
+	6800 4600 7200 4600
+Wire Wire Line
+	6800 4700 7200 4700
+Wire Wire Line
+	6800 4800 7200 4800
+Wire Wire Line
+	6800 4900 7200 4900
+Entry Wire Line
+	6700 5000 6800 4900
+Entry Wire Line
+	6700 4900 6800 4800
+Entry Wire Line
+	6700 4800 6800 4700
+Entry Wire Line
+	6700 4700 6800 4600
+Wire Bus Line
+	6700 4700 6700 5400
+Connection ~ 6700 5400
+Wire Wire Line
+	7200 5000 7000 5000
+Wire Wire Line
+	7000 5000 7000 5500
+Connection ~ 7000 5500
+Wire Wire Line
+	7600 5000 7700 5000
+Wire Wire Line
+	7700 5000 7700 5600
+Connection ~ 7700 5600
+Wire Wire Line
+	7600 4900 7800 4900
+Wire Wire Line
+	7800 4900 7800 5700
+Connection ~ 7800 5700
+Wire Wire Line
+	7600 4800 7900 4800
+Wire Wire Line
+	7900 4800 7900 5800
+Connection ~ 7900 5800
+Wire Wire Line
+	8000 5900 8000 4700
+Wire Wire Line
+	8000 4700 7600 4700
+Connection ~ 8000 5900
+Wire Wire Line
+	7600 4600 8100 4600
+Wire Wire Line
+	8100 4600 8100 6000
+Connection ~ 8100 6000
 $EndSCHEMATC

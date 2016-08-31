@@ -94,7 +94,7 @@ EELAYER 25 0
 EELAYER END
 $Descr C 22000 17000
 encoding utf-8
-Sheet 6 10
+Sheet 5 10
 Title "CPU"
 Date "2016-08-05"
 Rev ""
