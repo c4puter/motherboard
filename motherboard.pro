@@ -1,4 +1,4 @@
-update=Fri 19 Aug 2016 12:13:25 PM EDT
+update=Fri 16 Sep 2016 12:56:07 PM EDT
 version=1
 last_client=kicad
 [cvpcb]
@@ -25,17 +25,6 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.15
-[schematic_editor]
-version=1
-PageLayoutDescrFile=schlib/page_layouts/basic.kicad_wks
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=50
-ERC_TestSimilarLabels=1
 [eeschema]
 version=1
 LibDir=kicad-schlib/library
@@ -130,3 +119,14 @@ LibName87=schlib/library/semi-diode-Panasonic
 LibName88=schlib/library/Murata
 LibName89=schlib/library/semi-trans-Panasonic
 LibName90=schlib/library/AMS
+[schematic_editor]
+version=1
+PageLayoutDescrFile=schlib/page_layouts/semianalog_cc0.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=50
+ERC_TestSimilarLabels=1

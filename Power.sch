@@ -96,13 +96,13 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 9 10
 Title "Power supplies and switching"
-Date "2016-08-05"
-Rev ""
-Comp ""
+Date "2016-09-16"
+Rev "A"
+Comp "SEMIANALOG / CHRIS PAVLINA"
 Comment1 ""
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Comment2 "CC0: https://creativecommons.org/publicdomain/zero/1.0/"
+Comment3 "https://semianalog.com/c4_0"
+Comment4 "Source: https://github.com/c4puter/motherboard"
 $EndDescr
 $Comp
 L CONN-10018783-10202TLF-PCIEx8 VRM901
