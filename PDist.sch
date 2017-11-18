@@ -1,96 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:Abracon
-LIBS:Altera
-LIBS:AnalogDevices
-LIBS:AOS
-LIBS:Atmel
-LIBS:conn-2mm
-LIBS:conn-100mil
-LIBS:conn-amphenol
-LIBS:conn-assmann
-LIBS:conn-cui
-LIBS:conn-fci
-LIBS:conn-jae
-LIBS:conn-linx
-LIBS:conn-molex
-LIBS:conn-tagconnect
-LIBS:conn-te
-LIBS:conn-test
-LIBS:DiodesInc
-LIBS:display
-LIBS:electomech-misc
-LIBS:_electromech
-LIBS:Fairchild
-LIBS:FTDI
-LIBS:Intersil
-LIBS:Lattice
-LIBS:_linear
-LIBS:LinearTech
-LIBS:Littelfuse
-LIBS:logic-4000
-LIBS:logic-7400
-LIBS:MACOM
-LIBS:maxim
-LIBS:mechanical
-LIBS:Microchip
-LIBS:Micron
-LIBS:NXP
-LIBS:onsemi
-LIBS:_passive
-LIBS:pasv-BelFuse
-LIBS:pasv-BiTech
-LIBS:pasv-Bourns
-LIBS:pasv-cap
-LIBS:pasv-ind
-LIBS:pasv-Murata
-LIBS:pasv-res
-LIBS:pasv-TDK
-LIBS:pasv-xtal
-LIBS:pcb
-LIBS:power
-LIBS:Recom
-LIBS:_semi
-LIBS:semi-diode-DiodesInc
-LIBS:semi-diode-generic
-LIBS:semi-diode-MCC
-LIBS:semi-diode-NXP
-LIBS:semi-diode-OnSemi
-LIBS:semi-diode-Semtech
-LIBS:semi-diode-ST
-LIBS:semi-diode-Toshiba
-LIBS:semi-opto-generic
-LIBS:semi-opto-liteon
-LIBS:semi-thyristor-generic
-LIBS:semi-trans-AOS
-LIBS:semi-trans-DiodesInc
-LIBS:semi-trans-EPC
-LIBS:semi-trans-Fairchild
-LIBS:semi-trans-generic
-LIBS:semi-trans-Infineon
-LIBS:semi-trans-IRF
-LIBS:semi-trans-IXYS
-LIBS:semi-trans-NXP
-LIBS:semi-trans-OnSemi
-LIBS:semi-trans-ST
-LIBS:semi-trans-TI
-LIBS:semi-trans-Toshiba
-LIBS:semi-trans-Vishay
-LIBS:silabs
-LIBS:skyworks
-LIBS:ST
-LIBS:st_ic
-LIBS:supertex
-LIBS:symbol
-LIBS:TexasInstruments
-LIBS:Vishay
-LIBS:Xilinx
-LIBS:Richtek
-LIBS:semi-diode-Panasonic
-LIBS:Murata
-LIBS:semi-trans-Panasonic
-LIBS:AMS
+EESchema Schematic File Version 4
 LIBS:motherboard-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
@@ -105,7 +15,7 @@ Comment3 "https://semianalog.com/c4_0"
 Comment4 "Source: https://github.com/c4puter/motherboard"
 $EndDescr
 $Comp
-L DDR3-SODIMM SODIMM?
+L motherboard-rescue:DDR3-SODIMM-RESCUE-motherboard SODIMM?
 U 2 1 576474B4
 P 4100 1200
 AR Path="/57646CD1/576474B4" Ref="SODIMM?"  Part="1" 
@@ -118,7 +28,7 @@ F 3 "" H 4100 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR1001
+L power:GND #PWR1001
 U 1 1 57647804
 P 3400 6400
 F 0 "#PWR1001" H 3400 6400 30  0001 C CNN
@@ -133,7 +43,7 @@ P3V3_BRIDGE
 Text GLabel 6700 2600 0    50   Input ~ 0
 P1V2_CORE
 $Comp
-L GND #PWR1008
+L power:GND #PWR1008
 U 1 1 57685CC5
 P 8200 7100
 F 0 "#PWR1008" H 8200 7100 30  0001 C CNN
@@ -144,7 +54,7 @@ F 3 "" H 8200 7100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0402 C?
+L pasv-cap:C-0402 C?
 U 1 1 578193FA
 P 3600 7200
 AR Path="/578193FA" Ref="C?"  Part="1" 
@@ -162,7 +72,7 @@ P1V5_BRIDGE
 Text GLabel 3500 7000 0    50   Input ~ 0
 P1V5_BRIDGE
 $Comp
-L C-0402 C?
+L pasv-cap:C-0402 C?
 U 1 1 57819B75
 P 4000 7200
 AR Path="/57819B75" Ref="C?"  Part="1" 
@@ -176,7 +86,7 @@ F 4 "CAP MLCC 1u 6.3V 20% [0402]" H 4800 7750 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0402 C?
+L pasv-cap:C-0402 C?
 U 1 1 57819B94
 P 4400 7200
 AR Path="/57819B94" Ref="C?"  Part="1" 
@@ -190,7 +100,7 @@ F 4 "CAP MLCC 1u 6.3V 20% [0402]" H 5200 7750 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0402 C?
+L pasv-cap:C-0402 C?
 U 1 1 57819BB4
 P 4800 7200
 AR Path="/57819BB4" Ref="C?"  Part="1" 
@@ -204,7 +114,7 @@ F 4 "CAP MLCC 1u 6.3V 20% [0402]" H 5600 7750 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0402 C?
+L pasv-cap:C-0402 C?
 U 1 1 5781A57A
 P 5200 7200
 AR Path="/5781A57A" Ref="C?"  Part="1" 
@@ -218,7 +128,7 @@ F 4 "CAP MLCC 1u 6.3V 20% [0402]" H 6000 7750 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0402 C?
+L pasv-cap:C-0402 C?
 U 1 1 5781A5A0
 P 5600 7200
 AR Path="/5781A5A0" Ref="C?"  Part="1" 
@@ -232,7 +142,7 @@ F 4 "CAP MLCC 1u 6.3V 20% [0402]" H 6400 7750 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR1002
+L power:GND #PWR1002
 U 1 1 5781AB87
 P 3600 7500
 F 0 "#PWR1002" H 3600 7500 30  0001 C CNN
@@ -243,7 +153,7 @@ F 3 "" H 3600 7500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0402 C?
+L pasv-cap:C-0402 C?
 U 1 1 5781BE7E
 P 3600 7800
 AR Path="/5781BE7E" Ref="C?"  Part="1" 
@@ -259,7 +169,7 @@ $EndComp
 Text GLabel 3500 7600 0    50   Input ~ 0
 P1V5_BRIDGE
 $Comp
-L C-0402 C?
+L pasv-cap:C-0402 C?
 U 1 1 5781BE86
 P 4000 7800
 AR Path="/5781BE86" Ref="C?"  Part="1" 
@@ -273,7 +183,7 @@ F 4 "CAP MLCC 1u 6.3V 20% [0402]" H 4800 8350 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0402 C?
+L pasv-cap:C-0402 C?
 U 1 1 5781BE8D
 P 4400 7800
 AR Path="/5781BE8D" Ref="C?"  Part="1" 
@@ -287,7 +197,7 @@ F 4 "CAP MLCC 1u 6.3V 20% [0402]" H 5200 8350 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0402 C?
+L pasv-cap:C-0402 C?
 U 1 1 5781BE94
 P 4800 7800
 AR Path="/5781BE94" Ref="C?"  Part="1" 
@@ -301,7 +211,7 @@ F 4 "CAP MLCC 1u 6.3V 20% [0402]" H 5600 8350 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0402 C?
+L pasv-cap:C-0402 C?
 U 1 1 5781BEAA
 P 5200 7800
 AR Path="/5781BEAA" Ref="C?"  Part="1" 
@@ -315,7 +225,7 @@ F 4 "CAP MLCC 1u 6.3V 20% [0402]" H 6000 8350 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0402 C?
+L pasv-cap:C-0402 C?
 U 1 1 5781BEB1
 P 5600 7800
 AR Path="/5781BEB1" Ref="C?"  Part="1" 
@@ -329,7 +239,7 @@ F 4 "CAP MLCC 1u 6.3V 20% [0402]" H 6400 8350 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR1003
+L power:GND #PWR1003
 U 1 1 5781BEBF
 P 3600 8100
 F 0 "#PWR1003" H 3600 8100 30  0001 C CNN
@@ -340,7 +250,7 @@ F 3 "" H 3600 8100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0402 C?
+L pasv-cap:C-0402 C?
 U 1 1 5781BFAF
 P 3600 8400
 AR Path="/5781BFAF" Ref="C?"  Part="1" 
@@ -356,7 +266,7 @@ $EndComp
 Text GLabel 3500 8200 0    50   Input ~ 0
 P1V5_BRIDGE
 $Comp
-L C-0402 C?
+L pasv-cap:C-0402 C?
 U 1 1 5781BFB7
 P 4000 8400
 AR Path="/5781BFB7" Ref="C?"  Part="1" 
@@ -370,7 +280,7 @@ F 4 "CAP MLCC 1u 6.3V 20% [0402]" H 4800 8950 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0402 C?
+L pasv-cap:C-0402 C?
 U 1 1 5781BFBE
 P 4400 8400
 AR Path="/5781BFBE" Ref="C?"  Part="1" 
@@ -384,7 +294,7 @@ F 4 "CAP MLCC 1u 6.3V 20% [0402]" H 5200 8950 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0402 C?
+L pasv-cap:C-0402 C?
 U 1 1 5781BFC5
 P 4800 8400
 AR Path="/5781BFC5" Ref="C?"  Part="1" 
@@ -398,7 +308,7 @@ F 4 "CAP MLCC 1u 6.3V 20% [0402]" H 5600 8950 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0402 C?
+L pasv-cap:C-0402 C?
 U 1 1 5781BFDB
 P 5200 8400
 AR Path="/5781BFDB" Ref="C?"  Part="1" 
@@ -412,7 +322,7 @@ F 4 "CAP MLCC 1u 6.3V 20% [0402]" H 6000 8950 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0402 C?
+L pasv-cap:C-0402 C?
 U 1 1 5781BFE2
 P 5600 8400
 AR Path="/5781BFE2" Ref="C?"  Part="1" 
@@ -426,7 +336,7 @@ F 4 "CAP MLCC 1u 6.3V 20% [0402]" H 6400 8950 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR1004
+L power:GND #PWR1004
 U 1 1 5781BFF0
 P 3600 8700
 F 0 "#PWR1004" H 3600 8700 30  0001 C CNN
@@ -437,7 +347,7 @@ F 3 "" H 3600 8700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0402 C?
+L pasv-cap:C-0402 C?
 U 1 1 5781BFF8
 P 3600 9300
 AR Path="/5781BFF8" Ref="C?"  Part="1" 
@@ -451,7 +361,7 @@ F 4 "CAP MLCC 1u 6.3V 20% [0402]" H 4400 9850 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0402 C?
+L pasv-cap:C-0402 C?
 U 1 1 5781C000
 P 4000 9300
 AR Path="/5781C000" Ref="C?"  Part="1" 
@@ -465,7 +375,7 @@ F 4 "CAP MLCC 1u 6.3V 20% [0402]" H 4800 9850 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0402 C?
+L pasv-cap:C-0402 C?
 U 1 1 5781C007
 P 4400 9300
 AR Path="/5781C007" Ref="C?"  Part="1" 
@@ -479,7 +389,7 @@ F 4 "CAP MLCC 1u 6.3V 20% [0402]" H 5200 9850 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0402 C?
+L pasv-cap:C-0402 C?
 U 1 1 5781C00E
 P 4800 9300
 AR Path="/5781C00E" Ref="C?"  Part="1" 
@@ -493,7 +403,7 @@ F 4 "CAP MLCC 1u 6.3V 20% [0402]" H 5600 9850 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0402 C?
+L pasv-cap:C-0402 C?
 U 1 1 5781C024
 P 5200 9300
 AR Path="/5781C024" Ref="C?"  Part="1" 
@@ -507,7 +417,7 @@ F 4 "CAP MLCC 1u 6.3V 20% [0402]" H 6000 9850 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR1005
+L power:GND #PWR1005
 U 1 1 5781C039
 P 3600 9600
 F 0 "#PWR1005" H 3600 9600 30  0001 C CNN
@@ -530,7 +440,7 @@ PV75_SDRAM_VTT
 Text GLabel 3500 8900 0    50   Input ~ 0
 P3V3_AUX
 $Comp
-L GND #PWR1012
+L power:GND #PWR1012
 U 1 1 578EB8DE
 P 10600 7100
 F 0 "#PWR1012" H 10600 7100 30  0001 C CNN
@@ -545,7 +455,7 @@ P3V3_CPU
 Text GLabel 9100 2600 0    50   Input ~ 0
 P1V2_CORE
 $Comp
-L GND #PWR1014
+L power:GND #PWR1014
 U 1 1 578EED1F
 P 13000 7100
 F 0 "#PWR1014" H 13000 7100 30  0001 C CNN
@@ -562,7 +472,7 @@ P1V2_CORE
 Text GLabel 6700 9100 0    50   Input ~ 0
 P3V3_CPU
 $Comp
-L GND #PWR1006
+L power:GND #PWR1006
 U 1 1 5793DC64
 P 6800 9500
 F 0 "#PWR1006" H 6800 9500 30  0001 C CNN
@@ -575,7 +485,7 @@ $EndComp
 Text GLabel 7500 9100 0    50   Input ~ 0
 P1V2_CORE
 $Comp
-L GND #PWR1007
+L power:GND #PWR1007
 U 1 1 5794152A
 P 7600 9500
 F 0 "#PWR1007" H 7600 9500 30  0001 C CNN
@@ -588,7 +498,7 @@ $EndComp
 Text GLabel 8300 9100 0    50   Input ~ 0
 P1V5_BRIDGE
 $Comp
-L GND #PWR1010
+L power:GND #PWR1010
 U 1 1 57941D48
 P 8400 9500
 F 0 "#PWR1010" H 8400 9500 30  0001 C CNN
@@ -601,7 +511,7 @@ $EndComp
 Text GLabel 6550 7500 0    50   Input ~ 0
 P1V2_CORE
 $Comp
-L GND #PWR1009
+L power:GND #PWR1009
 U 1 1 57999F20
 P 8300 8500
 F 0 "#PWR1009" H 8300 8500 30  0001 C CNN
@@ -616,7 +526,7 @@ BRIDGE CORE
 Text GLabel 9250 7500 0    50   Input ~ 0
 P1V2_CORE
 $Comp
-L GND #PWR1013
+L power:GND #PWR1013
 U 1 1 57AD4CB3
 P 11000 8500
 F 0 "#PWR1013" H 11000 8500 30  0001 C CNN
@@ -631,7 +541,7 @@ CPU0 CORE
 Text GLabel 11650 7500 0    50   Input ~ 0
 P1V2_CORE
 $Comp
-L GND #PWR1015
+L power:GND #PWR1015
 U 1 1 57AD51AD
 P 13400 8500
 F 0 "#PWR1015" H 13400 8500 30  0001 C CNN
@@ -646,7 +556,7 @@ CPU1 CORE
 Text GLabel 10200 9100 0    50   Input ~ 0
 P3V3_BRIDGE
 $Comp
-L GND #PWR1011
+L power:GND #PWR1011
 U 1 1 57AD94B8
 P 10300 9500
 F 0 "#PWR1011" H 10300 9500 30  0001 C CNN
@@ -2077,7 +1987,7 @@ Wire Wire Line
 Wire Wire Line
 	10300 9500 10300 9400
 $Comp
-L XC6SLX45-FGG484 BRIDGE1
+L Xilinx:XC6SLX45-FGG484 BRIDGE1
 U 5 1 57B42599
 P 6900 1200
 F 0 "BRIDGE1" H 7500 1468 50  0000 C CNN
@@ -2088,7 +1998,7 @@ F 3 "" H 6900 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C45EF5
 P 6800 7700
 AR Path="/5763A638/57C45EF5" Ref="C?"  Part="1" 
@@ -2102,7 +2012,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 6800 7400 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C461C1
 P 7200 7700
 AR Path="/5763A638/57C461C1" Ref="C?"  Part="1" 
@@ -2116,7 +2026,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 7200 7400 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C46278
 P 7600 7700
 AR Path="/5763A638/57C46278" Ref="C?"  Part="1" 
@@ -2130,7 +2040,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 7600 7400 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C46336
 P 8000 7700
 AR Path="/5763A638/57C46336" Ref="C?"  Part="1" 
@@ -2144,7 +2054,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 8000 7400 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C463ED
 P 8000 8200
 AR Path="/5763A638/57C463ED" Ref="C?"  Part="1" 
@@ -2158,7 +2068,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 8000 7900 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C464AF
 P 7600 8200
 AR Path="/5763A638/57C464AF" Ref="C?"  Part="1" 
@@ -2172,7 +2082,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 7600 7900 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C46574
 P 7200 8200
 AR Path="/5763A638/57C46574" Ref="C?"  Part="1" 
@@ -2186,7 +2096,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 7200 7900 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C46634
 P 6800 8200
 AR Path="/5763A638/57C46634" Ref="C?"  Part="1" 
@@ -2200,7 +2110,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 6800 7900 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L XC6SLX45-FGG484 CPU0
+L Xilinx:XC6SLX45-FGG484 CPU0
 U 5 1 57C3F9CB
 P 9300 1200
 F 0 "CPU0" H 9900 1468 50  0000 C CNN
@@ -2211,7 +2121,7 @@ F 3 "" H 9300 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L XC6SLX45-FGG484 CPU1
+L Xilinx:XC6SLX45-FGG484 CPU1
 U 5 1 57C3FECB
 P 11700 1200
 F 0 "CPU1" H 12300 1468 50  0000 C CNN
@@ -2222,7 +2132,7 @@ F 3 "" H 11700 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C456A1
 P 9500 7700
 AR Path="/5763A638/57C456A1" Ref="C?"  Part="1" 
@@ -2236,7 +2146,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 9500 7400 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C456A8
 P 9900 7700
 AR Path="/5763A638/57C456A8" Ref="C?"  Part="1" 
@@ -2250,7 +2160,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 9900 7400 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C456AF
 P 10300 7700
 AR Path="/5763A638/57C456AF" Ref="C?"  Part="1" 
@@ -2264,7 +2174,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 10300 7400 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C456B6
 P 10700 7700
 AR Path="/5763A638/57C456B6" Ref="C?"  Part="1" 
@@ -2278,7 +2188,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 10700 7400 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C457B9
 P 9500 8200
 AR Path="/5763A638/57C457B9" Ref="C?"  Part="1" 
@@ -2292,7 +2202,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 9500 7900 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C457C0
 P 9900 8200
 AR Path="/5763A638/57C457C0" Ref="C?"  Part="1" 
@@ -2306,7 +2216,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 9900 7900 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C457C7
 P 10300 8200
 AR Path="/5763A638/57C457C7" Ref="C?"  Part="1" 
@@ -2320,7 +2230,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 10300 7900 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C457CE
 P 10700 8200
 AR Path="/5763A638/57C457CE" Ref="C?"  Part="1" 
@@ -2334,7 +2244,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 10700 7900 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C473B1
 P 11900 7700
 AR Path="/5763A638/57C473B1" Ref="C?"  Part="1" 
@@ -2348,7 +2258,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 11900 7400 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C473B8
 P 12300 7700
 AR Path="/5763A638/57C473B8" Ref="C?"  Part="1" 
@@ -2362,7 +2272,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 12300 7400 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C473BF
 P 12700 7700
 AR Path="/5763A638/57C473BF" Ref="C?"  Part="1" 
@@ -2376,7 +2286,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 12700 7400 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C473C6
 P 13100 7700
 AR Path="/5763A638/57C473C6" Ref="C?"  Part="1" 
@@ -2390,7 +2300,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 13100 7400 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C47539
 P 11900 8200
 AR Path="/5763A638/57C47539" Ref="C?"  Part="1" 
@@ -2404,7 +2314,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 11900 7900 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C47540
 P 12300 8200
 AR Path="/5763A638/57C47540" Ref="C?"  Part="1" 
@@ -2418,7 +2328,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 12300 7900 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C47547
 P 12700 8200
 AR Path="/5763A638/57C47547" Ref="C?"  Part="1" 
@@ -2432,7 +2342,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 12700 7900 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C4754E
 P 13100 8200
 AR Path="/5763A638/57C4754E" Ref="C?"  Part="1" 
@@ -2446,7 +2356,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 13100 7900 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0805 C?
+L pasv-cap:C-0805 C?
 U 1 1 57C54ABD
 P 8500 7700
 AR Path="/5765B2E6/57C54ABD" Ref="C?"  Part="1" 
@@ -2461,7 +2371,7 @@ F 4 "DIST DIGIKEY 490-1719-1-ND" H 9300 8250 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0805 C?
+L pasv-cap:C-0805 C?
 U 1 1 57C54B35
 P 11100 7700
 AR Path="/5765B2E6/57C54B35" Ref="C?"  Part="1" 
@@ -2476,7 +2386,7 @@ F 4 "DIST DIGIKEY 490-1719-1-ND" H 11900 8250 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0805 C?
+L pasv-cap:C-0805 C?
 U 1 1 57C54C20
 P 13500 7700
 AR Path="/5765B2E6/57C54C20" Ref="C?"  Part="1" 
@@ -2509,7 +2419,7 @@ Wire Wire Line
 	8500 7900 8500 7800
 Connection ~ 8300 7900
 $Comp
-L C-ALUM-530 C1026
+L pasv-cap:C-ALUM-530 C1026
 U 1 1 57C83845
 P 6800 9300
 F 0 "C1026" H 6913 9346 50  0000 L CNN
@@ -2521,7 +2431,7 @@ F 4 "DIST DIGIKEY 732-6394-1-ND" H 6800 9300 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-ALUM-530 C1031
+L pasv-cap:C-ALUM-530 C1031
 U 1 1 57C84A06
 P 7600 9300
 F 0 "C1031" H 7713 9346 50  0000 L CNN
@@ -2533,7 +2443,7 @@ F 4 "DIST DIGIKEY 732-6394-1-ND" H 7600 9300 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-ALUM-530 C1034
+L pasv-cap:C-ALUM-530 C1034
 U 1 1 57C84ADC
 P 8400 9300
 F 0 "C1034" H 8513 9346 50  0000 L CNN
@@ -2545,7 +2455,7 @@ F 4 "DIST DIGIKEY 732-6394-1-ND" H 8400 9300 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-ALUM-530 C1041
+L pasv-cap:C-ALUM-530 C1041
 U 1 1 57C84BB9
 P 10300 9300
 F 0 "C1041" H 10413 9346 50  0000 L CNN

@@ -1,96 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:Abracon
-LIBS:Altera
-LIBS:AnalogDevices
-LIBS:AOS
-LIBS:Atmel
-LIBS:conn-2mm
-LIBS:conn-100mil
-LIBS:conn-amphenol
-LIBS:conn-assmann
-LIBS:conn-cui
-LIBS:conn-fci
-LIBS:conn-jae
-LIBS:conn-linx
-LIBS:conn-molex
-LIBS:conn-tagconnect
-LIBS:conn-te
-LIBS:conn-test
-LIBS:DiodesInc
-LIBS:display
-LIBS:electomech-misc
-LIBS:_electromech
-LIBS:Fairchild
-LIBS:FTDI
-LIBS:Intersil
-LIBS:Lattice
-LIBS:_linear
-LIBS:LinearTech
-LIBS:Littelfuse
-LIBS:logic-4000
-LIBS:logic-7400
-LIBS:MACOM
-LIBS:maxim
-LIBS:mechanical
-LIBS:Microchip
-LIBS:Micron
-LIBS:NXP
-LIBS:onsemi
-LIBS:_passive
-LIBS:pasv-BelFuse
-LIBS:pasv-BiTech
-LIBS:pasv-Bourns
-LIBS:pasv-cap
-LIBS:pasv-ind
-LIBS:pasv-Murata
-LIBS:pasv-res
-LIBS:pasv-TDK
-LIBS:pasv-xtal
-LIBS:pcb
-LIBS:power
-LIBS:Recom
-LIBS:_semi
-LIBS:semi-diode-DiodesInc
-LIBS:semi-diode-generic
-LIBS:semi-diode-MCC
-LIBS:semi-diode-NXP
-LIBS:semi-diode-OnSemi
-LIBS:semi-diode-Semtech
-LIBS:semi-diode-ST
-LIBS:semi-diode-Toshiba
-LIBS:semi-opto-generic
-LIBS:semi-opto-liteon
-LIBS:semi-thyristor-generic
-LIBS:semi-trans-AOS
-LIBS:semi-trans-DiodesInc
-LIBS:semi-trans-EPC
-LIBS:semi-trans-Fairchild
-LIBS:semi-trans-generic
-LIBS:semi-trans-Infineon
-LIBS:semi-trans-IRF
-LIBS:semi-trans-IXYS
-LIBS:semi-trans-NXP
-LIBS:semi-trans-OnSemi
-LIBS:semi-trans-ST
-LIBS:semi-trans-TI
-LIBS:semi-trans-Toshiba
-LIBS:semi-trans-Vishay
-LIBS:silabs
-LIBS:skyworks
-LIBS:ST
-LIBS:st_ic
-LIBS:supertex
-LIBS:symbol
-LIBS:TexasInstruments
-LIBS:Vishay
-LIBS:Xilinx
-LIBS:Richtek
-LIBS:semi-diode-Panasonic
-LIBS:Murata
-LIBS:semi-trans-Panasonic
-LIBS:AMS
+EESchema Schematic File Version 4
 LIBS:motherboard-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr B 11000 17000 portrait
 encoding utf-8
@@ -121,11 +31,12 @@ Text HLabel 3400 6400 0    50   Input ~ 0
 Text GLabel 1100 11400 0    50   Input ~ 0
 P3V3_CPU
 $Comp
-L AS7C38098A CACHE0
+L motherboard-rescue:AS7C38098A-RESCUE-motherboard CACHE0
 U 1 1 5783D342
 P 9100 9800
 AR Path="/5765A5BA/5783D342" Ref="CACHE0"  Part="1" 
 AR Path="/5765B2E6/5783D342" Ref="CACHE1"  Part="1" 
+AR Path="/5783D342" Ref="CACHE0"  Part="1" 
 F 0 "CACHE0" H 9100 10067 50  0000 C CNN
 F 1 "AS7C38098A" H 9100 9976 50  0000 C CNN
 F 2 "IPC7351-Nominal:SOP80P1176X120-44" H 9100 7300 50  0001 C CNN
@@ -221,7 +132,7 @@ CACHE_DQ15
 Text GLabel 8100 11800 0    50   Input ~ 0
 P3V3_CPU
 $Comp
-L GND #PWR509
+L power:GND #PWR509
 U 1 1 5793B4AE
 P 8400 12200
 AR Path="/5765A5BA/5793B4AE" Ref="#PWR509"  Part="1" 
@@ -234,7 +145,7 @@ F 3 "" H 8400 12200 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C-0402 C512
+L pasv-cap:C-0402 C512
 U 1 1 5793BAAD
 P 8400 12600
 AR Path="/5765A5BA/5793BAAD" Ref="C512"  Part="1" 
@@ -248,7 +159,7 @@ F 4 "DIST DIGIKEY 490-6281-1-ND" H 9200 13150 60  0001 C CNN "BOM"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C-0402 C511
+L pasv-cap:C-0402 C511
 U 1 1 5793BB4A
 P 8000 12600
 AR Path="/5765A5BA/5793BB4A" Ref="C511"  Part="1" 
@@ -262,7 +173,7 @@ F 4 "DIST DIGIKEY 490-6281-1-ND" H 8800 13150 60  0001 C CNN "BOM"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR508
+L power:GND #PWR508
 U 1 1 5793BC86
 P 8200 12900
 AR Path="/5765A5BA/5793BC86" Ref="#PWR508"  Part="1" 
@@ -437,7 +348,7 @@ DONE
 Text HLabel 1200 11100 0    50   Output ~ 0
 INIT_B
 $Comp
-L R-0402 R501
+L pasv-res:R-0402 R501
 U 1 1 57A58F79
 P 1000 1000
 AR Path="/5765A5BA/57A58F79" Ref="R501"  Part="1" 
@@ -453,7 +364,7 @@ $EndComp
 Text GLabel 650  700  2    50   Input ~ 0
 P3V3_CPU
 $Comp
-L R-0402 R?
+L pasv-res:R-0402 R?
 U 1 1 57A5D20B
 P 1050 1400
 AR Path="/5763A638/57A5D20B" Ref="R?"  Part="1" 
@@ -468,7 +379,7 @@ F 4 "RES SMD 0R [0402]" H 1800 1950 60  0001 C CNN "BOM"
 	0    1    1    0   
 $EndComp
 $Comp
-L R-0402 R?
+L pasv-res:R-0402 R?
 U 1 1 57A5D251
 P 1050 3700
 AR Path="/5763A638/57A5D251" Ref="R?"  Part="1" 
@@ -483,7 +394,7 @@ F 4 "RES SMD 0R [0402]" H 1800 4250 60  0001 C CNN "BOM"
 	0    1    1    0   
 $EndComp
 $Comp
-L CONN-100MIL-M-2x7-SHROUD J?
+L conn-100mil:CONN-100MIL-M-2x7-SHROUD J?
 U 1 1 57A7F2F7
 P 3300 15500
 AR Path="/5763AB3B/57A7F2F7" Ref="J?"  Part="1" 
@@ -502,7 +413,7 @@ P3V3_CPU
 NoConn ~ 3500 16000
 NoConn ~ 3500 16100
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 57A7F302
 P 3000 16200
 AR Path="/5763AB3B/57A7F302" Ref="#PWR?"  Part="1" 
@@ -516,7 +427,7 @@ F 3 "" H 3000 16200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-0402 R?
+L pasv-res:R-0402 R?
 U 1 1 57A7F317
 P 3700 15300
 AR Path="/5763AB3B/57A7F317" Ref="R?"  Part="1" 
@@ -531,7 +442,7 @@ F 4 "RES SMD 4k3 [0402]" H 4450 15850 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-0402 R?
+L pasv-res:R-0402 R?
 U 1 1 57A7F321
 P 4000 15300
 AR Path="/5763AB3B/57A7F321" Ref="R?"  Part="1" 
@@ -714,7 +625,7 @@ Entry Wire Line
 Entry Wire Line
 	10400 12000 10300 12100
 $Comp
-L R-0402 R?
+L pasv-res:R-0402 R?
 U 1 1 57A6CB4C
 P 4700 16200
 AR Path="/5763AB3B/57A6CB4C" Ref="R?"  Part="1" 
@@ -729,7 +640,7 @@ F 4 "RES SMD 100k 1% [0402]" H 5450 16750 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR506
+L power:GND #PWR506
 U 1 1 57A6CCC5
 P 4700 16350
 AR Path="/5765A5BA/57A6CCC5" Ref="#PWR506"  Part="1" 
@@ -1274,7 +1185,7 @@ NoConn ~ 1300 1100
 Wire Wire Line
 	1150 3700 1300 3700
 $Comp
-L XC6SLX45-FGG484 CPU0
+L Xilinx:XC6SLX45-FGG484 CPU0
 U 4 1 57C36EC2
 P 3700 1000
 AR Path="/5765A5BA/57C36EC2" Ref="CPU0"  Part="4" 
@@ -1287,7 +1198,7 @@ F 3 "" H 3000 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L XC6SLX45-FGG484 CPU0
+L Xilinx:XC6SLX45-FGG484 CPU0
 U 1 1 57C39025
 P 9400 1000
 AR Path="/5765A5BA/57C39025" Ref="CPU0"  Part="1" 
@@ -1300,7 +1211,7 @@ F 3 "" H 8700 1000 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L XC6SLX45-FGG484 CPU0
+L Xilinx:XC6SLX45-FGG484 CPU0
 U 2 1 57C3A5D9
 P 7300 1000
 AR Path="/5765A5BA/57C3A5D9" Ref="CPU0"  Part="2" 
@@ -1313,7 +1224,7 @@ F 3 "" H 6600 1000 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L XC6SLX45-FGG484 CPU0
+L Xilinx:XC6SLX45-FGG484 CPU0
 U 6 1 57C41525
 P 5000 15600
 AR Path="/5765A5BA/57C41525" Ref="CPU0"  Part="6" 
@@ -1326,7 +1237,7 @@ F 3 "" H 4300 15600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 57C4885A
 P 5300 14200
 AR Path="/5763AB3B/57C4885A" Ref="#PWR?"  Part="1" 
@@ -1401,7 +1312,7 @@ Wire Wire Line
 Connection ~ 4200 13100
 Connection ~ 5300 13600
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C48886
 P 3800 12900
 AR Path="/5763A638/57C48886" Ref="C?"  Part="1" 
@@ -1416,7 +1327,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 3800 12600 60  0001 C CNN "BOM"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C4888E
 P 4200 12900
 AR Path="/5763A638/57C4888E" Ref="C?"  Part="1" 
@@ -1431,7 +1342,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 4200 12600 60  0001 C CNN "BOM"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C48896
 P 4600 12900
 AR Path="/5763A638/57C48896" Ref="C?"  Part="1" 
@@ -1446,7 +1357,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 4600 12600 60  0001 C CNN "BOM"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C4889E
 P 5000 12900
 AR Path="/5763A638/57C4889E" Ref="C?"  Part="1" 
@@ -1461,7 +1372,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 5000 12600 60  0001 C CNN "BOM"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C488A6
 P 5000 13400
 AR Path="/5763A638/57C488A6" Ref="C?"  Part="1" 
@@ -1476,7 +1387,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 5000 13100 60  0001 C CNN "BOM"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C488AE
 P 4600 13400
 AR Path="/5763A638/57C488AE" Ref="C?"  Part="1" 
@@ -1491,7 +1402,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 4600 13100 60  0001 C CNN "BOM"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C488B6
 P 4200 13400
 AR Path="/5763A638/57C488B6" Ref="C?"  Part="1" 
@@ -1506,7 +1417,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 4200 13100 60  0001 C CNN "BOM"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C488BE
 P 3800 13400
 AR Path="/5763A638/57C488BE" Ref="C?"  Part="1" 
@@ -1547,7 +1458,7 @@ Wire Wire Line
 	5000 14000 5000 14100
 Connection ~ 5000 14100
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C489A9
 P 5000 13900
 AR Path="/5763A638/57C489A9" Ref="C?"  Part="1" 
@@ -1562,7 +1473,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 5000 13600 60  0001 C CNN "BOM"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C489B0
 P 4600 13900
 AR Path="/5763A638/57C489B0" Ref="C?"  Part="1" 
@@ -1577,7 +1488,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 4600 13600 60  0001 C CNN "BOM"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C489B7
 P 4200 13900
 AR Path="/5763A638/57C489B7" Ref="C?"  Part="1" 
@@ -1594,7 +1505,7 @@ $EndComp
 Connection ~ 3600 13200
 Connection ~ 5300 14100
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 57C4B31C
 P 2900 14200
 AR Path="/5763AB3B/57C4B31C" Ref="#PWR?"  Part="1" 
@@ -1669,7 +1580,7 @@ Wire Wire Line
 Connection ~ 1800 13100
 Connection ~ 2900 13600
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C4B357
 P 1400 12900
 AR Path="/5763A638/57C4B357" Ref="C?"  Part="1" 
@@ -1684,7 +1595,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 1400 12600 60  0001 C CNN "BOM"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C4B35E
 P 1800 12900
 AR Path="/5763A638/57C4B35E" Ref="C?"  Part="1" 
@@ -1699,7 +1610,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 1800 12600 60  0001 C CNN "BOM"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C4B365
 P 2200 12900
 AR Path="/5763A638/57C4B365" Ref="C?"  Part="1" 
@@ -1714,7 +1625,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 2200 12600 60  0001 C CNN "BOM"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C4B36C
 P 2600 12900
 AR Path="/5763A638/57C4B36C" Ref="C?"  Part="1" 
@@ -1729,7 +1640,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 2600 12600 60  0001 C CNN "BOM"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C4B373
 P 2600 13400
 AR Path="/5763A638/57C4B373" Ref="C?"  Part="1" 
@@ -1744,7 +1655,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 2600 13100 60  0001 C CNN "BOM"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C4B37A
 P 2200 13400
 AR Path="/5763A638/57C4B37A" Ref="C?"  Part="1" 
@@ -1759,7 +1670,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 2200 13100 60  0001 C CNN "BOM"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C4B381
 P 1800 13400
 AR Path="/5763A638/57C4B381" Ref="C?"  Part="1" 
@@ -1774,7 +1685,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 1800 13100 60  0001 C CNN "BOM"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C4B388
 P 1400 13400
 AR Path="/5763A638/57C4B388" Ref="C?"  Part="1" 
@@ -1815,7 +1726,7 @@ Wire Wire Line
 	2600 14000 2600 14100
 Connection ~ 2600 14100
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C4B3A5
 P 2600 13900
 AR Path="/5763A638/57C4B3A5" Ref="C?"  Part="1" 
@@ -1830,7 +1741,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 2600 13600 60  0001 C CNN "BOM"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C4B3AC
 P 2200 13900
 AR Path="/5763A638/57C4B3AC" Ref="C?"  Part="1" 
@@ -1845,7 +1756,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 2200 13600 60  0001 C CNN "BOM"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C4B3B3
 P 1800 13900
 AR Path="/5763A638/57C4B3B3" Ref="C?"  Part="1" 
@@ -1862,7 +1773,7 @@ $EndComp
 Connection ~ 1200 13200
 Connection ~ 2900 14100
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C4B451
 P 1400 13900
 AR Path="/5763A638/57C4B451" Ref="C?"  Part="1" 
@@ -1877,7 +1788,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 1400 13600 60  0001 C CNN "BOM"
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 57C4D307
 P 7700 14700
 AR Path="/5763AB3B/57C4D307" Ref="#PWR?"  Part="1" 
@@ -1952,7 +1863,7 @@ Wire Wire Line
 Connection ~ 6600 13600
 Connection ~ 7700 14100
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C4D342
 P 6200 13400
 AR Path="/5763A638/57C4D342" Ref="C?"  Part="1" 
@@ -1967,7 +1878,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 6200 13100 60  0001 C CNN "BOM"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C4D349
 P 6600 13400
 AR Path="/5763A638/57C4D349" Ref="C?"  Part="1" 
@@ -1982,7 +1893,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 6600 13100 60  0001 C CNN "BOM"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C4D350
 P 7000 13400
 AR Path="/5763A638/57C4D350" Ref="C?"  Part="1" 
@@ -1997,7 +1908,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 7000 13100 60  0001 C CNN "BOM"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C4D357
 P 7400 13400
 AR Path="/5763A638/57C4D357" Ref="C?"  Part="1" 
@@ -2012,7 +1923,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 7400 13100 60  0001 C CNN "BOM"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C4D35E
 P 7400 13900
 AR Path="/5763A638/57C4D35E" Ref="C?"  Part="1" 
@@ -2027,7 +1938,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 7400 13600 60  0001 C CNN "BOM"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C4D365
 P 7000 13900
 AR Path="/5763A638/57C4D365" Ref="C?"  Part="1" 
@@ -2042,7 +1953,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 7000 13600 60  0001 C CNN "BOM"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C4D36C
 P 6600 13900
 AR Path="/5763A638/57C4D36C" Ref="C?"  Part="1" 
@@ -2057,7 +1968,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 6600 13600 60  0001 C CNN "BOM"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C4D373
 P 6200 13900
 AR Path="/5763A638/57C4D373" Ref="C?"  Part="1" 
@@ -2098,7 +2009,7 @@ Wire Wire Line
 	7400 14500 7400 14600
 Connection ~ 7400 14600
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C4D390
 P 7400 14400
 AR Path="/5763A638/57C4D390" Ref="C?"  Part="1" 
@@ -2113,7 +2024,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 7400 14100 60  0001 C CNN "BOM"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C4D397
 P 7000 14400
 AR Path="/5763A638/57C4D397" Ref="C?"  Part="1" 
@@ -2128,7 +2039,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 7000 14100 60  0001 C CNN "BOM"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C4D39E
 P 6600 14400
 AR Path="/5763A638/57C4D39E" Ref="C?"  Part="1" 
@@ -2145,7 +2056,7 @@ $EndComp
 Connection ~ 6000 13700
 Connection ~ 7700 14600
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C4D3A7
 P 6200 14400
 AR Path="/5763A638/57C4D3A7" Ref="C?"  Part="1" 
@@ -2160,7 +2071,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 6200 14100 60  0001 C CNN "BOM"
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 57C4E58D
 P 10000 14700
 AR Path="/5763AB3B/57C4E58D" Ref="#PWR?"  Part="1" 
@@ -2235,7 +2146,7 @@ Wire Wire Line
 Connection ~ 8900 13600
 Connection ~ 10000 14100
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C4E5C8
 P 8500 13400
 AR Path="/5763A638/57C4E5C8" Ref="C?"  Part="1" 
@@ -2250,7 +2161,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 8500 13100 60  0001 C CNN "BOM"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C4E5CF
 P 8900 13400
 AR Path="/5763A638/57C4E5CF" Ref="C?"  Part="1" 
@@ -2265,7 +2176,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 8900 13100 60  0001 C CNN "BOM"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C4E5D6
 P 9300 13400
 AR Path="/5763A638/57C4E5D6" Ref="C?"  Part="1" 
@@ -2280,7 +2191,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 9300 13100 60  0001 C CNN "BOM"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C4E5DD
 P 9700 13400
 AR Path="/5763A638/57C4E5DD" Ref="C?"  Part="1" 
@@ -2295,7 +2206,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 9700 13100 60  0001 C CNN "BOM"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C4E5E4
 P 9700 13900
 AR Path="/5763A638/57C4E5E4" Ref="C?"  Part="1" 
@@ -2310,7 +2221,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 9700 13600 60  0001 C CNN "BOM"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C4E5EB
 P 9300 13900
 AR Path="/5763A638/57C4E5EB" Ref="C?"  Part="1" 
@@ -2325,7 +2236,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 9300 13600 60  0001 C CNN "BOM"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C4E5F2
 P 8900 13900
 AR Path="/5763A638/57C4E5F2" Ref="C?"  Part="1" 
@@ -2340,7 +2251,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 8900 13600 60  0001 C CNN "BOM"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C4E5F9
 P 8500 13900
 AR Path="/5763A638/57C4E5F9" Ref="C?"  Part="1" 
@@ -2381,7 +2292,7 @@ Wire Wire Line
 	9700 14500 9700 14600
 Connection ~ 9700 14600
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C4E616
 P 9700 14400
 AR Path="/5763A638/57C4E616" Ref="C?"  Part="1" 
@@ -2396,7 +2307,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 9700 14100 60  0001 C CNN "BOM"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C4E61D
 P 9300 14400
 AR Path="/5763A638/57C4E61D" Ref="C?"  Part="1" 
@@ -2411,7 +2322,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 9300 14100 60  0001 C CNN "BOM"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C4E624
 P 8900 14400
 AR Path="/5763A638/57C4E624" Ref="C?"  Part="1" 
@@ -2428,7 +2339,7 @@ $EndComp
 Connection ~ 8300 13700
 Connection ~ 10000 14600
 $Comp
-L C-0201 C?
+L pasv-cap:C-0201 C?
 U 1 1 57C4E62D
 P 8500 14400
 AR Path="/5763A638/57C4E62D" Ref="C?"  Part="1" 
@@ -2443,7 +2354,7 @@ F 4 "DIST DIGIKEY 490-9985-1-ND" H 8500 14100 60  0001 C CNN "BOM"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C-0805 C650
+L pasv-cap:C-0805 C650
 U 1 1 57C50540
 P 1400 14500
 AR Path="/5765B2E6/57C50540" Ref="C650"  Part="1" 
@@ -2457,7 +2368,7 @@ F 4 "DIST DIGIKEY 490-1719-1-ND" H 2200 15050 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0805 C651
+L pasv-cap:C-0805 C651
 U 1 1 57C50D88
 P 1800 14500
 AR Path="/5765B2E6/57C50D88" Ref="C651"  Part="1" 
@@ -2471,7 +2382,7 @@ F 4 "DIST DIGIKEY 490-1719-1-ND" H 2600 15050 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0805 C652
+L pasv-cap:C-0805 C652
 U 1 1 57C50E5E
 P 2200 14500
 AR Path="/5765B2E6/57C50E5E" Ref="C652"  Part="1" 
@@ -2497,7 +2408,7 @@ Wire Wire Line
 	1800 14600 1800 14700
 Connection ~ 1800 14700
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 57C516D3
 P 2500 14800
 AR Path="/5763AB3B/57C516D3" Ref="#PWR?"  Part="1" 
@@ -2524,7 +2435,7 @@ Connection ~ 1800 14300
 Text GLabel 1300 14300 0    50   Input ~ 0
 P3V3_CPU
 $Comp
-L C-0805 C653
+L pasv-cap:C-0805 C653
 U 1 1 57C53A88
 P 3800 13900
 AR Path="/5765B2E6/57C53A88" Ref="C653"  Part="1" 
@@ -2610,7 +2521,7 @@ NoConn ~ 1300 8800
 NoConn ~ 1300 8900
 NoConn ~ 1300 9000
 $Comp
-L XC6SLX45-FGG484 CPU0
+L Xilinx:XC6SLX45-FGG484 CPU0
 U 3 1 57C3510D
 P 1300 1100
 AR Path="/5765A5BA/57C3510D" Ref="CPU0"  Part="3" 

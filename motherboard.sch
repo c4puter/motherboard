@@ -1,96 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:Abracon
-LIBS:Altera
-LIBS:AnalogDevices
-LIBS:AOS
-LIBS:Atmel
-LIBS:conn-2mm
-LIBS:conn-100mil
-LIBS:conn-amphenol
-LIBS:conn-assmann
-LIBS:conn-cui
-LIBS:conn-fci
-LIBS:conn-jae
-LIBS:conn-linx
-LIBS:conn-molex
-LIBS:conn-tagconnect
-LIBS:conn-te
-LIBS:conn-test
-LIBS:DiodesInc
-LIBS:display
-LIBS:electomech-misc
-LIBS:_electromech
-LIBS:Fairchild
-LIBS:FTDI
-LIBS:Intersil
-LIBS:Lattice
-LIBS:_linear
-LIBS:LinearTech
-LIBS:Littelfuse
-LIBS:logic-4000
-LIBS:logic-7400
-LIBS:MACOM
-LIBS:maxim
-LIBS:mechanical
-LIBS:Microchip
-LIBS:Micron
-LIBS:NXP
-LIBS:onsemi
-LIBS:_passive
-LIBS:pasv-BelFuse
-LIBS:pasv-BiTech
-LIBS:pasv-Bourns
-LIBS:pasv-cap
-LIBS:pasv-ind
-LIBS:pasv-Murata
-LIBS:pasv-res
-LIBS:pasv-TDK
-LIBS:pasv-xtal
-LIBS:pcb
-LIBS:power
-LIBS:Recom
-LIBS:_semi
-LIBS:semi-diode-DiodesInc
-LIBS:semi-diode-generic
-LIBS:semi-diode-MCC
-LIBS:semi-diode-NXP
-LIBS:semi-diode-OnSemi
-LIBS:semi-diode-Semtech
-LIBS:semi-diode-ST
-LIBS:semi-diode-Toshiba
-LIBS:semi-opto-generic
-LIBS:semi-opto-liteon
-LIBS:semi-thyristor-generic
-LIBS:semi-trans-AOS
-LIBS:semi-trans-DiodesInc
-LIBS:semi-trans-EPC
-LIBS:semi-trans-Fairchild
-LIBS:semi-trans-generic
-LIBS:semi-trans-Infineon
-LIBS:semi-trans-IRF
-LIBS:semi-trans-IXYS
-LIBS:semi-trans-NXP
-LIBS:semi-trans-OnSemi
-LIBS:semi-trans-ST
-LIBS:semi-trans-TI
-LIBS:semi-trans-Toshiba
-LIBS:semi-trans-Vishay
-LIBS:silabs
-LIBS:skyworks
-LIBS:ST
-LIBS:st_ic
-LIBS:supertex
-LIBS:symbol
-LIBS:TexasInstruments
-LIBS:Vishay
-LIBS:Xilinx
-LIBS:Richtek
-LIBS:semi-diode-Panasonic
-LIBS:Murata
-LIBS:semi-trans-Panasonic
-LIBS:AMS
+EESchema Schematic File Version 4
 LIBS:motherboard-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
@@ -324,7 +234,7 @@ F0 "Power Distrib" 60
 F1 "PDist.sch" 60
 $EndSheet
 $Comp
-L CONN-PJ-037A J102
+L conn-cui:CONN-PJ-037A J102
 U 1 1 5765EAF0
 P 1250 1500
 F 0 "J102" H 1450 1550 50  0000 L CNN
@@ -336,7 +246,7 @@ F 4 "DIST DIGIKEY CP-037AH-ND" H 1750 2250 60  0001 C CNN "BOM"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR102
+L power:GND #PWR102
 U 1 1 5765EE94
 P 1150 1850
 F 0 "#PWR102" H 1150 1850 30  0001 C CNN
@@ -347,7 +257,7 @@ F 3 "" H 1150 1850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AOD4189 Q102
+L semi-trans-AOS:AOD4189 Q102
 U 1 1 577BAA66
 P 3950 1550
 F 0 "Q102" V 4214 1550 50  0000 C CNN
@@ -359,7 +269,7 @@ F 4 "PMOS AOS AOD4189" H 3950 1200 60  0001 C CNN "BOM"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L AOD4189 Q101
+L semi-trans-AOS:AOD4189 Q101
 U 1 1 577BB49C
 P 2850 1550
 F 0 "Q101" V 3114 1550 50  0000 C CNN
@@ -373,7 +283,7 @@ $EndComp
 Text GLabel 4450 1500 2    50   Output ~ 0
 +12
 $Comp
-L GND #PWR117
+L power:GND #PWR117
 U 1 1 577BDBFF
 P 2900 2550
 F 0 "#PWR117" H 2900 2550 30  0001 C CNN
@@ -384,7 +294,7 @@ F 3 "" H 2900 2550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0402 C105
+L pasv-cap:C-0402 C105
 U 1 1 577BE5F3
 P 4100 2200
 F 0 "C105" V 4258 2200 50  0000 C CNN
@@ -398,7 +308,7 @@ $EndComp
 Text Label 1750 1500 0    50   ~ 0
 12VIN
 $Comp
-L SCREW MP102
+L mechanical:SCREW MP102
 U 1 1 578EFA64
 P 14250 9300
 F 0 "MP102" H 14380 9316 50  0000 L CNN
@@ -409,7 +319,7 @@ F 3 "" H 14250 9300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR125
+L power:GND #PWR125
 U 1 1 578EFEB0
 P 14250 9500
 F 0 "#PWR125" H 14250 9500 30  0001 C CNN
@@ -420,7 +330,7 @@ F 3 "" H 14250 9500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SCREW MP104
+L mechanical:SCREW MP104
 U 1 1 578F086C
 P 14800 9300
 F 0 "MP104" H 14930 9316 50  0000 L CNN
@@ -431,7 +341,7 @@ F 3 "" H 14800 9300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR127
+L power:GND #PWR127
 U 1 1 578F0872
 P 14800 9500
 F 0 "#PWR127" H 14800 9500 30  0001 C CNN
@@ -442,7 +352,7 @@ F 3 "" H 14800 9500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SCREW MP101
+L mechanical:SCREW MP101
 U 1 1 578F0AAB
 P 14250 8850
 F 0 "MP101" H 14380 8866 50  0000 L CNN
@@ -453,7 +363,7 @@ F 3 "" H 14250 8850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR124
+L power:GND #PWR124
 U 1 1 578F0AB1
 P 14250 9050
 F 0 "#PWR124" H 14250 9050 30  0001 C CNN
@@ -464,7 +374,7 @@ F 3 "" H 14250 9050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SCREW MP103
+L mechanical:SCREW MP103
 U 1 1 578F0AB8
 P 14800 8850
 F 0 "MP103" H 14930 8866 50  0000 L CNN
@@ -475,7 +385,7 @@ F 3 "" H 14800 8850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR126
+L power:GND #PWR126
 U 1 1 578F0ABE
 P 14800 9050
 F 0 "#PWR126" H 14800 9050 30  0001 C CNN
@@ -486,7 +396,7 @@ F 3 "" H 14800 9050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TACT-CK-PTS645-SMD SW101
+L electomech-misc:TACT-CK-PTS645-SMD SW101
 U 1 1 57929D15
 P 1550 9300
 F 0 "SW101" H 1550 9520 50  0000 C CNN
@@ -497,7 +407,7 @@ F 3 "" H 1550 9300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TACT-CK-PTS645-SMD SW102
+L electomech-misc:TACT-CK-PTS645-SMD SW102
 U 1 1 5792AF15
 P 1550 9800
 F 0 "SW102" H 1550 10020 50  0000 C CNN
@@ -508,7 +418,7 @@ F 3 "" H 1550 9800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR106
+L power:GND #PWR106
 U 1 1 57931B4B
 P 1300 10000
 F 0 "#PWR106" H 1300 10000 30  0001 C CNN
@@ -519,7 +429,7 @@ F 3 "" H 1300 10000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0402 C103
+L pasv-cap:C-0402 C103
 U 1 1 579344F4
 P 2800 9550
 AR Path="/579344F4" Ref="C103"  Part="1" 
@@ -533,7 +443,7 @@ F 4 "CAP MLCC 100n ≥X5R 25V 10% [0402]" H 3600 10100 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR115
+L power:GND #PWR115
 U 1 1 57934979
 P 2800 9700
 F 0 "#PWR115" H 2800 9700 30  0001 C CNN
@@ -544,7 +454,7 @@ F 3 "" H 2800 9700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0402 C104
+L pasv-cap:C-0402 C104
 U 1 1 57934D14
 P 2800 9950
 AR Path="/57934D14" Ref="C104"  Part="1" 
@@ -558,7 +468,7 @@ F 4 "CAP MLCC 100n ≥X5R 25V 10% [0402]" H 3600 10500 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR116
+L power:GND #PWR116
 U 1 1 579352F2
 P 2800 10100
 F 0 "#PWR116" H 2800 10100 30  0001 C CNN
@@ -569,7 +479,7 @@ F 3 "" H 2800 10100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-0402 R111
+L pasv-res:R-0402 R111
 U 1 1 579DF6DC
 P 14800 3800
 F 0 "R111" V 15000 3800 50  0000 C CNN
@@ -581,7 +491,7 @@ F 4 "RES SMD 51 1% [0402]" H 15550 4350 60  0001 C CNN "BOM"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C-0402 C107
+L pasv-cap:C-0402 C107
 U 1 1 579E13E5
 P 15100 3800
 AR Path="/579E13E5" Ref="C107"  Part="1" 
@@ -595,7 +505,7 @@ F 4 "CAP MLCC 100n ≥X5R 25V 10% [0402]" H 15900 4350 60  0001 C CNN "BOM"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR131
+L power:GND #PWR131
 U 1 1 579E1A59
 P 15300 3800
 F 0 "#PWR131" H 15300 3800 30  0001 C CNN
@@ -608,7 +518,7 @@ $EndComp
 Text Notes 14600 3400 0    50   ~ 0
 Layout: route FPGA configuration data with\nstandard multidrop bus layout, rough length\nmatching between data and CCLK, fly-by\ntermination.
 $Comp
-L CONN-100MIL-M-2x3 J104
+L conn-100mil:CONN-100MIL-M-2x3 J104
 U 1 1 579E71D7
 P 1600 8700
 F 0 "J104" H 1600 8940 50  0000 C CNN
@@ -619,7 +529,7 @@ F 3 "" H 1575 8700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR105
+L power:GND #PWR105
 U 1 1 579E8212
 P 1300 9000
 F 0 "#PWR105" H 1300 9000 30  0001 C CNN
@@ -630,7 +540,7 @@ F 3 "" H 1300 9000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-0603 DS102
+L semi-opto-generic:LED-0603 DS102
 U 1 1 579EAF42
 P 2800 8200
 F 0 "DS102" H 2950 8246 50  0000 L CNN
@@ -642,7 +552,7 @@ F 4 "LED GREEN [0603]" H 2800 7950 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-0603 DS101
+L semi-opto-generic:LED-0603 DS101
 U 1 1 579EB3B7
 P 2300 8200
 F 0 "DS101" H 2450 8246 50  0000 L CNN
@@ -654,7 +564,7 @@ F 4 "LED GREEN [0603]" H 2300 7950 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-0402 R103
+L pasv-res:R-0402 R103
 U 1 1 579ECFD4
 P 2300 8500
 F 0 "R103" H 2363 8546 50  0000 L CNN
@@ -666,7 +576,7 @@ F 4 "RES SMD 4k3 [0402]" H 3050 9050 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-0402 R107
+L pasv-res:R-0402 R107
 U 1 1 579EDE96
 P 2800 8500
 F 0 "R107" H 2863 8546 50  0000 L CNN
@@ -678,7 +588,7 @@ F 4 "RES SMD 4k3 [0402]" H 3550 9050 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN-100MIL-M-1x9 J?
+L conn-100mil:CONN-100MIL-M-1x9 J?
 U 1 1 57A95B37
 P 1400 4200
 AR Path="/5765CB89/57A95B37" Ref="J?"  Part="1" 
@@ -700,7 +610,7 @@ RSTD
 Text Label 1850 4500 2    50   ~ 0
 RSDTR
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 57A95B42
 P 1550 4600
 AR Path="/5765CB89/57A95B42" Ref="#PWR?"  Part="1" 
@@ -721,7 +631,7 @@ RSCTS
 Text Label 1850 5000 2    50   ~ 0
 RSRI
 $Comp
-L CONN-10118194-0001LF-UUSB-B J?
+L conn-fci:CONN-10118194-0001LF-UUSB-B J?
 U 1 1 57A9F4F6
 P 1500 3400
 AR Path="/5765CB89/57A9F4F6" Ref="J?"  Part="1" 
@@ -735,7 +645,7 @@ F 4 "DIST DIGIKEY 609-4618-1-ND" H 2000 4300 50  0001 C CNN "BOM"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR113
+L power:GND #PWR113
 U 1 1 57AA1CEB
 P 2700 3800
 F 0 "#PWR113" H 2700 3800 30  0001 C CNN
@@ -747,7 +657,7 @@ F 3 "" H 2700 3800 60  0000 C CNN
 $EndComp
 NoConn ~ 1700 3500
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 57AA9AC6
 P 1200 7650
 AR Path="/5765CB89/57AA9AC6" Ref="#PWR?"  Part="1" 
@@ -762,7 +672,7 @@ $EndComp
 Text Notes 2100 4700 0    50   ~ 0
 RS232 alternate part:\nAE10970-ND (no bolts)
 $Comp
-L R-0402 R106
+L pasv-res:R-0402 R106
 U 1 1 57A6714D
 P 3500 1700
 F 0 "R106" H 3563 1746 50  0000 L CNN
@@ -774,7 +684,7 @@ F 4 "RES SMD 100k 1% [0402]" H 4250 2250 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-0402 R101
+L pasv-res:R-0402 R101
 U 1 1 57A6818B
 P 2900 2400
 F 0 "R101" H 2963 2446 50  0000 L CNN
@@ -786,7 +696,7 @@ F 4 "RES SMD 100k 1% [0402]" H 3650 2950 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-0402 R104
+L pasv-res:R-0402 R104
 U 1 1 57A76AA9
 P 2450 9400
 F 0 "R104" V 2250 9400 50  0000 C CNN
@@ -798,7 +708,7 @@ F 4 "RES SMD 1k 1% [0402]" H 3200 9950 60  0001 C CNN "BOM"
 	0    1    1    0   
 $EndComp
 $Comp
-L R-0402 R105
+L pasv-res:R-0402 R105
 U 1 1 57A77500
 P 2450 9800
 F 0 "R105" V 2250 9800 50  0000 C CNN
@@ -810,7 +720,7 @@ F 4 "RES SMD 1k 1% [0402]" H 3200 10350 60  0001 C CNN "BOM"
 	0    1    1    0   
 $EndComp
 $Comp
-L SW-DIP-8 SW103
+L _electromech:SW-DIP-8 SW103
 U 1 1 57AC4154
 P 1600 6900
 F 0 "SW103" H 1600 7167 50  0000 C CNN
@@ -822,7 +732,7 @@ F 4 "DIST DIGIKEY CT1948MST-ND" H 1600 6900 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-0402 R112
+L pasv-res:R-0402 R112
 U 1 1 57ACB412
 P 14800 4200
 F 0 "R112" V 15000 4200 50  0000 C CNN
@@ -834,7 +744,7 @@ F 4 "RES SMD 51 1% [0402]" H 15550 4750 60  0001 C CNN "BOM"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C-0402 C108
+L pasv-cap:C-0402 C108
 U 1 1 57ACB858
 P 15100 4200
 AR Path="/57ACB858" Ref="C108"  Part="1" 
@@ -848,7 +758,7 @@ F 4 "CAP MLCC 10p C0G [0402]" H 15900 4750 60  0001 C CNN "BOM"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR132
+L power:GND #PWR132
 U 1 1 57ACC4CC
 P 15300 4200
 F 0 "#PWR132" H 15300 4200 30  0001 C CNN
@@ -859,7 +769,7 @@ F 3 "" H 15300 4200 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CONN-100MIL-M-1x4-SHROUD J105
+L conn-100mil:CONN-100MIL-M-1x4-SHROUD J105
 U 1 1 57ADB2F8
 P 15350 900
 F 0 "J105" H 15469 795 50  0000 L CNN
@@ -874,7 +784,7 @@ P12V_PCI
 Text GLabel 15100 1200 0    50   Input ~ 0
 P5V_PCI_A
 $Comp
-L GND #PWR130
+L power:GND #PWR130
 U 1 1 57AE2ADD
 P 15200 1300
 F 0 "#PWR130" H 15200 1300 30  0001 C CNN
@@ -885,7 +795,7 @@ F 3 "" H 15200 1300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PCF8575 U101
+L NXP:PCF8575 U101
 U 1 1 57AEDC0E
 P 4200 6700
 F 0 "U101" H 4200 6950 50  0000 C CNN
@@ -901,7 +811,7 @@ P3V3_STBY
 Text GLabel 1200 8800 0    50   Input ~ 0
 P3V3_STBY
 $Comp
-L GND #PWR122
+L power:GND #PWR122
 U 1 1 57B01800
 P 4800 8500
 F 0 "#PWR122" H 4800 8500 30  0001 C CNN
@@ -1425,7 +1335,7 @@ Wire Wire Line
 	6700 10200 6700 9800
 Connection ~ 6700 9800
 $Comp
-L R-0402 R?
+L pasv-res:R-0402 R?
 U 1 1 57B15486
 P 5050 7000
 AR Path="/5765C2BD/57B15486" Ref="R?"  Part="1" 
@@ -1439,7 +1349,7 @@ F 4 "RES SMD 0R [0402]" H 5800 7550 60  0001 C CNN "BOM"
 	0    1    1    0   
 $EndComp
 $Comp
-L R-0402 R?
+L pasv-res:R-0402 R?
 U 1 1 57B156B1
 P 4850 7100
 AR Path="/5765C2BD/57B156B1" Ref="R?"  Part="1" 
@@ -1453,7 +1363,7 @@ F 4 "RES SMD 0R [0402]" H 5600 7650 60  0001 C CNN "BOM"
 	0    1    1    0   
 $EndComp
 $Comp
-L R-0402 R?
+L pasv-res:R-0402 R?
 U 1 1 57B161F4
 P 4850 6900
 AR Path="/5765C2BD/57B161F4" Ref="R?"  Part="1" 
@@ -1479,7 +1389,7 @@ Wire Wire Line
 Wire Wire Line
 	5200 7100 4950 7100
 $Comp
-L GND #PWR123
+L power:GND #PWR123
 U 1 1 57B181A3
 P 5200 7150
 F 0 "#PWR123" H 5200 7150 30  0001 C CNN
@@ -1502,7 +1412,7 @@ Wire Wire Line
 	5050 6550 5200 6550
 Connection ~ 5200 6700
 $Comp
-L C-0402 C?
+L pasv-cap:C-0402 C?
 U 1 1 57B1C822
 P 3250 6650
 AR Path="/5765A5BA/57B1C822" Ref="C?"  Part="1" 
@@ -1524,7 +1434,7 @@ Wire Wire Line
 Wire Wire Line
 	3250 6500 3250 6550
 $Comp
-L GND #PWR118
+L power:GND #PWR118
 U 1 1 57B1D9CF
 P 3250 6800
 F 0 "#PWR118" H 3250 6800 30  0001 C CNN
@@ -1559,7 +1469,7 @@ Wire Wire Line
 	2800 8600 2800 8700
 Connection ~ 2800 8700
 $Comp
-L R-0402 R102
+L pasv-res:R-0402 R102
 U 1 1 57B0A5C2
 P 2300 3700
 F 0 "R102" V 2050 3700 50  0000 C CNN
@@ -1571,7 +1481,7 @@ F 4 "RES SMD 100k 1% [0402]" H 3050 4250 60  0001 C CNN "BOM"
 	0    1    1    0   
 $EndComp
 $Comp
-L C-0402 C?
+L pasv-cap:C-0402 C?
 U 1 1 57B0B9AE
 P 2300 3900
 AR Path="/576430D6/57B0B9AE" Ref="C?"  Part="1" 
@@ -1626,7 +1536,7 @@ Wire Wire Line
 Wire Wire Line
 	14800 5500 14400 5500
 $Comp
-L R-0402 R?
+L pasv-res:R-0402 R?
 U 1 1 57ADD37E
 P 14800 4700
 AR Path="/5765C2BD/57ADD37E" Ref="R?"  Part="1" 
@@ -1640,7 +1550,7 @@ F 4 "RES SMD 0R [0402]" H 15550 5250 60  0001 C CNN "BOM"
 	0    1    1    0   
 $EndComp
 $Comp
-L R-0402 R?
+L pasv-res:R-0402 R?
 U 1 1 57ADE9E6
 P 14800 4800
 AR Path="/5765C2BD/57ADE9E6" Ref="R?"  Part="1" 
@@ -1665,7 +1575,7 @@ Wire Wire Line
 	15000 4800 14900 4800
 Connection ~ 15000 4800
 $Comp
-L GND #PWR128
+L power:GND #PWR128
 U 1 1 57AE02A6
 P 15000 4900
 F 0 "#PWR128" H 15000 4900 30  0001 C CNN
@@ -1676,7 +1586,7 @@ F 3 "" H 15000 4900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-0402 R?
+L pasv-res:R-0402 R?
 U 1 1 57AE1629
 P 14800 8300
 AR Path="/5765C2BD/57AE1629" Ref="R?"  Part="1" 
@@ -1690,7 +1600,7 @@ F 4 "RES SMD 0R [0402]" H 15550 8850 60  0001 C CNN "BOM"
 	0    1    1    0   
 $EndComp
 $Comp
-L R-0402 R?
+L pasv-res:R-0402 R?
 U 1 1 57AE1630
 P 14800 8400
 AR Path="/5765C2BD/57AE1630" Ref="R?"  Part="1" 
@@ -1708,7 +1618,7 @@ Wire Wire Line
 Wire Wire Line
 	14700 8300 14400 8300
 $Comp
-L GND #PWR129
+L power:GND #PWR129
 U 1 1 57AE1849
 P 15000 8500
 F 0 "#PWR129" H 15000 8500 30  0001 C CNN
@@ -1736,7 +1646,7 @@ NoConn ~ 3700 8000
 Wire Wire Line
 	1150 1700 1150 1850
 $Comp
-L PWR #PWR104
+L power:PWR #PWR104
 U 1 1 57AE84B0
 P 1250 1750
 F 0 "#PWR104" H 1250 1750 50  0001 C CNN
@@ -1752,7 +1662,7 @@ Wire Wire Line
 	1250 1800 1250 1750
 Connection ~ 1150 1800
 $Comp
-L PWR #PWR119
+L power:PWR #PWR119
 U 1 1 57AEA949
 P 4200 1450
 F 0 "#PWR119" H 4200 1450 50  0001 C CNN
@@ -1769,7 +1679,7 @@ NoConn ~ 8100 9900
 Wire Wire Line
 	8100 9900 8200 9900
 $Comp
-L SCREW MP106
+L mechanical:SCREW MP106
 U 1 1 57B0AB86
 P 15350 9300
 F 0 "MP106" H 15480 9316 50  0000 L CNN
@@ -1780,7 +1690,7 @@ F 3 "" H 15350 9300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR134
+L power:GND #PWR134
 U 1 1 57B0AB8C
 P 15350 9500
 F 0 "#PWR134" H 15350 9500 30  0001 C CNN
@@ -1791,7 +1701,7 @@ F 3 "" H 15350 9500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SCREW MP105
+L mechanical:SCREW MP105
 U 1 1 57B0AB92
 P 15350 8850
 F 0 "MP105" H 15480 8866 50  0000 L CNN
@@ -1802,7 +1712,7 @@ F 3 "" H 15350 8850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR133
+L power:GND #PWR133
 U 1 1 57B0AB98
 P 15350 9050
 F 0 "#PWR133" H 15350 9050 30  0001 C CNN
@@ -1817,7 +1727,7 @@ Wire Wire Line
 Wire Wire Line
 	15350 9050 15350 9000
 $Comp
-L SCREW MP107
+L mechanical:SCREW MP107
 U 1 1 57B0C899
 P 15900 8850
 F 0 "MP107" H 16030 8866 50  0000 L CNN
@@ -1828,7 +1738,7 @@ F 3 "" H 15900 8850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR135
+L power:GND #PWR135
 U 1 1 57B0C89F
 P 15900 9050
 F 0 "#PWR135" H 15900 9050 30  0001 C CNN
@@ -1841,7 +1751,7 @@ $EndComp
 Wire Wire Line
 	15900 9050 15900 9000
 $Comp
-L C-1206 C?
+L pasv-cap:C-1206 C?
 U 1 1 57B05DFF
 P 3100 1850
 AR Path="/5765CB89/57B05DFF" Ref="C?"  Part="1" 
@@ -1855,7 +1765,7 @@ F 4 "CAP MLCC 4u7 ≥X5R 25V 20% [1206]" H 3900 2400 60  0001 C CNN "BOM"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R-0402 R117
+L pasv-res:R-0402 R117
 U 1 1 57B19C71
 P 3500 2000
 F 0 "R117" H 3563 2046 50  0000 L CNN
@@ -1871,7 +1781,7 @@ Wire Wire Line
 Wire Wire Line
 	3500 2100 3500 2200
 $Comp
-L R-0402 R118
+L pasv-res:R-0402 R118
 U 1 1 57B33A31
 P 4300 1850
 F 0 "R118" H 4237 1804 50  0000 R CNN
@@ -1887,7 +1797,7 @@ Wire Wire Line
 Wire Wire Line
 	4300 1950 4300 2200
 $Comp
-L CONN-100MIL-M-1x3 J106
+L conn-100mil:CONN-100MIL-M-1x3 J106
 U 1 1 57B6B7AC
 P 4350 10100
 F 0 "J106" H 4468 10045 50  0000 L CNN
@@ -1900,7 +1810,7 @@ $EndComp
 Connection ~ 5100 10200
 Connection ~ 5000 10300
 $Comp
-L GND #PWR121
+L power:GND #PWR121
 U 1 1 57B6E11B
 P 4450 10100
 F 0 "#PWR121" H 4450 10100 30  0001 C CNN
@@ -1921,7 +1831,7 @@ Wire Wire Line
 Wire Wire Line
 	9900 6800 9500 6800
 $Comp
-L CONN-100MIL-M-2x5 TP103
+L conn-100mil:CONN-100MIL-M-2x5 TP103
 U 1 1 57C71B85
 P 7400 4600
 F 0 "TP103" H 7400 4840 50  0000 C CNN
@@ -1991,7 +1901,7 @@ Wire Wire Line
 	8100 4600 8100 6000
 Connection ~ 8100 6000
 $Comp
-L TESTPOINT TP101
+L pcb:TESTPOINT TP101
 U 1 1 57C75BA9
 P 1100 2750
 F 0 "TP101" H 1160 2871 50  0000 L CNN
@@ -2002,7 +1912,7 @@ F 3 "" H 1100 2750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR101
+L power:GND #PWR101
 U 1 1 57C76ECB
 P 1100 2800
 F 0 "#PWR101" H 1100 2800 30  0001 C CNN
@@ -2015,7 +1925,7 @@ $EndComp
 Wire Wire Line
 	1100 2800 1100 2750
 $Comp
-L TESTPOINT TP102
+L pcb:TESTPOINT TP102
 U 1 1 57C78E28
 P 1400 2750
 F 0 "TP102" H 1460 2871 50  0000 L CNN
@@ -2026,7 +1936,7 @@ F 3 "" H 1400 2750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR107
+L power:GND #PWR107
 U 1 1 57C78E2E
 P 1400 2800
 F 0 "#PWR107" H 1400 2800 30  0001 C CNN
@@ -2039,7 +1949,7 @@ $EndComp
 Wire Wire Line
 	1400 2800 1400 2750
 $Comp
-L TESTPOINT TP104
+L pcb:TESTPOINT TP104
 U 1 1 57C79F3B
 P 1700 2750
 F 0 "TP104" H 1760 2871 50  0000 L CNN
@@ -2050,7 +1960,7 @@ F 3 "" H 1700 2750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR111
+L power:GND #PWR111
 U 1 1 57C79F41
 P 1700 2800
 F 0 "#PWR111" H 1700 2800 30  0001 C CNN
@@ -2065,7 +1975,7 @@ Wire Wire Line
 Wire Wire Line
 	6400 5100 8200 5100
 $Comp
-L FUSE F101
+L _passive:FUSE F101
 U 1 1 57CD081A
 P 2150 1500
 F 0 "F101" V 1943 1500 50  0000 C CNN
@@ -2085,7 +1995,7 @@ Alternative slow-blow fuse:\nLittelfuse 1206SFS600F/24-2\n1206SFS600F/24CT-ND
 Text Label 2300 1500 0    50   ~ 0
 12VIN_LIM
 $Comp
-L C C109
+L _passive:C C109
 U 1 1 57CDB270
 P 1550 1700
 F 0 "C109" H 1663 1746 50  0000 L CNN
@@ -2100,7 +2010,7 @@ Wire Wire Line
 	1550 1600 1550 1500
 Connection ~ 1550 1500
 $Comp
-L GND #PWR108
+L power:GND #PWR108
 U 1 1 57CDD558
 P 1550 1850
 F 0 "#PWR108" H 1550 1850 30  0001 C CNN
@@ -2115,7 +2025,7 @@ Wire Wire Line
 Text Notes 850  2250 0    50   ~ 0
 C109: high-ESR bipolar aluminum\nfor damping power input ringing on\nconnection.
 $Comp
-L SPEAKER SP101
+L _passive:SPEAKER SP101
 U 1 1 57CFA855
 P 4400 5950
 F 0 "SP101" H 4578 5996 50  0000 L CNN
@@ -2127,7 +2037,7 @@ F 4 "DIST DIGIKEY 668-1470-ND" H 4400 5950 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L POT-BOURNS-TC33X-2 RV101
+L pasv-Bourns:POT-BOURNS-TC33X-2 RV101
 U 1 1 57CFA85C
 P 4400 5600
 F 0 "RV101" H 4463 5646 50  0000 L CNN
@@ -2152,7 +2062,7 @@ Wire Wire Line
 Wire Wire Line
 	3500 5300 3750 5300
 $Comp
-L R-0402 R?
+L pasv-res:R-0402 R?
 U 1 1 57CFA879
 P 3200 5700
 AR Path="/5765CB89/57CFA879" Ref="R?"  Part="1" 
@@ -2177,7 +2087,7 @@ Wire Wire Line
 Wire Wire Line
 	2800 5700 3100 5700
 $Comp
-L C-0402 C110
+L pasv-cap:C-0402 C110
 U 1 1 57CFA887
 P 2800 5900
 AR Path="/57CFA887" Ref="C110"  Part="1" 
@@ -2192,7 +2102,7 @@ F 4 "CAP MLCC 100n ≥X5R 25V 10% [0402]" H 3600 6450 60  0001 C CNN "BOM"
 $EndComp
 Connection ~ 2800 5700
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 57CFA88F
 P 2800 6100
 AR Path="/5765CB89/57CFA88F" Ref="#PWR?"  Part="1" 
@@ -2207,7 +2117,7 @@ $EndComp
 Wire Wire Line
 	2800 6100 2800 6000
 $Comp
-L FK3303010L Q103
+L semi-trans-Panasonic:FK3303010L Q103
 U 1 1 57CFA897
 P 2450 5900
 F 0 "Q103" H 2400 5600 50  0000 L CNN
@@ -2222,7 +2132,7 @@ Wire Wire Line
 	2500 5800 2500 5300
 Connection ~ 2800 5300
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 57CFA8A0
 P 2500 6100
 AR Path="/5765CB89/57CFA8A0" Ref="#PWR?"  Part="1" 
@@ -2237,7 +2147,7 @@ $EndComp
 Wire Wire Line
 	2500 6100 2500 6000
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 57CFA8A7
 P 4400 6200
 AR Path="/5765CB89/57CFA8A7" Ref="#PWR?"  Part="1" 
@@ -2258,7 +2168,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 7700 3700 7700
 $Comp
-L 742G14-SOT363 U102
+L logic-7400:742G14-SOT363 U102
 U 1 1 57D02009
 P 3200 5300
 F 0 "U102" H 3225 5617 50  0000 C CNN
@@ -2270,7 +2180,7 @@ F 4 "568-7739-1-ND" H 3200 5300 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 742G14-SOT363 U102
+L logic-7400:742G14-SOT363 U102
 U 2 1 57D02DDA
 P 4000 5300
 F 0 "U102" H 4025 5617 50  0000 C CNN
@@ -2282,7 +2192,7 @@ F 4 "568-7739-1-ND" H 4000 5300 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 742G14-SOT363 U102
+L logic-7400:742G14-SOT363 U102
 U 3 1 57D048B1
 P 1600 5400
 F 0 "U102" H 1730 5196 50  0000 L CNN
@@ -2300,7 +2210,7 @@ Wire Wire Line
 Wire Wire Line
 	1600 5100 1600 5250
 $Comp
-L GND #PWR110
+L power:GND #PWR110
 U 1 1 57D05C36
 P 1600 6150
 F 0 "#PWR110" H 1600 6150 30  0001 C CNN
@@ -2313,7 +2223,7 @@ $EndComp
 Wire Wire Line
 	1600 6150 1600 6050
 $Comp
-L C-0402 C?
+L pasv-cap:C-0402 C?
 U 1 1 57D08BC6
 P 1100 5600
 AR Path="/5765A5BA/57D08BC6" Ref="C?"  Part="1" 
@@ -2339,7 +2249,7 @@ Wire Wire Line
 	1100 6100 1600 6100
 Connection ~ 1600 6100
 $Comp
-L TESTPOINT TP105
+L pcb:TESTPOINT TP105
 U 1 1 57D14508
 P 2100 5900
 F 0 "TP105" H 2160 5975 50  0000 L CNN

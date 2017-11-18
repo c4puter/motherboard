@@ -1,96 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:Abracon
-LIBS:Altera
-LIBS:AnalogDevices
-LIBS:AOS
-LIBS:Atmel
-LIBS:conn-2mm
-LIBS:conn-100mil
-LIBS:conn-amphenol
-LIBS:conn-assmann
-LIBS:conn-cui
-LIBS:conn-fci
-LIBS:conn-jae
-LIBS:conn-linx
-LIBS:conn-molex
-LIBS:conn-tagconnect
-LIBS:conn-te
-LIBS:conn-test
-LIBS:DiodesInc
-LIBS:display
-LIBS:electomech-misc
-LIBS:_electromech
-LIBS:Fairchild
-LIBS:FTDI
-LIBS:Intersil
-LIBS:Lattice
-LIBS:_linear
-LIBS:LinearTech
-LIBS:Littelfuse
-LIBS:logic-4000
-LIBS:logic-7400
-LIBS:MACOM
-LIBS:maxim
-LIBS:mechanical
-LIBS:Microchip
-LIBS:Micron
-LIBS:NXP
-LIBS:onsemi
-LIBS:_passive
-LIBS:pasv-BelFuse
-LIBS:pasv-BiTech
-LIBS:pasv-Bourns
-LIBS:pasv-cap
-LIBS:pasv-ind
-LIBS:pasv-Murata
-LIBS:pasv-res
-LIBS:pasv-TDK
-LIBS:pasv-xtal
-LIBS:pcb
-LIBS:power
-LIBS:Recom
-LIBS:_semi
-LIBS:semi-diode-DiodesInc
-LIBS:semi-diode-generic
-LIBS:semi-diode-MCC
-LIBS:semi-diode-NXP
-LIBS:semi-diode-OnSemi
-LIBS:semi-diode-Semtech
-LIBS:semi-diode-ST
-LIBS:semi-diode-Toshiba
-LIBS:semi-opto-generic
-LIBS:semi-opto-liteon
-LIBS:semi-thyristor-generic
-LIBS:semi-trans-AOS
-LIBS:semi-trans-DiodesInc
-LIBS:semi-trans-EPC
-LIBS:semi-trans-Fairchild
-LIBS:semi-trans-generic
-LIBS:semi-trans-Infineon
-LIBS:semi-trans-IRF
-LIBS:semi-trans-IXYS
-LIBS:semi-trans-NXP
-LIBS:semi-trans-OnSemi
-LIBS:semi-trans-ST
-LIBS:semi-trans-TI
-LIBS:semi-trans-Toshiba
-LIBS:semi-trans-Vishay
-LIBS:silabs
-LIBS:skyworks
-LIBS:ST
-LIBS:st_ic
-LIBS:supertex
-LIBS:symbol
-LIBS:TexasInstruments
-LIBS:Vishay
-LIBS:Xilinx
-LIBS:Richtek
-LIBS:semi-diode-Panasonic
-LIBS:Murata
-LIBS:semi-trans-Panasonic
-LIBS:AMS
+EESchema Schematic File Version 4
 LIBS:motherboard-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
@@ -105,7 +15,7 @@ Comment3 "https://semianalog.com/c4_0"
 Comment4 "Source: https://github.com/c4puter/motherboard"
 $EndDescr
 $Comp
-L LED-0603 DS833
+L semi-opto-generic:LED-0603 DS833
 U 1 1 577B12F0
 P 11500 1400
 F 0 "DS833" H 11650 1446 50  0000 L CNN
@@ -117,7 +27,7 @@ F 4 "LED RED [0603]" H 11500 1150 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-0603 DS839
+L semi-opto-generic:LED-0603 DS839
 U 1 1 577B12F7
 P 12300 1400
 F 0 "DS839" H 12450 1446 50  0000 L CNN
@@ -129,7 +39,7 @@ F 4 "LED GREEN [0603]" H 12300 1150 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-0603 DS834
+L semi-opto-generic:LED-0603 DS834
 U 1 1 577B14AE
 P 11500 2100
 F 0 "DS834" H 11650 2146 50  0000 L CNN
@@ -141,7 +51,7 @@ F 4 "LED RED [0603]" H 11500 1850 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-0603 DS840
+L semi-opto-generic:LED-0603 DS840
 U 1 1 577B14B5
 P 12300 2100
 F 0 "DS840" H 12450 2146 50  0000 L CNN
@@ -153,7 +63,7 @@ F 4 "LED GREEN [0603]" H 12300 1850 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-0603 DS835
+L semi-opto-generic:LED-0603 DS835
 U 1 1 577B1710
 P 11500 2800
 F 0 "DS835" H 11650 2846 50  0000 L CNN
@@ -165,7 +75,7 @@ F 4 "LED RED [0603]" H 11500 2550 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-0603 DS841
+L semi-opto-generic:LED-0603 DS841
 U 1 1 577B1717
 P 12300 2800
 F 0 "DS841" H 12450 2846 50  0000 L CNN
@@ -177,7 +87,7 @@ F 4 "LED GREEN [0603]" H 12300 2550 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-0603 DS845
+L semi-opto-generic:LED-0603 DS845
 U 1 1 577B178E
 P 13000 3500
 F 0 "DS845" H 13150 3546 50  0000 L CNN
@@ -189,7 +99,7 @@ F 4 "LED GREEN [0603]" H 13000 3250 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-0603 DS846
+L semi-opto-generic:LED-0603 DS846
 U 1 1 577B180D
 P 13800 3500
 F 0 "DS846" H 13950 3546 50  0000 L CNN
@@ -201,7 +111,7 @@ F 4 "LED GREEN [0603]" H 13800 3250 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-0603 DS836
+L semi-opto-generic:LED-0603 DS836
 U 1 1 577B207C
 P 11500 3500
 F 0 "DS836" H 11650 3546 50  0000 L CNN
@@ -213,7 +123,7 @@ F 4 "LED RED [0603]" H 11500 3250 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-0603 DS842
+L semi-opto-generic:LED-0603 DS842
 U 1 1 577B2083
 P 12300 3500
 F 0 "DS842" H 12450 3546 50  0000 L CNN
@@ -225,7 +135,7 @@ F 4 "LED GREEN [0603]" H 12300 3250 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-0603 DS837
+L semi-opto-generic:LED-0603 DS837
 U 1 1 577B2A8A
 P 11500 4200
 F 0 "DS837" H 11650 4246 50  0000 L CNN
@@ -237,7 +147,7 @@ F 4 "LED RED [0603]" H 11500 3950 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-0603 DS843
+L semi-opto-generic:LED-0603 DS843
 U 1 1 577B2A91
 P 12300 4200
 F 0 "DS843" H 12450 4246 50  0000 L CNN
@@ -249,7 +159,7 @@ F 4 "LED GREEN [0603]" H 12300 3950 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-0603 DS847
+L semi-opto-generic:LED-0603 DS847
 U 1 1 577B2EFC
 P 13800 4900
 F 0 "DS847" H 13950 4946 50  0000 L CNN
@@ -261,7 +171,7 @@ F 4 "LED GREEN [0603]" H 13800 4650 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-0603 DS838
+L semi-opto-generic:LED-0603 DS838
 U 1 1 577B2D20
 P 11500 4900
 F 0 "DS838" H 11650 4946 50  0000 L CNN
@@ -273,7 +183,7 @@ F 4 "LED RED [0603]" H 11500 4650 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-0603 DS844
+L semi-opto-generic:LED-0603 DS844
 U 1 1 577B2D27
 P 12300 4900
 F 0 "DS844" H 12450 4946 50  0000 L CNN
@@ -285,7 +195,7 @@ F 4 "LED GREEN [0603]" H 12300 4650 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-0603 DS848
+L semi-opto-generic:LED-0603 DS848
 U 1 1 577BEEF1
 P 14800 1400
 F 0 "DS848" H 14950 1446 50  0000 L CNN
@@ -297,7 +207,7 @@ F 4 "LED RED [0603]" H 14800 1150 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-0603 DS854
+L semi-opto-generic:LED-0603 DS854
 U 1 1 577BEEF8
 P 15600 1400
 F 0 "DS854" H 15750 1446 50  0000 L CNN
@@ -309,7 +219,7 @@ F 4 "LED GREEN [0603]" H 15600 1150 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-0603 DS849
+L semi-opto-generic:LED-0603 DS849
 U 1 1 577BEEFF
 P 14800 2100
 F 0 "DS849" H 14950 2146 50  0000 L CNN
@@ -321,7 +231,7 @@ F 4 "LED RED [0603]" H 14800 1850 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-0603 DS855
+L semi-opto-generic:LED-0603 DS855
 U 1 1 577BEF06
 P 15600 2100
 F 0 "DS855" H 15750 2146 50  0000 L CNN
@@ -333,7 +243,7 @@ F 4 "LED GREEN [0603]" H 15600 1850 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-0603 DS850
+L semi-opto-generic:LED-0603 DS850
 U 1 1 577BEF0D
 P 14800 2800
 F 0 "DS850" H 14950 2846 50  0000 L CNN
@@ -345,7 +255,7 @@ F 4 "LED RED [0603]" H 14800 2550 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-0603 DS856
+L semi-opto-generic:LED-0603 DS856
 U 1 1 577BEF14
 P 15600 2800
 F 0 "DS856" H 15750 2846 50  0000 L CNN
@@ -357,7 +267,7 @@ F 4 "LED GREEN [0603]" H 15600 2550 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-0603 DS851
+L semi-opto-generic:LED-0603 DS851
 U 1 1 577BEF1B
 P 14800 3500
 F 0 "DS851" H 14950 3546 50  0000 L CNN
@@ -369,7 +279,7 @@ F 4 "LED RED [0603]" H 14800 3250 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-0603 DS857
+L semi-opto-generic:LED-0603 DS857
 U 1 1 577BEF22
 P 15600 3500
 F 0 "DS857" H 15750 3546 50  0000 L CNN
@@ -381,7 +291,7 @@ F 4 "LED GREEN [0603]" H 15600 3250 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-0603 DS852
+L semi-opto-generic:LED-0603 DS852
 U 1 1 577BEF29
 P 14800 4200
 F 0 "DS852" H 14950 4246 50  0000 L CNN
@@ -393,7 +303,7 @@ F 4 "LED RED [0603]" H 14800 3950 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-0603 DS858
+L semi-opto-generic:LED-0603 DS858
 U 1 1 577BEF30
 P 15600 4200
 F 0 "DS858" H 15750 4246 50  0000 L CNN
@@ -405,7 +315,7 @@ F 4 "LED GREEN [0603]" H 15600 3950 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-0603 DS853
+L semi-opto-generic:LED-0603 DS853
 U 1 1 577BEF3F
 P 14800 4900
 F 0 "DS853" H 14950 4946 50  0000 L CNN
@@ -417,7 +327,7 @@ F 4 "LED RED [0603]" H 14800 4650 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-0603 DS859
+L semi-opto-generic:LED-0603 DS859
 U 1 1 577BEF46
 P 15600 4900
 F 0 "DS859" H 15750 4946 50  0000 L CNN
@@ -441,7 +351,7 @@ BOOT
 Text Notes 14650 900  0    100  ~ 0
 UNCOMMITTED
 $Comp
-L AS1130-BTST U801
+L AMS:AS1130-BTST U801
 U 1 1 57B76D5F
 P 4200 6600
 F 0 "U801" H 4200 6867 50  0000 C CNN
@@ -452,7 +362,7 @@ F 3 "http://ams.com/eng/content/download/185846/834724/105034" H 4200 4600 50  0
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR806
+L power:GND #PWR806
 U 1 1 57B7A536
 P 4800 8400
 F 0 "#PWR806" H 4800 8400 30  0001 C CNN
@@ -463,7 +373,7 @@ F 3 "" H 4800 8400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-0402 R?
+L pasv-res:R-0402 R?
 U 1 1 57B7C607
 P 3600 7300
 AR Path="/5765C2BD/57B7C607" Ref="R?"  Part="1" 
@@ -482,7 +392,7 @@ NoConn ~ 3700 8300
 Text Notes 3900 8600 0    60   ~ 0
 ADDR: 0x37
 $Comp
-L C-TANT-AVX-B C801
+L pasv-cap:C-TANT-AVX-B C801
 U 1 1 57B813D9
 P 2000 6800
 F 0 "C801" H 2113 6846 50  0000 L CNN
@@ -494,7 +404,7 @@ F 4 "CAP TANT 10u 16V 10% [3528]" H 2000 6550 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR801
+L power:GND #PWR801
 U 1 1 57B81758
 P 2000 7000
 F 0 "#PWR801" H 2000 7000 30  0001 C CNN
@@ -505,7 +415,7 @@ F 3 "" H 2000 7000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0402 C?
+L pasv-cap:C-0402 C?
 U 1 1 57B822A9
 P 2400 6800
 AR Path="/5765A5BA/57B822A9" Ref="C?"  Part="1" 
@@ -522,7 +432,7 @@ F 4 "DIST DIGIKEY 490-6281-1-ND" H 3200 7350 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0402 C?
+L pasv-cap:C-0402 C?
 U 1 1 57B8242C
 P 2800 6800
 AR Path="/5765A5BA/57B8242C" Ref="C?"  Part="1" 
@@ -539,7 +449,7 @@ F 4 "DIST DIGIKEY 490-6281-1-ND" H 3600 7350 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0402 C?
+L pasv-cap:C-0402 C?
 U 1 1 57B82506
 P 3200 6800
 AR Path="/5765A5BA/57B82506" Ref="C?"  Part="1" 
@@ -556,7 +466,7 @@ F 4 "DIST DIGIKEY 490-6281-1-ND" H 4000 7350 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR802
+L power:GND #PWR802
 U 1 1 57B82AC9
 P 2400 7000
 F 0 "#PWR802" H 2400 7000 30  0001 C CNN
@@ -567,7 +477,7 @@ F 3 "" H 2400 7000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR803
+L power:GND #PWR803
 U 1 1 57B82D36
 P 2800 7000
 F 0 "#PWR803" H 2800 7000 30  0001 C CNN
@@ -578,7 +488,7 @@ F 3 "" H 2800 7000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR804
+L power:GND #PWR804
 U 1 1 57B82E04
 P 3200 7000
 F 0 "#PWR804" H 3200 7000 30  0001 C CNN
@@ -589,7 +499,7 @@ F 3 "" H 3200 7000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-0402 R?
+L pasv-res:R-0402 R?
 U 1 1 57B84DC6
 P 3600 8300
 AR Path="/5765C2BD/57B84DC6" Ref="R?"  Part="1" 
@@ -604,7 +514,7 @@ F 4 "RES SMD 0R [0402]" H 4350 8850 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR805
+L power:GND #PWR805
 U 1 1 57B84E77
 P 3600 8500
 F 0 "#PWR805" H 3600 8500 30  0001 C CNN
@@ -639,7 +549,7 @@ CS10
 Text Label 5000 7700 2    50   ~ 0
 CS11
 $Comp
-L LED-0603 DS801
+L semi-opto-generic:LED-0603 DS801
 U 1 1 57B902A0
 P 5800 1400
 F 0 "DS801" H 5950 1446 50  0000 L CNN
@@ -651,7 +561,7 @@ F 4 "LED RED [0603]" H 5800 1150 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-0603 DS807
+L semi-opto-generic:LED-0603 DS807
 U 1 1 57B902A7
 P 6700 1400
 F 0 "DS807" H 6850 1446 50  0000 L CNN
@@ -663,7 +573,7 @@ F 4 "LED GREEN [0603]" H 6700 1150 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-0603 DS802
+L semi-opto-generic:LED-0603 DS802
 U 1 1 57B902AE
 P 5800 2100
 F 0 "DS802" H 5950 2146 50  0000 L CNN
@@ -675,7 +585,7 @@ F 4 "LED RED [0603]" H 5800 1850 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-0603 DS808
+L semi-opto-generic:LED-0603 DS808
 U 1 1 57B902B5
 P 6700 2100
 F 0 "DS808" H 6850 2146 50  0000 L CNN
@@ -687,7 +597,7 @@ F 4 "LED GREEN [0603]" H 6700 1850 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-0603 DS803
+L semi-opto-generic:LED-0603 DS803
 U 1 1 57B902BC
 P 5800 2800
 F 0 "DS803" H 5950 2846 50  0000 L CNN
@@ -699,7 +609,7 @@ F 4 "LED RED [0603]" H 5800 2550 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-0603 DS809
+L semi-opto-generic:LED-0603 DS809
 U 1 1 57B902C3
 P 6700 2800
 F 0 "DS809" H 6850 2846 50  0000 L CNN
@@ -711,7 +621,7 @@ F 4 "LED GREEN [0603]" H 6700 2550 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-0603 DS804
+L semi-opto-generic:LED-0603 DS804
 U 1 1 57B902CA
 P 5800 3500
 F 0 "DS804" H 5950 3546 50  0000 L CNN
@@ -723,7 +633,7 @@ F 4 "LED RED [0603]" H 5800 3250 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-0603 DS810
+L semi-opto-generic:LED-0603 DS810
 U 1 1 57B902D1
 P 6700 3500
 F 0 "DS810" H 6850 3546 50  0000 L CNN
@@ -735,7 +645,7 @@ F 4 "LED GREEN [0603]" H 6700 3250 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-0603 DS805
+L semi-opto-generic:LED-0603 DS805
 U 1 1 57B902D8
 P 5800 4200
 F 0 "DS805" H 5950 4246 50  0000 L CNN
@@ -747,7 +657,7 @@ F 4 "LED RED [0603]" H 5800 3950 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-0603 DS811
+L semi-opto-generic:LED-0603 DS811
 U 1 1 57B902DF
 P 6700 4200
 F 0 "DS811" H 6850 4246 50  0000 L CNN
@@ -759,7 +669,7 @@ F 4 "LED GREEN [0603]" H 6700 3950 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-0603 DS806
+L semi-opto-generic:LED-0603 DS806
 U 1 1 57B902E6
 P 5800 4900
 F 0 "DS806" H 5950 4946 50  0000 L CNN
@@ -771,7 +681,7 @@ F 4 "LED RED [0603]" H 5800 4650 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-0603 DS812
+L semi-opto-generic:LED-0603 DS812
 U 1 1 57B902ED
 P 6700 4900
 F 0 "DS812" H 6850 4946 50  0000 L CNN
@@ -783,7 +693,7 @@ F 4 "LED GREEN [0603]" H 6700 4650 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-0603 DS813
+L semi-opto-generic:LED-0603 DS813
 U 1 1 57B914A6
 P 7900 1400
 F 0 "DS813" H 8050 1446 50  0000 L CNN
@@ -795,7 +705,7 @@ F 4 "LED RED [0603]" H 7900 1150 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-0603 DS819
+L semi-opto-generic:LED-0603 DS819
 U 1 1 57B914AD
 P 8800 1400
 F 0 "DS819" H 8950 1446 50  0000 L CNN
@@ -807,7 +717,7 @@ F 4 "LED GREEN [0603]" H 8800 1150 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-0603 DS814
+L semi-opto-generic:LED-0603 DS814
 U 1 1 57B914B4
 P 7900 2100
 F 0 "DS814" H 8050 2146 50  0000 L CNN
@@ -819,7 +729,7 @@ F 4 "LED RED [0603]" H 7900 1850 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-0603 DS820
+L semi-opto-generic:LED-0603 DS820
 U 1 1 57B914BB
 P 8800 2100
 F 0 "DS820" H 8950 2146 50  0000 L CNN
@@ -831,7 +741,7 @@ F 4 "LED GREEN [0603]" H 8800 1850 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-0603 DS815
+L semi-opto-generic:LED-0603 DS815
 U 1 1 57B914C2
 P 7900 2800
 F 0 "DS815" H 8050 2846 50  0000 L CNN
@@ -843,7 +753,7 @@ F 4 "LED RED [0603]" H 7900 2550 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-0603 DS821
+L semi-opto-generic:LED-0603 DS821
 U 1 1 57B914C9
 P 8800 2800
 F 0 "DS821" H 8950 2846 50  0000 L CNN
@@ -855,7 +765,7 @@ F 4 "LED GREEN [0603]" H 8800 2550 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-0603 DS816
+L semi-opto-generic:LED-0603 DS816
 U 1 1 57B914D0
 P 7900 3500
 F 0 "DS816" H 8050 3546 50  0000 L CNN
@@ -867,7 +777,7 @@ F 4 "LED RED [0603]" H 7900 3250 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-0603 DS822
+L semi-opto-generic:LED-0603 DS822
 U 1 1 57B914D7
 P 8800 3500
 F 0 "DS822" H 8950 3546 50  0000 L CNN
@@ -879,7 +789,7 @@ F 4 "LED GREEN [0603]" H 8800 3250 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-0603 DS817
+L semi-opto-generic:LED-0603 DS817
 U 1 1 57B914DE
 P 7900 4200
 F 0 "DS817" H 8050 4246 50  0000 L CNN
@@ -891,7 +801,7 @@ F 4 "LED RED [0603]" H 7900 3950 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-0603 DS823
+L semi-opto-generic:LED-0603 DS823
 U 1 1 57B914E5
 P 8800 4200
 F 0 "DS823" H 8950 4246 50  0000 L CNN
@@ -903,7 +813,7 @@ F 4 "LED GREEN [0603]" H 8800 3950 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-0603 DS818
+L semi-opto-generic:LED-0603 DS818
 U 1 1 57B914EC
 P 7900 4900
 F 0 "DS818" H 8050 4946 50  0000 L CNN
@@ -915,7 +825,7 @@ F 4 "LED RED [0603]" H 7900 4650 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-0603 DS824
+L semi-opto-generic:LED-0603 DS824
 U 1 1 57B914F3
 P 8800 4900
 F 0 "DS824" H 8950 4946 50  0000 L CNN

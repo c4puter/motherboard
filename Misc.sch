@@ -1,96 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:Abracon
-LIBS:Altera
-LIBS:AnalogDevices
-LIBS:AOS
-LIBS:Atmel
-LIBS:conn-2mm
-LIBS:conn-100mil
-LIBS:conn-amphenol
-LIBS:conn-assmann
-LIBS:conn-cui
-LIBS:conn-fci
-LIBS:conn-jae
-LIBS:conn-linx
-LIBS:conn-molex
-LIBS:conn-tagconnect
-LIBS:conn-te
-LIBS:conn-test
-LIBS:DiodesInc
-LIBS:display
-LIBS:electomech-misc
-LIBS:_electromech
-LIBS:Fairchild
-LIBS:FTDI
-LIBS:Intersil
-LIBS:Lattice
-LIBS:_linear
-LIBS:LinearTech
-LIBS:Littelfuse
-LIBS:logic-4000
-LIBS:logic-7400
-LIBS:MACOM
-LIBS:maxim
-LIBS:mechanical
-LIBS:Microchip
-LIBS:Micron
-LIBS:NXP
-LIBS:onsemi
-LIBS:_passive
-LIBS:pasv-BelFuse
-LIBS:pasv-BiTech
-LIBS:pasv-Bourns
-LIBS:pasv-cap
-LIBS:pasv-ind
-LIBS:pasv-Murata
-LIBS:pasv-res
-LIBS:pasv-TDK
-LIBS:pasv-xtal
-LIBS:pcb
-LIBS:power
-LIBS:Recom
-LIBS:_semi
-LIBS:semi-diode-DiodesInc
-LIBS:semi-diode-generic
-LIBS:semi-diode-MCC
-LIBS:semi-diode-NXP
-LIBS:semi-diode-OnSemi
-LIBS:semi-diode-Semtech
-LIBS:semi-diode-ST
-LIBS:semi-diode-Toshiba
-LIBS:semi-opto-generic
-LIBS:semi-opto-liteon
-LIBS:semi-thyristor-generic
-LIBS:semi-trans-AOS
-LIBS:semi-trans-DiodesInc
-LIBS:semi-trans-EPC
-LIBS:semi-trans-Fairchild
-LIBS:semi-trans-generic
-LIBS:semi-trans-Infineon
-LIBS:semi-trans-IRF
-LIBS:semi-trans-IXYS
-LIBS:semi-trans-NXP
-LIBS:semi-trans-OnSemi
-LIBS:semi-trans-ST
-LIBS:semi-trans-TI
-LIBS:semi-trans-Toshiba
-LIBS:semi-trans-Vishay
-LIBS:silabs
-LIBS:skyworks
-LIBS:ST
-LIBS:st_ic
-LIBS:supertex
-LIBS:symbol
-LIBS:TexasInstruments
-LIBS:Vishay
-LIBS:Xilinx
-LIBS:Richtek
-LIBS:semi-diode-Panasonic
-LIBS:Murata
-LIBS:semi-trans-Panasonic
-LIBS:AMS
+EESchema Schematic File Version 4
 LIBS:motherboard-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
@@ -105,7 +15,7 @@ Comment3 "https://semianalog.com/c4_0"
 Comment4 "Source: https://github.com/c4puter/motherboard"
 $EndDescr
 $Comp
-L PCF8523TK U702
+L NXP:PCF8523TK U702
 U 1 1 57981E1D
 P 8000 2600
 F 0 "U702" H 8000 2867 50  0000 C CNN
@@ -121,7 +31,7 @@ SDA_S5
 Text HLabel 4000 3400 0    50   Input ~ 0
 SCL_S5
 $Comp
-L GND #PWR714
+L power:GND #PWR714
 U 1 1 57981F37
 P 7300 3300
 F 0 "#PWR714" H 7300 3300 30  0001 C CNN
@@ -132,7 +42,7 @@ F 3 "" H 7300 3300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR723
+L power:GND #PWR723
 U 1 1 57983039
 P 9250 2800
 F 0 "#PWR723" H 9250 2800 30  0001 C CNN
@@ -143,7 +53,7 @@ F 3 "" H 9250 2800 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L XTAL-CITIZEN-CM130 X702
+L pasv-xtal:XTAL-CITIZEN-CM130 X702
 U 1 1 5798396E
 P 9100 2800
 F 0 "X702" H 9205 2846 50  0000 L CNN
@@ -155,7 +65,7 @@ F 4 "DIST DIGIKEY 300-8039-1-ND" H 9100 2800 60  0001 C CNN "BOM"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R-0402 R701
+L pasv-res:R-0402 R701
 U 1 1 579841F9
 P 4300 2600
 F 0 "R701" V 4100 2600 50  0000 C CNN
@@ -167,7 +77,7 @@ F 4 "RES SMD 1k 1% [0402]" H 5050 3150 60  0001 C CNN "BOM"
 	0    1    1    0   
 $EndComp
 $Comp
-L C-0402 C?
+L pasv-cap:C-0402 C?
 U 1 1 57984F3A
 P 4500 2800
 AR Path="/5765A5BA/57984F3A" Ref="C?"  Part="1" 
@@ -182,7 +92,7 @@ F 4 "DIST DIGIKEY 490-6281-1-ND" H 5300 3350 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0402 C?
+L pasv-cap:C-0402 C?
 U 1 1 57984F7A
 P 4850 2800
 AR Path="/5765A5BA/57984F7A" Ref="C?"  Part="1" 
@@ -197,7 +107,7 @@ F 4 "DIST DIGIKEY 490-6281-1-ND" H 5650 3350 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0402 C?
+L pasv-cap:C-0402 C?
 U 1 1 57984FA7
 P 5200 2800
 AR Path="/5765A5BA/57984FA7" Ref="C?"  Part="1" 
@@ -212,7 +122,7 @@ F 4 "DIST DIGIKEY 490-6281-1-ND" H 6000 3350 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0402 C?
+L pasv-cap:C-0402 C?
 U 1 1 57985074
 P 5550 2800
 AR Path="/5765A5BA/57985074" Ref="C?"  Part="1" 
@@ -227,7 +137,7 @@ F 4 "DIST DIGIKEY 490-6281-1-ND" H 6350 3350 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR701
+L power:GND #PWR701
 U 1 1 57985104
 P 4500 2950
 F 0 "#PWR701" H 4500 2950 30  0001 C CNN
@@ -238,7 +148,7 @@ F 3 "" H 4500 2950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR703
+L power:GND #PWR703
 U 1 1 57985148
 P 4850 2950
 F 0 "#PWR703" H 4850 2950 30  0001 C CNN
@@ -249,7 +159,7 @@ F 3 "" H 4850 2950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR704
+L power:GND #PWR704
 U 1 1 5798515D
 P 5200 2950
 F 0 "#PWR704" H 5200 2950 30  0001 C CNN
@@ -260,7 +170,7 @@ F 3 "" H 5200 2950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR706
+L power:GND #PWR706
 U 1 1 57985164
 P 5550 2950
 F 0 "#PWR706" H 5550 2950 30  0001 C CNN
@@ -275,7 +185,7 @@ P3V3_STBY
 Text Notes 4500 2450 0    50   ~ 0
 Power RC filter is required to allow\nRTC power switchover circuit to detect\npower transition.
 $Comp
-L BATTERY-SHORT BT701
+L _passive:BATTERY-SHORT BT701
 U 1 1 579852CE
 P 5950 2900
 F 0 "BT701" H 6090 2921 50  0000 L CNN
@@ -287,7 +197,7 @@ F 4 "DIST DIGIKEY BU2032SM-HD-GCT-ND" H 5950 2900 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR708
+L power:GND #PWR708
 U 1 1 5798538F
 P 5950 3100
 F 0 "#PWR708" H 5950 3100 30  0001 C CNN
@@ -298,7 +208,7 @@ F 3 "" H 5950 3100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0402 C?
+L pasv-cap:C-0402 C?
 U 1 1 579853EB
 P 6700 2900
 AR Path="/5765A5BA/579853EB" Ref="C?"  Part="1" 
@@ -313,7 +223,7 @@ F 4 "DIST DIGIKEY 490-6281-1-ND" H 7500 3450 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR709
+L power:GND #PWR709
 U 1 1 5798545A
 P 6700 3100
 F 0 "#PWR709" H 6700 3100 30  0001 C CNN
@@ -324,7 +234,7 @@ F 3 "" H 6700 3100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CDCE913PW U705
+L TexasInstruments:CDCE913PW U705
 U 1 1 5798C042
 P 9700 4600
 F 0 "U705" H 9700 5367 50  0000 C CNN
@@ -342,7 +252,7 @@ CLK_SDRAM
 Text HLabel 11950 4300 2    50   Output ~ 0
 CLK_CPU
 $Comp
-L GND #PWR724
+L power:GND #PWR724
 U 1 1 5798C21D
 P 10300 5200
 F 0 "#PWR724" H 10300 5200 30  0001 C CNN
@@ -354,7 +264,7 @@ F 3 "" H 10300 5200 60  0000 C CNN
 $EndComp
 NoConn ~ 9200 4750
 $Comp
-L TLV702vvDBV U701
+L TexasInstruments:TLV702vvDBV U701
 U 1 1 5798C492
 P 7150 4950
 F 0 "U701" H 7150 5225 50  0000 C CNN
@@ -366,7 +276,7 @@ F 4 "IC TI TLV702vvDBV" H 7150 4400 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR717
+L power:GND #PWR717
 U 1 1 5798C570
 P 7600 5100
 F 0 "#PWR717" H 7600 5100 30  0001 C CNN
@@ -377,7 +287,7 @@ F 3 "" H 7600 5100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR710
+L power:GND #PWR710
 U 1 1 5798C5E9
 P 6700 5200
 F 0 "#PWR710" H 6700 5200 30  0001 C CNN
@@ -390,7 +300,7 @@ $EndComp
 Text GLabel 5400 4900 0    50   Input ~ 0
 P3V3_AUX
 $Comp
-L C-0402 C?
+L pasv-cap:C-0402 C?
 U 1 1 5798C7DB
 P 5500 5100
 AR Path="/5765A5BA/5798C7DB" Ref="C?"  Part="1" 
@@ -405,7 +315,7 @@ F 4 "DIST DIGIKEY 490-6281-1-ND" H 6300 5650 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR705
+L power:GND #PWR705
 U 1 1 5798C8CA
 P 5500 5250
 F 0 "#PWR705" H 5500 5250 30  0001 C CNN
@@ -416,7 +326,7 @@ F 3 "" H 5500 5250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0402 C?
+L pasv-cap:C-0402 C?
 U 1 1 5798C952
 P 7800 5100
 AR Path="/5765A5BA/5798C952" Ref="C?"  Part="1" 
@@ -431,7 +341,7 @@ F 4 "DIST DIGIKEY 490-6281-1-ND" H 8600 5650 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR718
+L power:GND #PWR718
 U 1 1 5798C9F9
 P 7800 5250
 F 0 "#PWR718" H 7800 5250 30  0001 C CNN
@@ -442,7 +352,7 @@ F 3 "" H 7800 5250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LM75BDP U703
+L NXP:LM75BDP U703
 U 1 1 579F4ACE
 P 8000 5900
 F 0 "U703" H 8000 6167 50  0000 C CNN
@@ -460,7 +370,7 @@ SDA_S0
 Text HLabel 4000 3700 0    50   Input ~ 0
 SCL_S0
 $Comp
-L GND #PWR715
+L power:GND #PWR715
 U 1 1 579F4E8E
 P 7500 6600
 F 0 "#PWR715" H 7500 6600 30  0001 C CNN
@@ -472,7 +382,7 @@ F 3 "" H 7500 6600 60  0000 C CNN
 $EndComp
 NoConn ~ 8400 5900
 $Comp
-L LM75BDP U704
+L NXP:LM75BDP U704
 U 1 1 579F50E6
 P 8000 7200
 F 0 "U704" H 8000 7467 50  0000 C CNN
@@ -487,7 +397,7 @@ NoConn ~ 8400 7200
 Text GLabel 7100 7200 0    50   Input ~ 0
 P3V3_AUX
 $Comp
-L GND #PWR716
+L power:GND #PWR716
 U 1 1 579F532E
 P 7500 7900
 F 0 "#PWR716" H 7500 7900 30  0001 C CNN
@@ -498,7 +408,7 @@ F 3 "" H 7500 7900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0402 C?
+L pasv-cap:C-0402 C?
 U 1 1 579F5ED1
 P 7200 6300
 AR Path="/5765A5BA/579F5ED1" Ref="C?"  Part="1" 
@@ -513,7 +423,7 @@ F 4 "DIST DIGIKEY 490-6281-1-ND" H 8000 6850 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR712
+L power:GND #PWR712
 U 1 1 579F5F9F
 P 7200 6500
 F 0 "#PWR712" H 7200 6500 30  0001 C CNN
@@ -524,7 +434,7 @@ F 3 "" H 7200 6500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0402 C?
+L pasv-cap:C-0402 C?
 U 1 1 579F605F
 P 7200 7600
 AR Path="/5765A5BA/579F605F" Ref="C?"  Part="1" 
@@ -539,7 +449,7 @@ F 4 "DIST DIGIKEY 490-6281-1-ND" H 8000 8150 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR713
+L power:GND #PWR713
 U 1 1 579F6133
 P 7200 7800
 F 0 "#PWR713" H 7200 7800 30  0001 C CNN
@@ -550,7 +460,7 @@ F 3 "" H 7200 7800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-0402 R702
+L pasv-res:R-0402 R702
 U 1 1 57A1503E
 P 10800 4200
 F 0 "R702" V 10550 4200 50  0000 C CNN
@@ -562,7 +472,7 @@ F 4 "RES SMD 91 1% [0402]" H 11550 4750 60  0001 C CNN "BOM"
 	0    1    1    0   
 $EndComp
 $Comp
-L R-0402 R703
+L pasv-res:R-0402 R703
 U 1 1 57A152BE
 P 10800 4300
 F 0 "R703" V 10908 4300 50  0000 C CNN
@@ -574,7 +484,7 @@ F 4 "RES SMD 91 1% [0402]" H 11550 4850 60  0001 C CNN "BOM"
 	0    1    1    0   
 $EndComp
 $Comp
-L R-0402 R704
+L pasv-res:R-0402 R704
 U 1 1 57A154AF
 P 11000 4500
 F 0 "R704" H 10937 4454 50  0000 R CNN
@@ -586,7 +496,7 @@ F 4 "RES SMD 91 1% [0402]" H 11750 5050 60  0001 C CNN "BOM"
 	-1   0    0    1   
 $EndComp
 $Comp
-L R-0402 R705
+L pasv-res:R-0402 R705
 U 1 1 57A15674
 P 11300 4500
 F 0 "R705" H 11237 4454 50  0000 R CNN
@@ -598,7 +508,7 @@ F 4 "RES SMD 91 1% [0402]" H 12050 5050 60  0001 C CNN "BOM"
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR725
+L power:GND #PWR725
 U 1 1 57A157A8
 P 11000 4700
 F 0 "#PWR725" H 11000 4700 30  0001 C CNN
@@ -609,7 +519,7 @@ F 3 "" H 11000 4700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR726
+L power:GND #PWR726
 U 1 1 57A158A4
 P 11300 4700
 F 0 "#PWR726" H 11300 4700 30  0001 C CNN
@@ -620,7 +530,7 @@ F 3 "" H 11300 4700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L XTAL-ABRACON-ABM8G X701
+L pasv-xtal:XTAL-ABRACON-ABM8G X701
 U 1 1 57A1738B
 P 8750 4200
 F 0 "X701" V 8992 4200 50  0000 C CNN
@@ -632,7 +542,7 @@ F 4 "DIST DIGIKEY 535-10271-1-ND" H 8750 4200 60  0001 C CNN "BOM"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR722
+L power:GND #PWR722
 U 1 1 57A177C2
 P 8750 4350
 F 0 "#PWR722" H 8750 4350 30  0001 C CNN
@@ -657,7 +567,7 @@ I2C: 0x49
 Text HLabel 9800 3200 2    50   Output ~ 0
 ~RTCINT
 $Comp
-L C-0402 C?
+L pasv-cap:C-0402 C?
 U 1 1 57B04A21
 P 8200 5100
 AR Path="/5765A5BA/57B04A21" Ref="C?"  Part="1" 
@@ -672,7 +582,7 @@ F 4 "DIST DIGIKEY 490-6281-1-ND" H 9000 5650 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0402 C?
+L pasv-cap:C-0402 C?
 U 1 1 57B04AEA
 P 8600 5100
 AR Path="/5765A5BA/57B04AEA" Ref="C?"  Part="1" 
@@ -687,7 +597,7 @@ F 4 "DIST DIGIKEY 490-6281-1-ND" H 9400 5650 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR720
+L power:GND #PWR720
 U 1 1 57B04C9B
 P 8200 5300
 F 0 "#PWR720" H 8200 5300 30  0001 C CNN
@@ -698,7 +608,7 @@ F 3 "" H 8200 5300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR721
+L power:GND #PWR721
 U 1 1 57B04D81
 P 8600 5300
 F 0 "#PWR721" H 8600 5300 30  0001 C CNN
@@ -709,7 +619,7 @@ F 3 "" H 8600 5300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-0402 C?
+L pasv-cap:C-0402 C?
 U 1 1 57B05AE5
 P 5900 5100
 AR Path="/5765A5BA/57B05AE5" Ref="C?"  Part="1" 
@@ -724,7 +634,7 @@ F 4 "DIST DIGIKEY 490-6281-1-ND" H 6700 5650 60  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR707
+L power:GND #PWR707
 U 1 1 57B05C56
 P 5900 5300
 F 0 "#PWR707" H 5900 5300 30  0001 C CNN
@@ -737,7 +647,7 @@ $EndComp
 Text Label 8000 4900 0    50   ~ 0
 P1V8_SYNTH
 $Comp
-L PWR #PWR702
+L power:PWR #PWR702
 U 1 1 57B026E7
 P 4600 2550
 F 0 "#PWR702" H 4600 2550 50  0001 C CNN
@@ -748,7 +658,7 @@ F 3 "" H 4600 2550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR #PWR711
+L power:PWR #PWR711
 U 1 1 57B027DE
 P 7100 2750
 F 0 "#PWR711" H 7100 2750 50  0001 C CNN
@@ -989,7 +899,7 @@ Wire Wire Line
 	7100 2750 7100 2700
 Connection ~ 7100 2700
 $Comp
-L C-0402 C?
+L pasv-cap:C-0402 C?
 U 1 1 57B0B7B1
 P 8350 3800
 AR Path="/57B0B7B1" Ref="C?"  Part="1" 
@@ -1004,7 +914,7 @@ F 4 "CAP MLCC 10p C0G [0402]" H 9150 4350 60  0001 C CNN "BOM"
 	0    1    1    0   
 $EndComp
 $Comp
-L C-0402 C?
+L pasv-cap:C-0402 C?
 U 1 1 57B0B99F
 P 8350 4200
 AR Path="/57B0B99F" Ref="C?"  Part="1" 
@@ -1031,7 +941,7 @@ Wire Wire Line
 Wire Wire Line
 	8150 4200 8250 4200
 $Comp
-L GND #PWR719
+L power:GND #PWR719
 U 1 1 57B0BDB7
 P 8050 4000
 F 0 "#PWR719" H 8050 4000 30  0001 C CNN
@@ -1045,7 +955,7 @@ Wire Wire Line
 	8050 4000 8150 4000
 Connection ~ 8150 4000
 $Comp
-L R-0402 R706
+L pasv-res:R-0402 R706
 U 1 1 57B0F234
 P 6450 2700
 F 0 "R706" V 6558 2700 50  0000 C CNN
@@ -1059,7 +969,7 @@ $EndComp
 Wire Wire Line
 	6350 2700 5950 2700
 $Comp
-L TESTPOINT TP701
+L pcb:TESTPOINT TP701
 U 1 1 57C83404
 P 11000 3750
 F 0 "TP701" H 11060 3871 50  0000 L CNN
@@ -1073,7 +983,7 @@ Wire Wire Line
 	11000 3750 11000 4100
 Connection ~ 11000 4100
 $Comp
-L TESTPOINT TP702
+L pcb:TESTPOINT TP702
 U 1 1 57C83706
 P 11400 3750
 F 0 "TP702" H 11460 3871 50  0000 L CNN
@@ -1084,7 +994,7 @@ F 3 "" H 11400 3750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TESTPOINT TP703
+L pcb:TESTPOINT TP703
 U 1 1 57C8377C
 P 11800 3750
 F 0 "TP703" H 11860 3871 50  0000 L CNN
