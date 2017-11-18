@@ -6,8 +6,8 @@ $Descr B 11000 17000 portrait
 encoding utf-8
 Sheet 3 10
 Title "Northbridge"
-Date "2016-09-16"
-Rev "A"
+Date "2017-11-17"
+Rev "A.1"
 Comp "SEMIANALOG / CHRIS PAVLINA"
 Comment1 ""
 Comment2 "CC0: https://creativecommons.org/publicdomain/zero/1.0/"

@@ -6,8 +6,8 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 1 10
 Title "C4-0 MOTHERBOARD"
-Date "2016-09-16"
-Rev "A"
+Date "2017-11-17"
+Rev "A.1"
 Comp "SEMIANALOG / CHRIS PAVLINA"
 Comment1 ""
 Comment2 "CC0: https://creativecommons.org/publicdomain/zero/1.0/"
@@ -981,15 +981,13 @@ Wire Wire Line
 Wire Wire Line
 	11200 5100 13100 5100
 Wire Wire Line
-	6400 7500 11900 7500
+	10150 7450 11900 7450
 Wire Wire Line
-	6400 7600 11400 7600
+	6400 7600 10700 7600
 Wire Wire Line
 	7700 7600 7700 6600
 Wire Wire Line
 	7700 6600 8200 6600
-Wire Wire Line
-	11400 5300 11400 8100
 Wire Wire Line
 	11400 5300 13100 5300
 Connection ~ 7700 7600
@@ -1194,7 +1192,7 @@ Wire Wire Line
 	12000 7600 13100 7600
 Connection ~ 11100 7300
 Wire Wire Line
-	11900 7500 11900 7700
+	11900 7450 11900 7700
 Wire Wire Line
 	11900 7700 13100 7700
 Wire Wire Line
@@ -1203,7 +1201,6 @@ Wire Wire Line
 	11900 7800 13100 7800
 Wire Wire Line
 	11400 8100 13100 8100
-Connection ~ 11400 7600
 Connection ~ 11700 8000
 Wire Wire Line
 	7300 8100 11300 8100
@@ -2258,4 +2255,58 @@ Wire Wire Line
 	5100 7500 4700 7500
 Wire Wire Line
 	5300 7800 4700 7800
+Wire Wire Line
+	11400 8100 11400 7700
+Wire Wire Line
+	11400 7550 11400 5300
+Text GLabel 11250 7550 0    50   Input ~ 0
+~FPGA_INIT1
+Wire Wire Line
+	11250 7550 11400 7550
+Text GLabel 11250 7700 0    50   Input ~ 0
+~FPGA_INIT2
+Wire Wire Line
+	11400 7700 11250 7700
+Wire Wire Line
+	10150 7450 10150 7500
+Wire Wire Line
+	10150 7500 6400 7500
+Wire Notes Line rgb(255, 0, 0)
+	10200 7475 11475 7475
+Wire Notes Line rgb(255, 0, 0)
+	11475 7475 11475 7775
+Wire Notes Line rgb(255, 0, 0)
+	11475 7775 10200 7775
+Wire Notes Line rgb(255, 0, 0)
+	10200 7775 10200 7475
+Text Notes 10200 7775 0    50   ~ 0
+Disconnect and\nisolate nets
+Wire Notes Line rgb(255, 0, 0)
+	14950 3450 16350 3450
+Wire Notes Line rgb(255, 0, 0)
+	16350 3450 16350 3900
+Wire Notes Line rgb(255, 0, 0)
+	16350 3900 14950 3900
+Wire Notes Line rgb(255, 0, 0)
+	14950 3900 14950 3450
+Text Notes 15500 3550 0    50   ~ 0
+Value change: 10n
+Text Notes 6700 5700 0    50   ~ 0
+NBSTART
+Text Notes 6700 5600 0    50   ~ 0
+NBCLK
+Text Notes 7250 4100 0    50   ~ 0
+D0\nD1\nD2\nD3\n--
+Text Notes 7450 4100 0    50   ~ 0
+REQ\nnWAIT\nnRD\nSTART\nCLK
+Wire Notes Line rgb(255, 0, 0)
+	7150 4200 7750 4200
+Wire Notes Line rgb(255, 0, 0)
+	7750 4200 7750 3500
+Wire Notes Line rgb(255, 0, 0)
+	7750 3500 7150 3500
+Wire Notes Line rgb(255, 0, 0)
+	7150 3500 7150 4200
+Text Notes 7150 3450 0    50   ~ 0
+Update PCB legend
 $EndSCHEMATC
