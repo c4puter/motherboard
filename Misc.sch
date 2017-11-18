@@ -352,7 +352,7 @@ F 3 "" H 7800 5250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L NXP:LM75BDP U703
+L motherboard-rescue:LM75BDP-RESCUE-motherboard U703
 U 1 1 579F4ACE
 P 8000 5900
 F 0 "U703" H 8000 6167 50  0000 C CNN
@@ -382,7 +382,7 @@ F 3 "" H 7500 6600 60  0000 C CNN
 $EndComp
 NoConn ~ 8400 5900
 $Comp
-L NXP:LM75BDP U704
+L motherboard-rescue:LM75BDP-RESCUE-motherboard U704
 U 1 1 579F50E6
 P 8000 7200
 F 0 "U704" H 8000 7467 50  0000 C CNN
